@@ -1,0 +1,1886 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6b15645fe5cd772e8680505acc0e757f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6b15645fe5cd772e8680505acc0e757f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6b15645fe5cd772e8680505acc0e757f = L.map(
+                "map_6b15645fe5cd772e8680505acc0e757f",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4ec3227926e0b98ff90cdb9ba54fd431 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4ec3227926e0b98ff90cdb9ba54fd431.addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var marker_fbfe499b7bb606233520a13cf5368638 = L.marker(
+                [48.8645157999652, 2.34540185646608],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_a2ba35c7837706fe6ccfcda3060fe70f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fbfe499b7bb606233520a13cf5368638.setIcon(icon_a2ba35c7837706fe6ccfcda3060fe70f);
+        
+    
+        var popup_799c593e78ad382c90eb26360ed0b584 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f010bc38f80de3a8fa2c55603aa487c8 = $(`<div id="html_f010bc38f80de3a8fa2c55603aa487c8" style="width: 100.0%; height: 100.0%;">         <b>Le Comptoir de la Gastronomie</b><br>         34 rue Montmartre<br>         <a href="https://www.yelp.com/biz/le-comptoir-de-la-gastronomie-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_799c593e78ad382c90eb26360ed0b584.setContent(html_f010bc38f80de3a8fa2c55603aa487c8);
+            
+        
+
+        marker_fbfe499b7bb606233520a13cf5368638.bindPopup(popup_799c593e78ad382c90eb26360ed0b584)
+        ;
+
+        
+    
+    
+            var marker_6d92fc00674880ba9d9ddbfc15eecc31 = L.marker(
+                [48.854754, 2.342119],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_d52ea9a5d52cfe887c6c78c709cca2fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6d92fc00674880ba9d9ddbfc15eecc31.setIcon(icon_d52ea9a5d52cfe887c6c78c709cca2fb);
+        
+    
+        var popup_96431725d1447a4a434c5a34eec55211 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_efaf7b881ca9e0774988b74a5a5a72b9 = $(`<div id="html_efaf7b881ca9e0774988b74a5a5a72b9" style="width: 100.0%; height: 100.0%;">         <b>Bistro des Augustins</b><br>         39 quai des Grands Augustins<br>         <a href="https://www.yelp.com/biz/bistro-des-augustins-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_96431725d1447a4a434c5a34eec55211.setContent(html_efaf7b881ca9e0774988b74a5a5a72b9);
+            
+        
+
+        marker_6d92fc00674880ba9d9ddbfc15eecc31.bindPopup(popup_96431725d1447a4a434c5a34eec55211)
+        ;
+
+        
+    
+    
+            var marker_a3a5d9749f46346bd0655623d20e9337 = L.marker(
+                [48.85755, 2.34938],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_7857f1a7cdfbc2c652acd27f38244228 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a3a5d9749f46346bd0655623d20e9337.setIcon(icon_7857f1a7cdfbc2c652acd27f38244228);
+        
+    
+        var popup_162f107af54164ef28a96e5ced4666b4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a22666e04a3a3fe8ccc6eb051d01b27 = $(`<div id="html_7a22666e04a3a3fe8ccc6eb051d01b27" style="width: 100.0%; height: 100.0%;">         <b>Le P'tit Bistro</b><br>         8 rue Saint-Martin<br>         <a href="https://www.yelp.com/biz/le-p-tit-bistro-paris-2?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_162f107af54164ef28a96e5ced4666b4.setContent(html_7a22666e04a3a3fe8ccc6eb051d01b27);
+            
+        
+
+        marker_a3a5d9749f46346bd0655623d20e9337.bindPopup(popup_162f107af54164ef28a96e5ced4666b4)
+        ;
+
+        
+    
+    
+            var marker_12e28d67573c1687e98718aaf4089a6d = L.marker(
+                [48.880937, 2.3499401],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_9967d2a7c7fe7a2e1766a8b63ac96f64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_12e28d67573c1687e98718aaf4089a6d.setIcon(icon_9967d2a7c7fe7a2e1766a8b63ac96f64);
+        
+    
+        var popup_8be819857f998b9a2f3fcb0155666356 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f5d3372c3668685b6b10938cc04f7c3 = $(`<div id="html_3f5d3372c3668685b6b10938cc04f7c3" style="width: 100.0%; height: 100.0%;">         <b>Brasserie Bellanger</b><br>         140 rue du Faubourg Poissonnière<br>         <a href="https://www.yelp.com/biz/brasserie-bellanger-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_8be819857f998b9a2f3fcb0155666356.setContent(html_3f5d3372c3668685b6b10938cc04f7c3);
+            
+        
+
+        marker_12e28d67573c1687e98718aaf4089a6d.bindPopup(popup_8be819857f998b9a2f3fcb0155666356)
+        ;
+
+        
+    
+    
+            var marker_7b69f24c3cc7da7805ac344ba0ce5fc9 = L.marker(
+                [48.85126, 2.34432],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_84a0efa13aeedbbf4d92fae0e52d8d83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7b69f24c3cc7da7805ac344ba0ce5fc9.setIcon(icon_84a0efa13aeedbbf4d92fae0e52d8d83);
+        
+    
+        var popup_2979a25b85564e14ca9b8379bf8ec0ab = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b37d5f9f30631686a74d15688dff0783 = $(`<div id="html_b37d5f9f30631686a74d15688dff0783" style="width: 100.0%; height: 100.0%;">         <b>Le Corner Saint Germain</b><br>         92 boulevard Saint-Germain<br>         <a href="https://www.yelp.com/biz/le-corner-saint-germain-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_2979a25b85564e14ca9b8379bf8ec0ab.setContent(html_b37d5f9f30631686a74d15688dff0783);
+            
+        
+
+        marker_7b69f24c3cc7da7805ac344ba0ce5fc9.bindPopup(popup_2979a25b85564e14ca9b8379bf8ec0ab)
+        ;
+
+        
+    
+    
+            var marker_9354b17f673756d51b26a32e5b3ceaa6 = L.marker(
+                [48.85202, 2.3388],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_75debe6b6469078bc04271f6a75a2ff7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9354b17f673756d51b26a32e5b3ceaa6.setIcon(icon_75debe6b6469078bc04271f6a75a2ff7);
+        
+    
+        var popup_cd714177d66cec87ffcce41812fbe316 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7b32377b8b15ec695768afbef50b0142 = $(`<div id="html_7b32377b8b15ec695768afbef50b0142" style="width: 100.0%; height: 100.0%;">         <b>L'Avant Comptoir</b><br>         3 carrefour de l'Odéon<br>         <a href="https://www.yelp.com/biz/l-avant-comptoir-paris-3?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_cd714177d66cec87ffcce41812fbe316.setContent(html_7b32377b8b15ec695768afbef50b0142);
+            
+        
+
+        marker_9354b17f673756d51b26a32e5b3ceaa6.bindPopup(popup_cd714177d66cec87ffcce41812fbe316)
+        ;
+
+        
+    
+    
+            var marker_2eedd64a5d40216155afc60f1ae663fe = L.marker(
+                [48.865092, 2.328464],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_b9c24f8bf72a1caaea12990ce9a1bbad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2eedd64a5d40216155afc60f1ae663fe.setIcon(icon_b9c24f8bf72a1caaea12990ce9a1bbad);
+        
+    
+        var popup_4280e6896ed38b4e30f8262dfec64119 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c784899eded958703fb5e98e171df015 = $(`<div id="html_c784899eded958703fb5e98e171df015" style="width: 100.0%; height: 100.0%;">         <b>Angelina</b><br>         226 rue de Rivoli<br>         <a href="https://www.yelp.com/biz/angelina-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_4280e6896ed38b4e30f8262dfec64119.setContent(html_c784899eded958703fb5e98e171df015);
+            
+        
+
+        marker_2eedd64a5d40216155afc60f1ae663fe.bindPopup(popup_4280e6896ed38b4e30f8262dfec64119)
+        ;
+
+        
+    
+    
+            var marker_cacdf7e5486b914f05df081b8b5f622f = L.marker(
+                [48.8616441182389, 2.34201570904084],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_9981ce25fd5d3549d69cd216fa4d71c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cacdf7e5486b914f05df081b8b5f622f.setIcon(icon_9981ce25fd5d3549d69cd216fa4d71c3);
+        
+    
+        var popup_484df8c6e5a757fa620da46367df8d34 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_612b67cf965903b5274446cafa141b62 = $(`<div id="html_612b67cf965903b5274446cafa141b62" style="width: 100.0%; height: 100.0%;">         <b>La Régalade</b><br>         106 rue Saint-Honoré<br>         <a href="https://www.yelp.com/biz/la-r%C3%A9galade-paris-3?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_484df8c6e5a757fa620da46367df8d34.setContent(html_612b67cf965903b5274446cafa141b62);
+            
+        
+
+        marker_cacdf7e5486b914f05df081b8b5f622f.bindPopup(popup_484df8c6e5a757fa620da46367df8d34)
+        ;
+
+        
+    
+    
+            var marker_4ca40aea5d97a356b7eb787e2cbf2b1b = L.marker(
+                [48.8555191281373, 2.3577103595245],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_17a4f62d060ed8d78f4d0ebd7d3698ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4ca40aea5d97a356b7eb787e2cbf2b1b.setIcon(icon_17a4f62d060ed8d78f4d0ebd7d3698ef);
+        
+    
+        var popup_016106c6f4e25fa71c7cd45e70b5704a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9567b389d34f20d65916155a967ea42b = $(`<div id="html_9567b389d34f20d65916155a967ea42b" style="width: 100.0%; height: 100.0%;">         <b>Au Bourguignon du Marais</b><br>         52 rue François Miron<br>         <a href="https://www.yelp.com/biz/au-bourguignon-du-marais-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_016106c6f4e25fa71c7cd45e70b5704a.setContent(html_9567b389d34f20d65916155a967ea42b);
+            
+        
+
+        marker_4ca40aea5d97a356b7eb787e2cbf2b1b.bindPopup(popup_016106c6f4e25fa71c7cd45e70b5704a)
+        ;
+
+        
+    
+    
+            var marker_aa061603d2a3f00351f0ca1bae3d941d = L.marker(
+                [48.85469, 2.3329],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_b1147d33a34a91be252066f1d10f2f5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aa061603d2a3f00351f0ca1bae3d941d.setIcon(icon_b1147d33a34a91be252066f1d10f2f5e);
+        
+    
+        var popup_1379972ba56ef4adb3b4c6c5623698fe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_620ecfb04c8293aebd9e910e568a273d = $(`<div id="html_620ecfb04c8293aebd9e910e568a273d" style="width: 100.0%; height: 100.0%;">         <b>Le Relais de l'Entrecôte</b><br>         20 rue Saint Benoît<br>         <a href="https://www.yelp.com/biz/le-relais-de-l-entrec%C3%B4te-paris-4?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_1379972ba56ef4adb3b4c6c5623698fe.setContent(html_620ecfb04c8293aebd9e910e568a273d);
+            
+        
+
+        marker_aa061603d2a3f00351f0ca1bae3d941d.bindPopup(popup_1379972ba56ef4adb3b4c6c5623698fe)
+        ;
+
+        
+    
+    
+            var marker_5e2737edcbf693a3f64cdcc0cf6444b7 = L.marker(
+                [48.8580664639432, 2.32823697067099],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_9d2be57d71a989f52e695710d477799e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5e2737edcbf693a3f64cdcc0cf6444b7.setIcon(icon_9d2be57d71a989f52e695710d477799e);
+        
+    
+        var popup_00d85b53433108a7e677df519240119b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6da3bf43c3f903f1348b9235e0670873 = $(`<div id="html_6da3bf43c3f903f1348b9235e0670873" style="width: 100.0%; height: 100.0%;">         <b>Les Antiquaires</b><br>         13 rue du Bac<br>         <a href="https://www.yelp.com/biz/les-antiquaires-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_00d85b53433108a7e677df519240119b.setContent(html_6da3bf43c3f903f1348b9235e0670873);
+            
+        
+
+        marker_5e2737edcbf693a3f64cdcc0cf6444b7.bindPopup(popup_00d85b53433108a7e677df519240119b)
+        ;
+
+        
+    
+    
+            var marker_5d1f17840374b1436633c0674793ef51 = L.marker(
+                [48.86483, 2.34588],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_1c025e2ac575b140c640ec1b6eaae165 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5d1f17840374b1436633c0674793ef51.setIcon(icon_1c025e2ac575b140c640ec1b6eaae165);
+        
+    
+        var popup_728fc33fb7919a578d8d81800e71906a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0446ced654d9e9fdc20c953b01645fd7 = $(`<div id="html_0446ced654d9e9fdc20c953b01645fd7" style="width: 100.0%; height: 100.0%;">         <b>Le Café</b><br>         62 rue Tiquetonne<br>         <a href="https://www.yelp.com/biz/le-caf%C3%A9-paris-5?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_728fc33fb7919a578d8d81800e71906a.setContent(html_0446ced654d9e9fdc20c953b01645fd7);
+            
+        
+
+        marker_5d1f17840374b1436633c0674793ef51.bindPopup(popup_728fc33fb7919a578d8d81800e71906a)
+        ;
+
+        
+    
+    
+            var marker_42c39424106565557b501780b940dea0 = L.marker(
+                [48.8557424, 2.368231],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_46656d2fc7acee9172341c8624fb2e7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_42c39424106565557b501780b940dea0.setIcon(icon_46656d2fc7acee9172341c8624fb2e7f);
+        
+    
+        var popup_546c09d9dfa62dfe42c86627cbe67710 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6df98091aedee1987b73d2afe63f9995 = $(`<div id="html_6df98091aedee1987b73d2afe63f9995" style="width: 100.0%; height: 100.0%;">         <b>Le Bistrot des Vosges</b><br>         31 bd Beaumarchais<br>         <a href="https://www.yelp.com/biz/le-bistrot-des-vosges-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_546c09d9dfa62dfe42c86627cbe67710.setContent(html_6df98091aedee1987b73d2afe63f9995);
+            
+        
+
+        marker_42c39424106565557b501780b940dea0.bindPopup(popup_546c09d9dfa62dfe42c86627cbe67710)
+        ;
+
+        
+    
+    
+            var marker_931517d1186aca3f0742cc22e356582d = L.marker(
+                [48.8627362423863, 2.339585],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_4a3aacc1494a3f26a5b7ff690f5ccc4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_931517d1186aca3f0742cc22e356582d.setIcon(icon_4a3aacc1494a3f26a5b7ff690f5ccc4d);
+        
+    
+        var popup_f86537db70c4d7d8cf48cb2861e836cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b11f90a6edb81a4e1f0fd3573bb6162 = $(`<div id="html_1b11f90a6edb81a4e1f0fd3573bb6162" style="width: 100.0%; height: 100.0%;">         <b>Café Blanc</b><br>         10 rue Croix des Petits Champs<br>         <a href="https://www.yelp.com/biz/caf%C3%A9-blanc-paris-7?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_f86537db70c4d7d8cf48cb2861e836cb.setContent(html_1b11f90a6edb81a4e1f0fd3573bb6162);
+            
+        
+
+        marker_931517d1186aca3f0742cc22e356582d.bindPopup(popup_f86537db70c4d7d8cf48cb2861e836cb)
+        ;
+
+        
+    
+    
+            var marker_a1a070508d530fc6fa18de458976e916 = L.marker(
+                [48.8532345157095, 2.33900494873524],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_a62eef9949139976e933ff52fd61fbed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a1a070508d530fc6fa18de458976e916.setIcon(icon_a62eef9949139976e933ff52fd61fbed);
+        
+    
+        var popup_d4605c53fa74ed8721ca2ccc4c4c4601 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ffbddc48a662b3e67b3c43768f80725 = $(`<div id="html_0ffbddc48a662b3e67b3c43768f80725" style="width: 100.0%; height: 100.0%;">         <b>La Jacobine</b><br>         59-61 rue Saint-André des Arts<br>         <a href="https://www.yelp.com/biz/la-jacobine-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_d4605c53fa74ed8721ca2ccc4c4c4601.setContent(html_0ffbddc48a662b3e67b3c43768f80725);
+            
+        
+
+        marker_a1a070508d530fc6fa18de458976e916.bindPopup(popup_d4605c53fa74ed8721ca2ccc4c4c4601)
+        ;
+
+        
+    
+    
+            var marker_9e86cb34179e49281eb057535f37605a = L.marker(
+                [48.858394, 2.302568],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_9fd9e13ff8623d26b022513678595cd2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9e86cb34179e49281eb057535f37605a.setIcon(icon_9fd9e13ff8623d26b022513678595cd2);
+        
+    
+        var popup_6bc8254b4401e220b3b8adecc430b2aa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0dfaf2c5f3ef7eaf9882d469ef8b2896 = $(`<div id="html_0dfaf2c5f3ef7eaf9882d469ef8b2896" style="width: 100.0%; height: 100.0%;">         <b>La Fontaine de Mars</b><br>         129 rue Saint-Dominique<br>         <a href="https://www.yelp.com/biz/la-fontaine-de-mars-paris-2?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_6bc8254b4401e220b3b8adecc430b2aa.setContent(html_0dfaf2c5f3ef7eaf9882d469ef8b2896);
+            
+        
+
+        marker_9e86cb34179e49281eb057535f37605a.bindPopup(popup_6bc8254b4401e220b3b8adecc430b2aa)
+        ;
+
+        
+    
+    
+            var marker_868d094baa9611f65943d12828b35533 = L.marker(
+                [48.86322, 2.3333],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_572b0e24072f52dec49d49754781b8fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_868d094baa9611f65943d12828b35533.setIcon(icon_572b0e24072f52dec49d49754781b8fa);
+        
+    
+        var popup_9701e7727df1c32428fc819c6f359b4d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_89f218c2f0824201c13f5096b74e44be = $(`<div id="html_89f218c2f0824201c13f5096b74e44be" style="width: 100.0%; height: 100.0%;">         <b>LouLou</b><br>         107 rue de Rivoli<br>         <a href="https://www.yelp.com/biz/loulou-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_9701e7727df1c32428fc819c6f359b4d.setContent(html_89f218c2f0824201c13f5096b74e44be);
+            
+        
+
+        marker_868d094baa9611f65943d12828b35533.bindPopup(popup_9701e7727df1c32428fc819c6f359b4d)
+        ;
+
+        
+    
+    
+            var marker_b8ef5af022fb8e226ff66714b97c28d3 = L.marker(
+                [48.86736, 2.33298],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_7632dee5100b7e07426e589d119295f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b8ef5af022fb8e226ff66714b97c28d3.setIcon(icon_7632dee5100b7e07426e589d119295f5);
+        
+    
+        var popup_c2b9f4a6997aec77de2cc66172bb5306 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26a87d04621976ba217ae8af5cb00361 = $(`<div id="html_26a87d04621976ba217ae8af5cb00361" style="width: 100.0%; height: 100.0%;">         <b>Gambino</b><br>         6 rue Gomboust<br>         <a href="https://www.yelp.com/biz/gambino-paris-2?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_c2b9f4a6997aec77de2cc66172bb5306.setContent(html_26a87d04621976ba217ae8af5cb00361);
+            
+        
+
+        marker_b8ef5af022fb8e226ff66714b97c28d3.bindPopup(popup_c2b9f4a6997aec77de2cc66172bb5306)
+        ;
+
+        
+    
+    
+            var marker_7bb3a3c77fce25bafa3b2a9acf858c93 = L.marker(
+                [48.864206, 2.3467],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_011ac87ce40504dce2ff21488df94748 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7bb3a3c77fce25bafa3b2a9acf858c93.setIcon(icon_011ac87ce40504dce2ff21488df94748);
+        
+    
+        var popup_927a474c92025d5df80231b437b02ff2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_99a30761ef1dd44d64ca1775c3f6f2cc = $(`<div id="html_99a30761ef1dd44d64ca1775c3f6f2cc" style="width: 100.0%; height: 100.0%;">         <b>L'Escargot</b><br>         38 rue Montorgueil<br>         <a href="https://www.yelp.com/biz/l-escargot-paris-3?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_927a474c92025d5df80231b437b02ff2.setContent(html_99a30761ef1dd44d64ca1775c3f6f2cc);
+            
+        
+
+        marker_7bb3a3c77fce25bafa3b2a9acf858c93.bindPopup(popup_927a474c92025d5df80231b437b02ff2)
+        ;
+
+        
+    
+    
+            var marker_fa54ddd0e74a4e5ce5dcf558c6348d6a = L.marker(
+                [48.85461, 2.33954],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_11a94ee771936101a302193137ead1a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fa54ddd0e74a4e5ce5dcf558c6348d6a.setIcon(icon_11a94ee771936101a302193137ead1a5);
+        
+    
+        var popup_35886a64215291f59cce8fe89cd58932 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc499dbf9ca331a411ac54a6083a0cac = $(`<div id="html_dc499dbf9ca331a411ac54a6083a0cac" style="width: 100.0%; height: 100.0%;">         <b>Chez Fernand</b><br>         9 rue Christine<br>         <a href="https://www.yelp.com/biz/chez-fernand-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_35886a64215291f59cce8fe89cd58932.setContent(html_dc499dbf9ca331a411ac54a6083a0cac);
+            
+        
+
+        marker_fa54ddd0e74a4e5ce5dcf558c6348d6a.bindPopup(popup_35886a64215291f59cce8fe89cd58932)
+        ;
+
+        
+    
+    
+            var marker_01d9ddc985c3063b3ca7b307ef758afd = L.marker(
+                [48.869145, 2.335391],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_932fcf94edd20ae0c15e46c650cd07e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_01d9ddc985c3063b3ca7b307ef758afd.setIcon(icon_932fcf94edd20ae0c15e46c650cd07e1);
+        
+    
+        var popup_eb884bce1d585bd67bf4a9cb55115838 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_59c8195e3f313dfd548cb4cbab6e3329 = $(`<div id="html_59c8195e3f313dfd548cb4cbab6e3329" style="width: 100.0%; height: 100.0%;">         <b>L'Entente</b><br>         13 rue Monsigny<br>         <a href="https://www.yelp.com/biz/l-entente-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_eb884bce1d585bd67bf4a9cb55115838.setContent(html_59c8195e3f313dfd548cb4cbab6e3329);
+            
+        
+
+        marker_01d9ddc985c3063b3ca7b307ef758afd.bindPopup(popup_eb884bce1d585bd67bf4a9cb55115838)
+        ;
+
+        
+    
+    
+            var marker_adfc1e42fb4e3f4b74063770ade6b42e = L.marker(
+                [48.85424, 2.33685],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_1132e9899ee05416c24653bedb3a57db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_adfc1e42fb4e3f4b74063770ade6b42e.setIcon(icon_1132e9899ee05416c24653bedb3a57db);
+        
+    
+        var popup_ec1ab6e47ae3a40566886ae24f26973a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7eb7e49919b0dcc9094fe04e0aafe3fc = $(`<div id="html_7eb7e49919b0dcc9094fe04e0aafe3fc" style="width: 100.0%; height: 100.0%;">         <b>Freddy's</b><br>         54 rue de Seine<br>         <a href="https://www.yelp.com/biz/freddys-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_ec1ab6e47ae3a40566886ae24f26973a.setContent(html_7eb7e49919b0dcc9094fe04e0aafe3fc);
+            
+        
+
+        marker_adfc1e42fb4e3f4b74063770ade6b42e.bindPopup(popup_ec1ab6e47ae3a40566886ae24f26973a)
+        ;
+
+        
+    
+    
+            var marker_b3d4fdad266ec99f0570f25ad1692490 = L.marker(
+                [48.85553, 2.36657],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_59a805eb6be219f88e7b115dfa127621 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b3d4fdad266ec99f0570f25ad1692490.setIcon(icon_59a805eb6be219f88e7b115dfa127621);
+        
+    
+        var popup_1edeb780a8e363495aafdfd3bd498f86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dd99f7edf2ee40268576c2c50f3eabe0 = $(`<div id="html_dd99f7edf2ee40268576c2c50f3eabe0" style="width: 100.0%; height: 100.0%;">         <b>L'Olivier du Marais</b><br>         16 place des Vosges<br>         <a href="https://www.yelp.com/biz/l-olivier-du-marais-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_1edeb780a8e363495aafdfd3bd498f86.setContent(html_dd99f7edf2ee40268576c2c50f3eabe0);
+            
+        
+
+        marker_b3d4fdad266ec99f0570f25ad1692490.bindPopup(popup_1edeb780a8e363495aafdfd3bd498f86)
+        ;
+
+        
+    
+    
+            var marker_4362cb52344bfc6100d86b107ae5e4c9 = L.marker(
+                [48.8498092201519, 2.34515282327701],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_d44269b6b07df5802ef9c20c33f89c42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4362cb52344bfc6100d86b107ae5e4c9.setIcon(icon_d44269b6b07df5802ef9c20c33f89c42);
+        
+    
+        var popup_7954eadf6d4551bffa2b9c08e29d79ba = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0264edf2efd1bcbbc3ebff4a998af763 = $(`<div id="html_0264edf2efd1bcbbc3ebff4a998af763" style="width: 100.0%; height: 100.0%;">         <b>Le Bistro du Périgord</b><br>         71 rue Saint-Jacques<br>         <a href="https://www.yelp.com/biz/le-bistro-du-p%C3%A9rigord-paris-3?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_7954eadf6d4551bffa2b9c08e29d79ba.setContent(html_0264edf2efd1bcbbc3ebff4a998af763);
+            
+        
+
+        marker_4362cb52344bfc6100d86b107ae5e4c9.bindPopup(popup_7954eadf6d4551bffa2b9c08e29d79ba)
+        ;
+
+        
+    
+    
+            var marker_ffad4a07e370de574c5530819717f68e = L.marker(
+                [48.86461, 2.37233],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_b031bfb926acff9ab9afef9e39ee4abe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ffad4a07e370de574c5530819717f68e.setIcon(icon_b031bfb926acff9ab9afef9e39ee4abe);
+        
+    
+        var popup_6ce26abf8e2e8f94b78f4d1c616a3f03 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4b672b65c7b40f78af74cf31ef357dce = $(`<div id="html_4b672b65c7b40f78af74cf31ef357dce" style="width: 100.0%; height: 100.0%;">         <b>Pierre Sang</b><br>         55 rue Oberkampf<br>         <a href="https://www.yelp.com/biz/pierre-sang-paris-5?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_6ce26abf8e2e8f94b78f4d1c616a3f03.setContent(html_4b672b65c7b40f78af74cf31ef357dce);
+            
+        
+
+        marker_ffad4a07e370de574c5530819717f68e.bindPopup(popup_6ce26abf8e2e8f94b78f4d1c616a3f03)
+        ;
+
+        
+    
+    
+            var marker_14041c1ac03c5e25463e6ef9d0be7b1d = L.marker(
+                [48.871697, 2.314657],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_fe2f05d34b02a6aa8d052122fd241dfe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_14041c1ac03c5e25463e6ef9d0be7b1d.setIcon(icon_fe2f05d34b02a6aa8d052122fd241dfe);
+        
+    
+        var popup_84084b4431e3c23d201422cf5e3cef89 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5b542e8fac75384b29cb99b653807c1a = $(`<div id="html_5b542e8fac75384b29cb99b653807c1a" style="width: 100.0%; height: 100.0%;">         <b>L'Epicure</b><br>         112 rue du Faubourg Saint-Honoré<br>         <a href="https://www.yelp.com/biz/l-epicure-paris-2?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_84084b4431e3c23d201422cf5e3cef89.setContent(html_5b542e8fac75384b29cb99b653807c1a);
+            
+        
+
+        marker_14041c1ac03c5e25463e6ef9d0be7b1d.bindPopup(popup_84084b4431e3c23d201422cf5e3cef89)
+        ;
+
+        
+    
+    
+            var marker_21e7e05d3ea417f2159f04023222f7c5 = L.marker(
+                [48.85911, 2.3303],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_48a0a664e1086b29d3d5da5098021a58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_21e7e05d3ea417f2159f04023222f7c5.setIcon(icon_48a0a664e1086b29d3d5da5098021a58);
+        
+    
+        var popup_f05514d519bb36e814cee5b915d2e1f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d23b28f0dc5afdbef46c8c16ad991d9 = $(`<div id="html_9d23b28f0dc5afdbef46c8c16ad991d9" style="width: 100.0%; height: 100.0%;">         <b>Le Voltaire</b><br>         27 quai Voltaire<br>         <a href="https://www.yelp.com/biz/le-voltaire-paris-2?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_f05514d519bb36e814cee5b915d2e1f5.setContent(html_9d23b28f0dc5afdbef46c8c16ad991d9);
+            
+        
+
+        marker_21e7e05d3ea417f2159f04023222f7c5.bindPopup(popup_f05514d519bb36e814cee5b915d2e1f5)
+        ;
+
+        
+    
+    
+            var marker_ab70c7021a9e791ea3c1e18208007718 = L.marker(
+                [48.8529369, 2.3460259],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_2d3b2f7e7c69803a441256c4607701af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ab70c7021a9e791ea3c1e18208007718.setIcon(icon_2d3b2f7e7c69803a441256c4607701af);
+        
+    
+        var popup_57b258ba5d2f1afb395d76f483dbfd31 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7cb05bd561dfde3a25d267cf287fc83e = $(`<div id="html_7cb05bd561dfde3a25d267cf287fc83e" style="width: 100.0%; height: 100.0%;">         <b>Il Gigolo</b><br>         11 rue de la Huchette<br>         <a href="https://www.yelp.com/biz/il-gigolo-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_57b258ba5d2f1afb395d76f483dbfd31.setContent(html_7cb05bd561dfde3a25d267cf287fc83e);
+            
+        
+
+        marker_ab70c7021a9e791ea3c1e18208007718.bindPopup(popup_57b258ba5d2f1afb395d76f483dbfd31)
+        ;
+
+        
+    
+    
+            var marker_fbbae8d3f0adfdc39498429ca726857f = L.marker(
+                [48.87194, 2.34317],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_6e5e2e5fa8b45dc1632d4f2a93daf689 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fbbae8d3f0adfdc39498429ca726857f.setIcon(icon_6e5e2e5fa8b45dc1632d4f2a93daf689);
+        
+    
+        var popup_3411d1daa0867bb99167a5b229fed7df = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d3d2e550a6131aa4182a6d011ad699f2 = $(`<div id="html_d3d2e550a6131aa4182a6d011ad699f2" style="width: 100.0%; height: 100.0%;">         <b>Bouillon Chartier</b><br>         7 rue du Faubourg Montmartre<br>         <a href="https://www.yelp.com/biz/bouillon-chartier-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_3411d1daa0867bb99167a5b229fed7df.setContent(html_d3d2e550a6131aa4182a6d011ad699f2);
+            
+        
+
+        marker_fbbae8d3f0adfdc39498429ca726857f.bindPopup(popup_3411d1daa0867bb99167a5b229fed7df)
+        ;
+
+        
+    
+    
+            var marker_1760b0aa7e871ad8b42e41c11ba490ac = L.marker(
+                [48.868105, 2.284365],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_5dd422542bb3f6b82bda2c1af6ef10cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1760b0aa7e871ad8b42e41c11ba490ac.setIcon(icon_5dd422542bb3f6b82bda2c1af6ef10cb);
+        
+    
+        var popup_b2cb66e1d5f05c9b6cd43c54b8aee997 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e02f72a2265370dfd379b7ddeecf5e1c = $(`<div id="html_e02f72a2265370dfd379b7ddeecf5e1c" style="width: 100.0%; height: 100.0%;">         <b>La Coïncidence</b><br>         15 rue Mesnil<br>         <a href="https://www.yelp.com/biz/la-co%C3%AFncidence-paris-4?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_b2cb66e1d5f05c9b6cd43c54b8aee997.setContent(html_e02f72a2265370dfd379b7ddeecf5e1c);
+            
+        
+
+        marker_1760b0aa7e871ad8b42e41c11ba490ac.bindPopup(popup_b2cb66e1d5f05c9b6cd43c54b8aee997)
+        ;
+
+        
+    
+    
+            var marker_64bcaee8bddc9999448dbf3de428f6e9 = L.marker(
+                [48.860525, 2.354439],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_ccf41d25a95023a1afd2a6b31f5f93f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_64bcaee8bddc9999448dbf3de428f6e9.setIcon(icon_ccf41d25a95023a1afd2a6b31f5f93f4);
+        
+    
+        var popup_d489f16fe404dec6975affbb59ebb391 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_993a35d4198c9481226f8fd4a9fb646f = $(`<div id="html_993a35d4198c9481226f8fd4a9fb646f" style="width: 100.0%; height: 100.0%;">         <b>Pain Vin Fromages</b><br>         3 rue Geoffroy-l'Angevin<br>         <a href="https://www.yelp.com/biz/pain-vin-fromages-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_d489f16fe404dec6975affbb59ebb391.setContent(html_993a35d4198c9481226f8fd4a9fb646f);
+            
+        
+
+        marker_64bcaee8bddc9999448dbf3de428f6e9.bindPopup(popup_d489f16fe404dec6975affbb59ebb391)
+        ;
+
+        
+    
+    
+            var marker_651dc6caf1745ec483889c58bda971f2 = L.marker(
+                [48.85432, 2.35979],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_9fc0ca3e0db1dfb44c3f5fb14f82b4f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_651dc6caf1745ec483889c58bda971f2.setIcon(icon_9fc0ca3e0db1dfb44c3f5fb14f82b4f1);
+        
+    
+        var popup_c623c89974a4cdc987765b36ca5b4eeb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d48c188a789ad531ef1b3d553166fe93 = $(`<div id="html_d48c188a789ad531ef1b3d553166fe93" style="width: 100.0%; height: 100.0%;">         <b>Chez Mademoiselle</b><br>         16 rue Charlemagne<br>         <a href="https://www.yelp.com/biz/chez-mademoiselle-paris-3?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_c623c89974a4cdc987765b36ca5b4eeb.setContent(html_d48c188a789ad531ef1b3d553166fe93);
+            
+        
+
+        marker_651dc6caf1745ec483889c58bda971f2.bindPopup(popup_c623c89974a4cdc987765b36ca5b4eeb)
+        ;
+
+        
+    
+    
+            var marker_1ca7b902b1ddf8f184894400c5439b27 = L.marker(
+                [48.8647, 2.3338199],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_81ce23fe6e870c56b6734cae0850af9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1ca7b902b1ddf8f184894400c5439b27.setIcon(icon_81ce23fe6e870c56b6734cae0850af9a);
+        
+    
+        var popup_74895a0fe2fb2e02414a63741940807c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f6119ca32bae9a84ac4225f29b4a98d2 = $(`<div id="html_f6119ca32bae9a84ac4225f29b4a98d2" style="width: 100.0%; height: 100.0%;">         <b>Sanukiya</b><br>         9 rue d'Argenteuil<br>         <a href="https://www.yelp.com/biz/sanukiya-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_74895a0fe2fb2e02414a63741940807c.setContent(html_f6119ca32bae9a84ac4225f29b4a98d2);
+            
+        
+
+        marker_1ca7b902b1ddf8f184894400c5439b27.bindPopup(popup_74895a0fe2fb2e02414a63741940807c)
+        ;
+
+        
+    
+    
+            var marker_4e94d383a7bd966b066d537ef5ee1a70 = L.marker(
+                [48.87074, 2.3239899],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_3f75b141e3a3fa344df9e53606abb2d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4e94d383a7bd966b066d537ef5ee1a70.setIcon(icon_3f75b141e3a3fa344df9e53606abb2d6);
+        
+    
+        var popup_2e0e74d7f0d36a3b3b5a7e891a3fad79 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6dbef540ff77e6377a9ed9e772870dbd = $(`<div id="html_6dbef540ff77e6377a9ed9e772870dbd" style="width: 100.0%; height: 100.0%;">         <b>La Maison de la Truffe</b><br>         19 place de la Madeleine<br>         <a href="https://www.yelp.com/biz/la-maison-de-la-truffe-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_2e0e74d7f0d36a3b3b5a7e891a3fad79.setContent(html_6dbef540ff77e6377a9ed9e772870dbd);
+            
+        
+
+        marker_4e94d383a7bd966b066d537ef5ee1a70.bindPopup(popup_2e0e74d7f0d36a3b3b5a7e891a3fad79)
+        ;
+
+        
+    
+    
+            var marker_8130ddabaa23d05e81ee59ad67c26bfb = L.marker(
+                [48.83035, 2.33548],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_a61b83630c7758494539d113af871160 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8130ddabaa23d05e81ee59ad67c26bfb.setIcon(icon_a61b83630c7758494539d113af871160);
+        
+    
+        var popup_483abe3b337475b9d710798477a06e6e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2a8f4b24d0432350aa0b54acc09d854f = $(`<div id="html_2a8f4b24d0432350aa0b54acc09d854f" style="width: 100.0%; height: 100.0%;">         <b>Le Vaudésir</b><br>         41 rue Dareau<br>         <a href="https://www.yelp.com/biz/le-vaud%C3%A9sir-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_483abe3b337475b9d710798477a06e6e.setContent(html_2a8f4b24d0432350aa0b54acc09d854f);
+            
+        
+
+        marker_8130ddabaa23d05e81ee59ad67c26bfb.bindPopup(popup_483abe3b337475b9d710798477a06e6e)
+        ;
+
+        
+    
+    
+            var marker_8b4fa82cb2e5f3860276b39d72066815 = L.marker(
+                [48.8566952430158, 2.36717752386277],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_2e4c8067f3940d97bf27caeaf3b2ff05 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8b4fa82cb2e5f3860276b39d72066815.setIcon(icon_2e4c8067f3940d97bf27caeaf3b2ff05);
+        
+    
+        var popup_461360720fb1b4622459d42d0c71bf75 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_db8fcf36381bee63b40dbf7ae2502c56 = $(`<div id="html_db8fcf36381bee63b40dbf7ae2502c56" style="width: 100.0%; height: 100.0%;">         <b>Chez Janou</b><br>         2 rue Roger Verlomme<br>         <a href="https://www.yelp.com/biz/chez-janou-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_461360720fb1b4622459d42d0c71bf75.setContent(html_db8fcf36381bee63b40dbf7ae2502c56);
+            
+        
+
+        marker_8b4fa82cb2e5f3860276b39d72066815.bindPopup(popup_461360720fb1b4622459d42d0c71bf75)
+        ;
+
+        
+    
+    
+            var marker_0170979230b364580da761b90a4c283c = L.marker(
+                [48.86813, 2.34329],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_656d7635552d9a3c6fcd7b8bc129bfa2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0170979230b364580da761b90a4c283c.setIcon(icon_656d7635552d9a3c6fcd7b8bc129bfa2);
+        
+    
+        var popup_f8d95ecd915371baadd2d08931c492f0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9e33d14d293478d8a42c6a639a769427 = $(`<div id="html_9e33d14d293478d8a42c6a639a769427" style="width: 100.0%; height: 100.0%;">         <b>Big Mamma</b><br>         111 Rue Réaumur<br>         <a href="https://www.yelp.com/biz/big-mamma-paris-2?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_f8d95ecd915371baadd2d08931c492f0.setContent(html_9e33d14d293478d8a42c6a639a769427);
+            
+        
+
+        marker_0170979230b364580da761b90a4c283c.bindPopup(popup_f8d95ecd915371baadd2d08931c492f0)
+        ;
+
+        
+    
+    
+            var marker_2aeed27579b3db4620a39740d491cfc6 = L.marker(
+                [48.86645, 2.32647],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_f6d2b64d8a5f302eadde68ff43e6aae9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2aeed27579b3db4620a39740d491cfc6.setIcon(icon_f6d2b64d8a5f302eadde68ff43e6aae9);
+        
+    
+        var popup_cf240ea08006a0c7bf47539f9765e8cd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d24309b84140611bf88ef69b67354bc = $(`<div id="html_6d24309b84140611bf88ef69b67354bc" style="width: 100.0%; height: 100.0%;">         <b>Le Soufflé</b><br>         36 rue du Mont Thabor<br>         <a href="https://www.yelp.com/biz/le-souffl%C3%A9-paris-2?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_cf240ea08006a0c7bf47539f9765e8cd.setContent(html_6d24309b84140611bf88ef69b67354bc);
+            
+        
+
+        marker_2aeed27579b3db4620a39740d491cfc6.bindPopup(popup_cf240ea08006a0c7bf47539f9765e8cd)
+        ;
+
+        
+    
+    
+            var marker_b8cc81eeab146f929f9e5276a7dcef3b = L.marker(
+                [48.85943, 2.34918],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_281db13e3464b5f77859934316f2c594 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b8cc81eeab146f929f9e5276a7dcef3b.setIcon(icon_281db13e3464b5f77859934316f2c594);
+        
+    
+        var popup_c596b0974972f5097fee3da384184a7f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5549641575746d68f844e9efc0512a9 = $(`<div id="html_c5549641575746d68f844e9efc0512a9" style="width: 100.0%; height: 100.0%;">         <b>Le Black Dog</b><br>         26 rue des Lombards<br>         <a href="https://www.yelp.com/biz/le-black-dog-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_c596b0974972f5097fee3da384184a7f.setContent(html_c5549641575746d68f844e9efc0512a9);
+            
+        
+
+        marker_b8cc81eeab146f929f9e5276a7dcef3b.bindPopup(popup_c596b0974972f5097fee3da384184a7f)
+        ;
+
+        
+    
+    
+            var marker_e87f849be252b45d56f11f2ddb2ae0ce = L.marker(
+                [48.84698, 2.37383],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_8aba7c2a4b5fcbad9e44d266b05cb947 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e87f849be252b45d56f11f2ddb2ae0ce.setIcon(icon_8aba7c2a4b5fcbad9e44d266b05cb947);
+        
+    
+        var popup_59de4388acd3afb31417fc379177c1e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2aa07d98feea7191988904971ac130c4 = $(`<div id="html_2aa07d98feea7191988904971ac130c4" style="width: 100.0%; height: 100.0%;">         <b>Le Bistro Lyonnais</b><br>         6 rue Michel Chasles<br>         <a href="https://www.yelp.com/biz/le-bistro-lyonnais-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_59de4388acd3afb31417fc379177c1e3.setContent(html_2aa07d98feea7191988904971ac130c4);
+            
+        
+
+        marker_e87f849be252b45d56f11f2ddb2ae0ce.bindPopup(popup_59de4388acd3afb31417fc379177c1e3)
+        ;
+
+        
+    
+    
+            var marker_1c8e971d4a9a75e63f880d689c22b75e = L.marker(
+                [48.868108, 2.328869],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_b25c4da7d9349ec8f79ca39909cee2ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1c8e971d4a9a75e63f880d689c22b75e.setIcon(icon_b25c4da7d9349ec8f79ca39909cee2ab);
+        
+    
+        var popup_7ec819d41b172e460f1dae0b4b713729 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2be6bb258a5d94802ce873584ca977e1 = $(`<div id="html_2be6bb258a5d94802ce873584ca977e1" style="width: 100.0%; height: 100.0%;">         <b>L'Espadon</b><br>         15 place Vendôme<br>         <a href="https://www.yelp.com/biz/l-espadon-paris-3?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_7ec819d41b172e460f1dae0b4b713729.setContent(html_2be6bb258a5d94802ce873584ca977e1);
+            
+        
+
+        marker_1c8e971d4a9a75e63f880d689c22b75e.bindPopup(popup_7ec819d41b172e460f1dae0b4b713729)
+        ;
+
+        
+    
+    
+            var marker_c4e669ff66ee89fdc6a00050ee59bf3a = L.marker(
+                [48.8666718, 2.341457],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_0f7e89578be456861a2f2c472593d57a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c4e669ff66ee89fdc6a00050ee59bf3a.setIcon(icon_0f7e89578be456861a2f2c472593d57a);
+        
+    
+        var popup_39fc729351785cd7037d6e9390644648 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_64fccd9c2a876403b5d9d5e35576336a = $(`<div id="html_64fccd9c2a876403b5d9d5e35576336a" style="width: 100.0%; height: 100.0%;">         <b>Chez Georges</b><br>         1 rue du Mail<br>         <a href="https://www.yelp.com/biz/chez-georges-paris-6?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_39fc729351785cd7037d6e9390644648.setContent(html_64fccd9c2a876403b5d9d5e35576336a);
+            
+        
+
+        marker_c4e669ff66ee89fdc6a00050ee59bf3a.bindPopup(popup_39fc729351785cd7037d6e9390644648)
+        ;
+
+        
+    
+    
+            var marker_bbd4ca87e054beec71d7b91c8441bb45 = L.marker(
+                [48.8593674647599, 2.34705866389581],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_429e49f775dee513168aa4de3f9db977 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bbd4ca87e054beec71d7b91c8441bb45.setIcon(icon_429e49f775dee513168aa4de3f9db977);
+        
+    
+        var popup_2ed959eee2d499f39f17cb341d4de1ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_223c0a7c5b26d286bbb15c5f3c01721f = $(`<div id="html_223c0a7c5b26d286bbb15c5f3c01721f" style="width: 100.0%; height: 100.0%;">         <b>Gemini</b><br>         16 rue des Halles<br>         <a href="https://www.yelp.com/biz/gemini-paris-2?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_2ed959eee2d499f39f17cb341d4de1ff.setContent(html_223c0a7c5b26d286bbb15c5f3c01721f);
+            
+        
+
+        marker_bbd4ca87e054beec71d7b91c8441bb45.bindPopup(popup_2ed959eee2d499f39f17cb341d4de1ff)
+        ;
+
+        
+    
+    
+            var marker_eeba821b22d5b721b7d974599806b74c = L.marker(
+                [48.855682, 2.360767],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_b0f27a3eeeebd2fba1e5e7ac4dd4e66a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eeba821b22d5b721b7d974599806b74c.setIcon(icon_b0f27a3eeeebd2fba1e5e7ac4dd4e66a);
+        
+    
+        var popup_1b9f0bc6ae8174f444f1a56abd4ce9b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_931320e0c36e71572cc231ad3f2fa626 = $(`<div id="html_931320e0c36e71572cc231ad3f2fa626" style="width: 100.0%; height: 100.0%;">         <b>Les Petites Bouchées</b><br>         4 rue du Roi de Sicile<br>         <a href="https://www.yelp.com/biz/les-petites-bouch%C3%A9es-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_1b9f0bc6ae8174f444f1a56abd4ce9b3.setContent(html_931320e0c36e71572cc231ad3f2fa626);
+            
+        
+
+        marker_eeba821b22d5b721b7d974599806b74c.bindPopup(popup_1b9f0bc6ae8174f444f1a56abd4ce9b3)
+        ;
+
+        
+    
+    
+            var marker_9e626eedf44000ff1a64594e31b9d1e5 = L.marker(
+                [48.852658704771, 2.3469621526521],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_be965091ee23be098bd7c2397f1381c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9e626eedf44000ff1a64594e31b9d1e5.setIcon(icon_be965091ee23be098bd7c2397f1381c7);
+        
+    
+        var popup_164e0bb3793cc4be666e7e0901d6ae97 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_04c4f930aad30f6ef6f8c938b8f9a89a = $(`<div id="html_04c4f930aad30f6ef6f8c938b8f9a89a" style="width: 100.0%; height: 100.0%;">         <b>Shakespeare and Company</b><br>         37 rue de la Bûcherie<br>         <a href="https://www.yelp.com/biz/shakespeare-and-company-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_164e0bb3793cc4be666e7e0901d6ae97.setContent(html_04c4f930aad30f6ef6f8c938b8f9a89a);
+            
+        
+
+        marker_9e626eedf44000ff1a64594e31b9d1e5.bindPopup(popup_164e0bb3793cc4be666e7e0901d6ae97)
+        ;
+
+        
+    
+    
+            var marker_daa318cf93b2bd41d577dd3f1006c276 = L.marker(
+                [48.85058, 2.34901],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_3be8c914d5510e58dc6cbab9886400a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_daa318cf93b2bd41d577dd3f1006c276.setIcon(icon_3be8c914d5510e58dc6cbab9886400a6);
+        
+    
+        var popup_096c478862f572010d5c2a442eea8302 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e39353977480620337b7d2ecff21781d = $(`<div id="html_e39353977480620337b7d2ecff21781d" style="width: 100.0%; height: 100.0%;">         <b>La Grange aux Canards</b><br>         23 rue Frédéric Sauton<br>         <a href="https://www.yelp.com/biz/la-grange-aux-canards-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_096c478862f572010d5c2a442eea8302.setContent(html_e39353977480620337b7d2ecff21781d);
+            
+        
+
+        marker_daa318cf93b2bd41d577dd3f1006c276.bindPopup(popup_096c478862f572010d5c2a442eea8302)
+        ;
+
+        
+    
+    
+            var marker_197821cf2436e5de00ecf39ea0b84888 = L.marker(
+                [48.8332625215691, 2.35616696743751],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_859e1727fbe85d6fbc9231bf8c209169 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_197821cf2436e5de00ecf39ea0b84888.setIcon(icon_859e1727fbe85d6fbc9231bf8c209169);
+        
+    
+        var popup_d3271c0016441c34727a078fae74b651 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da90f5e3cbe951f7d2b35b574cf666af = $(`<div id="html_da90f5e3cbe951f7d2b35b574cf666af" style="width: 100.0%; height: 100.0%;">         <b>Au Petit Village</b><br>         06 rue Coypel<br>         <a href="https://www.yelp.com/biz/au-petit-village-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_d3271c0016441c34727a078fae74b651.setContent(html_da90f5e3cbe951f7d2b35b574cf666af);
+            
+        
+
+        marker_197821cf2436e5de00ecf39ea0b84888.bindPopup(popup_d3271c0016441c34727a078fae74b651)
+        ;
+
+        
+    
+    
+            var marker_227a641e96bcda2badd5e4f908fa8ee7 = L.marker(
+                [48.8647842407227, 2.36330199241638],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_723f243c879143210433a53c441cb63e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_227a641e96bcda2badd5e4f908fa8ee7.setIcon(icon_723f243c879143210433a53c441cb63e);
+        
+    
+        var popup_572db0a2b8a2787040fa7ec2685a5635 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_57c541848495e9df5dd238990e6037ed = $(`<div id="html_57c541848495e9df5dd238990e6037ed" style="width: 100.0%; height: 100.0%;">         <b>L'îlot</b><br>         4 rue de la Corderie<br>         <a href="https://www.yelp.com/biz/l-%C3%AElot-paris-2?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_572db0a2b8a2787040fa7ec2685a5635.setContent(html_57c541848495e9df5dd238990e6037ed);
+            
+        
+
+        marker_227a641e96bcda2badd5e4f908fa8ee7.bindPopup(popup_572db0a2b8a2787040fa7ec2685a5635)
+        ;
+
+        
+    
+    
+            var marker_f54bc7fc7c965f65a81f89e14dcda33f = L.marker(
+                [48.8617418954553, 2.35155543990315],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_07c22e4b0d7c10acefaef5d19074b74f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f54bc7fc7c965f65a81f89e14dcda33f.setIcon(icon_07c22e4b0d7c10acefaef5d19074b74f);
+        
+    
+        var popup_61f79fc793083f08f95b800ac317cbd9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b02992f376e36f7218aee18554a9ebc = $(`<div id="html_1b02992f376e36f7218aee18554a9ebc" style="width: 100.0%; height: 100.0%;">         <b>La French Guinguette</b><br>         58 rue Rambuteau<br>         <a href="https://www.yelp.com/biz/la-french-guinguette-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_61f79fc793083f08f95b800ac317cbd9.setContent(html_1b02992f376e36f7218aee18554a9ebc);
+            
+        
+
+        marker_f54bc7fc7c965f65a81f89e14dcda33f.bindPopup(popup_61f79fc793083f08f95b800ac317cbd9)
+        ;
+
+        
+    
+    
+            var marker_d635643ae8f47dded8b52352187ae408 = L.marker(
+                [48.857498, 2.35908],
+                {
+}
+            ).addTo(map_6b15645fe5cd772e8680505acc0e757f);
+        
+    
+            var icon_6df90e03222d4d5224f881bfee8bf6a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d635643ae8f47dded8b52352187ae408.setIcon(icon_6df90e03222d4d5224f881bfee8bf6a3);
+        
+    
+        var popup_100df3d4848a068bb504299e68ce0524 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f7a125d27f9d7a13c16ed193c16d4360 = $(`<div id="html_f7a125d27f9d7a13c16ed193c16d4360" style="width: 100.0%; height: 100.0%;">         <b>L'As du Fallafel</b><br>         34 rue des Rosiers<br>         <a href="https://www.yelp.com/biz/l-as-du-fallafel-paris?adjust_creative=NnnrNySybEItfMzq-c4qFw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=NnnrNySybEItfMzq-c4qFw" target="_blank">Lien vers Yelp</a>         </div>`)[0];
+                popup_100df3d4848a068bb504299e68ce0524.setContent(html_f7a125d27f9d7a13c16ed193c16d4360);
+            
+        
+
+        marker_d635643ae8f47dded8b52352187ae408.bindPopup(popup_100df3d4848a068bb504299e68ce0524)
+        ;
+
+        
+    
+</script>
+</html>
