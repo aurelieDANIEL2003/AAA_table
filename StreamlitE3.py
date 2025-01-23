@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 import requests
 import warnings
+from bs4 import BeautifulSoup
+import requests
+import pandas as pd
 from utils1 import enlever_accents
+from utils2 import lien_google
 
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -93,6 +97,7 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
                     review_count = business.get("review_count", "Non disponible")
                     image_url = business.get("image_url", "Non disponible")
                     phone = business.get("display_phone", "Non disponible")
+                    lienG = lien_google(name, business["location"].get("city"))
 
                     st.write(f"- **{name}**")
                     if image_url:
@@ -104,6 +109,7 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
                     st.write(f"  - Nb Vote : {review_count}")
                     st.write(f"  - Téléphone : {phone}")
                     st.write("---")
+                    st.write(lienG)
             else:
                 st.write("Aucun restaurant trouvé pour cette ville.")
         else:
