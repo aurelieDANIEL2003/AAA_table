@@ -15,19 +15,14 @@ df_loc1["nom_departement_normalise"] = df_loc1["nom_departement"].apply(enlever_
 df_loc1["nom_ville_normalise"] = df_loc1["nom_ville"].apply(enlever_accents).str.lower()
 
 # Clé API Yelp
-API_KEY = "-rNtfI2lxUWH6YHZBqnAeYQ9rzpcAAn8dT-wshmTRxwON7ytBFNjVq8hbt527dD_G2XnF5BLApATmZmcTP0RwxLxqjc5MnBGfFY0Rb03fJ3Y9LJwvAn4fLIgAY5_Z3Yx"
+API_KEY = "m2Q6PLrDbFonmYwJT-IqBq6DmYX_MhZ_DV6Gnls4JTnj0qUtuNKnaEt48q0lr9mrZM-husmMgztJc4TKF9TbChpv7nfCKU5GYKH7AxT3rtWwSJBVBtR8RfZmihaSZ3Yx"
 
 # URL de base pour l'API Yelp
 YELP_URL = "https://api.yelp.com/v3/businesses/search"
 
-
-
-
 # Titre de l'application
 st.title("Recherche de département, ville et restaurants en France")
 st.image('titre.png', width=300)
-
-
 
 # Entrée pour rechercher un département par nom ou numéro
 query = st.text_input("Entrez le nom ou le numéro du département :").lower()
@@ -38,7 +33,7 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
 
     # Filtrer les départements correspondant à la requête
     filtered_departments = df_loc1[
-        df_loc1["nom_departement_normalise"].str.contains(query_normalise) | 
+        df_loc1["nom_departement_normalise"].str.contains(query_normalise) |
         df_loc1["department_code"].str.contains(query)
     ]
 
@@ -65,12 +60,15 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
         # Rechercher des restaurants via l'API Yelp
         params = {
             "state": selected_department,
-            "location": selected_city,  # Ville sélectionnée
-            "term": "restaurants",      # Recherche de restaurants
-            "limit": 10,                # Nombre de résultats à récupérer
+            "location": f"{selected_city}, France",     # Ville sélectionnée
+            "term": "restaurants",            # Recherche de restaurants
+            "limit": 10,                      # Nombre de résultats à récupérer
+            "open_now": "True",               # Restaurants ouverts
+            "sort_by": "distance",            # Tri par note (désactivé ici)
         }
         headers = {
-            "Authorization": f"Bearer {API_KEY}"
+            "Authorization": f"Bearer {API_KEY}",
+            "Accept": "application/json"
         }
 
         response = requests.get(YELP_URL, headers=headers, params=params)
@@ -79,16 +77,23 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
         if response.status_code == 200:
             data = response.json()
             businesses = data.get("businesses", [])
-
-            if businesses:
-                st.write(f"Restaurants trouvés à {selected_city}, {selected_department} :")
-                for business in businesses:
+            
+            # Filtrage pour inclure uniquement les restaurants en France
+            businesses_in_france = [
+                business for business in businesses
+                if business.get("location", {}).get("country") == "FR"
+            ]
+            
+            if businesses_in_france:
+                st.write(f"Restaurants trouvés à {selected_city}, {selected_department} (France):")
+                for business in businesses_in_france:
                     name = business.get("name", "Nom indisponible")
                     address = ", ".join(business["location"].get("display_address", []))
                     rating = business.get("rating", "Non disponible")
                     review_count = business.get("review_count", "Non disponible")
                     image_url = business.get("image_url", "Non disponible")
                     phone = business.get("display_phone", "Non disponible")
+
                     st.write(f"- **{name}**")
                     if image_url:
                         st.image(f"{image_url}", width=150)
@@ -96,7 +101,7 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
                         st.image("poster.png", width=150)
                     st.write(f"  - Adresse : {address}")
                     st.write(f"  - Note : {rating} ⭐")
-                    st.write(f" - Nb Vote : {review_count}")
+                    st.write(f"  - Nb Vote : {review_count}")
                     st.write(f"  - Téléphone : {phone}")
                     st.write("---")
             else:
