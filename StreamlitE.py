@@ -20,8 +20,12 @@ API_KEY = "-rNtfI2lxUWH6YHZBqnAeYQ9rzpcAAn8dT-wshmTRxwON7ytBFNjVq8hbt527dD_G2XnF
 # URL de base pour l'API Yelp
 YELP_URL = "https://api.yelp.com/v3/businesses/search"
 
+
+
+
 # Titre de l'application
 st.title("Recherche de département, ville et restaurants en France")
+st.image('titre.png', width=300)
 
 # Entrée pour rechercher un département par nom ou numéro
 query = st.text_input("Entrez le nom ou le numéro du département :").lower()
@@ -82,7 +86,10 @@ if not filtered_departments.empty:
                 image_url = business.get("image_url", "Non disponible")
                 phone = business.get("display_phone", "Non disponible")
                 st.write(f"- **{name}**")
-                st.image(f"{image_url}", width=150)
+                if image_url:
+                             st.image(f"{image_url}", width=150)
+                else:
+                            st.image("poster.png", width=150)
                 st.write(f"  - Adresse : {address}")
                 st.write(f"  - Note : {rating} ⭐")
                 st.write(f" - Nb Vote : {review_count}")
