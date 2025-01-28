@@ -2,7 +2,7 @@ import json
 import requests
 import pandas as pd
 
-def api_ville(ville):
+def api(ville):
 
     # Clé API
     API_KEY = "FnAs6986-medBbzafaCtjB4dG-FAFNulPGg9wH5EJFdp6XjEoY4Bvq8pqYfY4x_HmtezfrONesvmvlRkf9NFRumxA4vhTiPyAw9GS5JtMEA1xKlJ_W70uydnXgeSZ3Yx"
@@ -35,4 +35,4 @@ def api_ville(ville):
     df = pd.json_normalize(r.json(), record_path="businesses")
     
 
-    return df.head()
+    return df
