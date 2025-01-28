@@ -108,8 +108,9 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
                     st.write(f"  - Note : {rating} ⭐")
                     st.write(f"  - Nb Vote : {review_count}")
                     st.write(f"  - Téléphone : {phone}")
-                    st.write("---")
                     st.write(lienG)
+                    st.write("---")
+                    
             else:
                 st.write("Aucun restaurant trouvé pour cette ville.")
         else:
