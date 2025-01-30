@@ -10,12 +10,16 @@ def api(ville):
     # URL de base
     url = "https://api.yelp.com/v3/businesses/search"
 
+    # Limiter la distance max selon Yelp API (40 000 mètres)
+    #distance = min(int(distance), 40000)
+
     # Paramètres fixes
     params = {
         "location": ville,  # Exemple : ville
         "term": "restaurants",  # Exemple : type d'entreprise
         "limit": 50,            # Nombre de résultats
-        "sort_by": "best_match" # Critères de tri
+        "sort_by": "distance",# Critères de tri
+       
     }
 
     # En-têtes HTTP

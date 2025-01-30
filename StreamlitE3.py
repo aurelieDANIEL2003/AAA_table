@@ -69,6 +69,7 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
             "limit": 10,                      # Nombre de résultats à récupérer
             "open_now": "True",               # Restaurants ouverts
             "sort_by": "distance",            # Tri par note (désactivé ici)
+            "radius": 20000                   # distance en mètres
         }
         headers = {
             "Authorization": f"Bearer {API_KEY}",
