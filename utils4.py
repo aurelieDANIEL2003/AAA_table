@@ -15,11 +15,11 @@ def api(ville):
 
     # Paramètres fixes
     params = {
-        "location": ville,      # Exemple : ville
+        "location": f"{ville}, France", # Exemple : ville
         "term": "restaurants",  # Exemple : type d'entreprise
         "limit": 50,            # Nombre de résultats
         "sort_by": "distance",  # Critères de tri
-        "locale": "fr_FR"      # affichage en francais
+        "locale": "fr_FR"       # affichage en francais
        
     }
 
