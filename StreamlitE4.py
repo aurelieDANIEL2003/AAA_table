@@ -5,10 +5,13 @@ import warnings
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
+import ast 
 from utils1 import enlever_accents
 from utils2 import lien_google
 from utils3 import category
 from utils4 import api
+from utils5 import transfo_liste
+
 
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -73,14 +76,46 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
                    
             # Filtrage pour inclure uniquement les restaurants en France
         df_in_france = df[df['location.country']== "FR"]
-        df_in_france = df[df['distance']<distance]
+        df_in_france = df_in_france[df_in_france['distance']<distance]
         df_in_france = df_in_france.reset_index(drop = True)
-        st.write(df_in_france)
+
+        
+        liste = transfo_liste(df_in_france['categories'])
+        df_in_france['categories'] = df_in_france['categories'].apply(category) 
+        toutes_les_categories = set()
+        for categorie in df_in_france['categories']:
+                toutes_les_categories.update(categorie)
+                
+              
+        toutes_les_categories = list(toutes_les_categories)
+        # on choisit ce que l'on veut manger
+        cat_choisie = st.multiselect("Quelles sont vos categories ?", options = sorted(toutes_les_categories))
+
+         # Filtrage des categories basés sur l'entrée utilisateur
+        results = []
+        for _, row in df_in_france.iterrows():
+            if pd.notna(row['categories']).all():
+                cat_list = [categories.strip() for categories in row['categories']]
+                if cat_choisie in toutes_les_categories:
+                    results.append({
+                     "id": row['id']
+                     
+                 })
+        st.write(results)
+        # # Étape 4 : Créer un DataFrame des résultats
+        # results_df = pd.DataFrame(results)
+        # df2 = pd.merge(results_df, df_in_france, how='left', on='categories')
+        # st.write (df2)
+
+
+
+
 
         st.write(f"Restaurants trouvés à {selected_city}, {selected_department} (France):")
         if not df_in_france.empty:
             st.write(f"Restaurants trouvés à {selected_city}, {selected_department} (France):")
-            
+
+                            
     for index, row in df_in_france.iterrows():
         name = row["name"]
         address = ", ".join(row["location.display_address"])  # Si c'est une liste, on la joint en chaîne
