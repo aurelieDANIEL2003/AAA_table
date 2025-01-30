@@ -144,4 +144,4 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
                 st.write("Aucun restaurant trouvé pour ces catégories.")
 
         except :
-            st.write("aucun retaurant trouvé pour cette ville, veuillez choisir une autre ville")
+            st.write("aucun restaurant trouvé pour cette ville, veuillez choisir une autre ville")
