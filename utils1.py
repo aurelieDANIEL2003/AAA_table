@@ -23,5 +23,5 @@ def enlever_accents(chaine):
         }
         for char, accented_chars in accents.items():
             chaine = re.sub(f"[{accented_chars}]", char, chaine)
-        return chaine
+        return chaine.lower()
     return chaine

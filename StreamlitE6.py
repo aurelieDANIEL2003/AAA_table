@@ -32,22 +32,22 @@ df_loc1["nom_ville_normalise"] = df_loc1["nom_ville"].apply(enlever_accents).str
 # Titre de l'application
 st.image('titre.png', width=300)
 #st.title("Recherche de restaurants en France")
-
-# Entrée pour rechercher un département par nom ou numéro
 query = st.text_input("Entrez le nom ou le numéro du département :").lower()
 
 # Afficher les suggestions seulement si une requête a été saisie
 if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquement d'espaces
     query_normalise = enlever_accents(query)  # Normaliser la requête
 
-    # Filtrer les départements correspondant à la requête
+    # Filtrer les données entrantes correspondant à la requête
     filtered_departments = df_loc1[
         df_loc1["nom_departement_normalise"].str.contains(query_normalise) |
-        df_loc1["department_code"].str.contains(query)
+        df_loc1["department_code"].str.contains(query) |
+        df_loc1["nom_ville_normalise"].str.contains(query_normalise)
     ]
-
-    if not filtered_departments.empty:
-        # Proposer les départements filtrés
+    #st.write(df_loc1[df_loc1['nom_departement_normalise'].str.contains(query_normalise)])
+    #st.write(type(df_loc1['nom_departement']))
+    df_loc1 = df_loc1.reset_index(drop=True)
+    if df_loc1["nom_departement_normalise"].str.contains(query_normalise).any() :
         selected_department = st.selectbox(
             "Sélectionnez un département parmi les suggestions :",
             options=filtered_departments["nom_departement"].unique()
@@ -57,18 +57,27 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
         filtered_cities = df_loc1[df_loc1["nom_departement"] == selected_department]["nom_ville"].unique()
 
         # Proposer les villes associées
-        selected_city = st.selectbox(
+        ville_selec = st.selectbox(
             "Sélectionnez une ville parmi les suggestions :",
             options=filtered_cities
         )
-
-        # Résultat final
-        st.write(f"Vous avez sélectionné le département : {selected_department}")
-        st.write(f"Et la ville : {selected_city}")
+    elif query in df_loc1["department_code"].values:
+        selected_row = df_loc1[df_loc1["department_code"] == query]
+        #st.write(selected_row)
+        #st.write(f"### Département : {selected_row['nom_departement']} ({selected_row['department_code']})")
+        ville_selec = st.selectbox("Selectionne la ville : ", 
+            options=selected_row["nom_ville"].unique().tolist())
+        #st.write(ville_selec)
+        st.write(f"### Ville associée : {df_loc1['nom_ville'].str.contains(ville_selec)}")
+    else:
+        ville_selec = st.selectbox(
+            "Sélectionnez une ville parmi les suggestions :",
+            options=filtered_departments["nom_ville"].unique().tolist()
+        )
 
         # verification que la ville selectionnée est dans l'API
         try:
-            df = api(selected_city)
+            df = api(ville_selec)
 
 
             # Entrée un nombre de metres de distance de la ville
@@ -114,7 +123,7 @@ if query.strip():  # Vérifie si la requête n'est pas vide ou composée uniquem
                 st.write(f"**Restaurants correspondant à votre sélection :**")
                 affiche_carte = st.toggle("Veux tu la carte", value=True)
                 if affiche_carte:
-                    m = carte(df_filtered, selected_city)
+                    m = carte(df_filtered, ville_selec)
                     st_data = st_folium(m, width=725)
 
 

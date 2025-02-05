@@ -45,7 +45,6 @@ Ain,01,Biziat
 Ain,01,Blyes
 Ain,01,La Boisse
 Ain,01,Boissey
-Ain,01,Boissey
 Ain,01,Bolozon
 Ain,01,Bouligneux
 Ain,01,Bourg-en-Bresse
@@ -91,13 +90,11 @@ Ain,01,Nivigne et Suran
 Ain,01,Chaveyriat
 Ain,01,Chavornay
 Ain,01,Chazey-Bons
-Ain,01,Chazey-Bons
 Ain,01,Chazey-sur-Ain
 Ain,01,Cheignieu-la-Balme
 Ain,01,Chevillard
 Ain,01,Chevroux
 Ain,01,Chevry
-Ain,01,Chézery-Forens
 Ain,01,Chézery-Forens
 Ain,01,Civrieux
 Ain,01,Cize
@@ -123,7 +120,6 @@ Ain,01,Courtes
 Ain,01,Crans
 Ain,01,Cras-sur-Reyssouze
 Ain,01,Cressin-Rochefort
-Ain,01,Crottet
 Ain,01,Crottet
 Ain,01,Crozet
 Ain,01,Cruzilles-lès-Mépillat
@@ -223,7 +219,6 @@ Ain,01,Meximieux
 Ain,01,Bohas-Meyriat-Rignat
 Ain,01,Mézériat
 Ain,01,Mijoux
-Ain,01,Mijoux
 Ain,01,Mionnay
 Ain,01,Miribel
 Ain,01,Misérieux
@@ -242,7 +237,6 @@ Ain,01,Montréal-la-Cluse
 Ain,01,Montrevel-en-Bresse
 Ain,01,Nurieux-Volognat
 Ain,01,Murs-et-Gélignieux
-Ain,01,Nantua
 Ain,01,Nantua
 Ain,01,Neuville-les-Dames
 Ain,01,Neuville-sur-Ain
@@ -300,7 +294,6 @@ Ain,01,Saint-André-d'Huiriat
 Ain,01,Saint-André-le-Bouchoux
 Ain,01,Saint-André-sur-Vieux-Jonc
 Ain,01,Saint-Bénigne
-Ain,01,Groslée-Saint-Benoit
 Ain,01,Groslée-Saint-Benoit
 Ain,01,Saint-Bernard
 Ain,01,Saint-Champ
@@ -851,7 +844,6 @@ Aisne,02,La Malmaison
 Aisne,02,Malzy
 Aisne,02,Manicamp
 Aisne,02,Marchais
-Aisne,02,Dhuys et Morin-en-Brie
 Aisne,02,Dhuys et Morin-en-Brie
 Aisne,02,Marcy
 Aisne,02,Marcy-sous-Marle
@@ -1573,7 +1565,6 @@ Alpes-de-Haute-Provence,04,Céreste
 Alpes-de-Haute-Provence,04,Le Chaffaut-Saint-Jurson
 Alpes-de-Haute-Provence,04,Champtercier
 Alpes-de-Haute-Provence,04,Château-Arnoux-Saint-Auban
-Alpes-de-Haute-Provence,04,Château-Arnoux-Saint-Auban
 Alpes-de-Haute-Provence,04,Châteaufort
 Alpes-de-Haute-Provence,04,Châteauneuf-Miravail
 Alpes-de-Haute-Provence,04,Châteauneuf-Val-Saint-Donat
@@ -1594,7 +1585,6 @@ Alpes-de-Haute-Provence,04,Digne-les-Bains
 Alpes-de-Haute-Provence,04,Draix
 Alpes-de-Haute-Provence,04,Enchastrayes
 Alpes-de-Haute-Provence,04,Entrages
-Alpes-de-Haute-Provence,04,Entrages
 Alpes-de-Haute-Provence,04,Entrepierres
 Alpes-de-Haute-Provence,04,Entrevaux
 Alpes-de-Haute-Provence,04,Entrevennes
@@ -1613,14 +1603,12 @@ Alpes-de-Haute-Provence,04,Gréoux-les-Bains
 Alpes-de-Haute-Provence,04,L'Hospitalet
 Alpes-de-Haute-Provence,04,Jausiers
 Alpes-de-Haute-Provence,04,La Javie
-Alpes-de-Haute-Provence,04,La Javie
 Alpes-de-Haute-Provence,04,Lambruisse
 Alpes-de-Haute-Provence,04,Lardiers
 Alpes-de-Haute-Provence,04,Le Lauzet-Ubaye
 Alpes-de-Haute-Provence,04,Limans
 Alpes-de-Haute-Provence,04,Lurs
 Alpes-de-Haute-Provence,04,Majastres
-Alpes-de-Haute-Provence,04,Malijai
 Alpes-de-Haute-Provence,04,Malijai
 Alpes-de-Haute-Provence,04,Mallefougasse-Augès
 Alpes-de-Haute-Provence,04,Mallemoisson
@@ -1705,7 +1693,6 @@ Alpes-de-Haute-Provence,04,Saumane
 Alpes-de-Haute-Provence,04,Sausses
 Alpes-de-Haute-Provence,04,Selonnet
 Alpes-de-Haute-Provence,04,Senez
-Alpes-de-Haute-Provence,04,Senez
 Alpes-de-Haute-Provence,04,Seyne
 Alpes-de-Haute-Provence,04,Sigonce
 Alpes-de-Haute-Provence,04,Sigoyer
@@ -1770,7 +1757,6 @@ Hautes-Alpes,05,Châteauroux-les-Alpes
 Hautes-Alpes,05,Châteauvieux
 Hautes-Alpes,05,Château-Ville-Vieille
 Hautes-Alpes,05,Aubessagne
-Hautes-Alpes,05,Aubessagne
 Hautes-Alpes,05,Chorges
 Hautes-Alpes,05,Crévoux
 Hautes-Alpes,05,Crots
@@ -1825,7 +1811,6 @@ Hautes-Alpes,05,Orpierre
 Hautes-Alpes,05,Les Orres
 Hautes-Alpes,05,Oze
 Hautes-Alpes,05,Pelleautier
-Hautes-Alpes,05,Vallouise-Pelvoux
 Hautes-Alpes,05,Vallouise-Pelvoux
 Hautes-Alpes,05,La Piarre
 Hautes-Alpes,05,Le Poët
@@ -1905,7 +1890,6 @@ Alpes-Maritimes,06,Aiglun
 Alpes-Maritimes,06,Amirat
 Alpes-Maritimes,06,Andon
 Alpes-Maritimes,06,Antibes
-Alpes-Maritimes,06,Antibes
 Alpes-Maritimes,06,Ascros
 Alpes-Maritimes,06,Aspremont
 Alpes-Maritimes,06,Auribeau-sur-Siagne
@@ -1930,7 +1914,6 @@ Alpes-Maritimes,06,Le Broc
 Alpes-Maritimes,06,Cabris
 Alpes-Maritimes,06,Cagnes-sur-Mer
 Alpes-Maritimes,06,Caille
-Alpes-Maritimes,06,Cannes
 Alpes-Maritimes,06,Cannes
 Alpes-Maritimes,06,Le Cannet
 Alpes-Maritimes,06,Cantaron
@@ -1972,7 +1955,6 @@ Alpes-Maritimes,06,Gilette
 Alpes-Maritimes,06,Gorbio
 Alpes-Maritimes,06,Gourdon
 Alpes-Maritimes,06,Grasse
-Alpes-Maritimes,06,Grasse
 Alpes-Maritimes,06,Gréolières
 Alpes-Maritimes,06,Guillaumes
 Alpes-Maritimes,06,Ilonse
@@ -1991,9 +1973,6 @@ Alpes-Maritimes,06,Mouans-Sartoux
 Alpes-Maritimes,06,Mougins
 Alpes-Maritimes,06,Moulinet
 Alpes-Maritimes,06,Les Mujouls
-Alpes-Maritimes,06,Nice
-Alpes-Maritimes,06,Nice
-Alpes-Maritimes,06,Nice
 Alpes-Maritimes,06,Nice
 Alpes-Maritimes,06,Opio
 Alpes-Maritimes,06,Pégomas
@@ -2141,7 +2120,6 @@ Ardèche,07,Coux
 Ardèche,07,Le Crestet
 Ardèche,07,Creysseilles
 Ardèche,07,Cros-de-Géorand
-Ardèche,07,Cros-de-Géorand
 Ardèche,07,Cruas
 Ardèche,07,Darbres
 Ardèche,07,Davézieux
@@ -2170,9 +2148,7 @@ Ardèche,07,Gravières
 Ardèche,07,Grospierres
 Ardèche,07,Guilherand-Granges
 Ardèche,07,Intres
-Ardèche,07,Intres
 Ardèche,07,Issamoulenc
-Ardèche,07,Issanlas
 Ardèche,07,Issanlas
 Ardèche,07,Issarlès
 Ardèche,07,Jaujac
@@ -2264,7 +2240,6 @@ Ardèche,07,La Rochette
 Ardèche,07,Rocles
 Ardèche,07,Roiffieux
 Ardèche,07,Rompon
-Ardèche,07,Rompon
 Ardèche,07,Rosières
 Ardèche,07,Le Roux
 Ardèche,07,Ruoms
@@ -2305,7 +2280,6 @@ Ardèche,07,Sainte-Eulalie
 Ardèche,07,Saint-Félicien
 Ardèche,07,Saint-Fortunat-sur-Eyrieux
 Ardèche,07,Saint-Genest-de-Beauzon
-Ardèche,07,Saint-Genest-Lachamp
 Ardèche,07,Saint-Genest-Lachamp
 Ardèche,07,Saint-Georges-les-Bains
 Ardèche,07,Saint-Germain
@@ -2515,8 +2489,6 @@ Ardennes,08,Le Châtelet-sur-Sormonne
 Ardennes,08,Le Châtelet-sur-Retourne
 Ardennes,08,Chaumont-Porcien
 Ardennes,08,Chémery-Chéhéry
-Ardennes,08,Chémery-Chéhéry
-Ardennes,08,Bairon et ses environs
 Ardennes,08,Bairon et ses environs
 Ardennes,08,Chesnois-Auboncourt
 Ardennes,08,Cheveuges
@@ -2857,7 +2829,6 @@ Ardennes,08,Vireux-Wallerand
 Ardennes,08,Vivier-au-Court
 Ardennes,08,Voncq
 Ardennes,08,Vouziers
-Ardennes,08,Vrigne aux Bois
 Ardennes,08,Vrigne aux Bois
 Ardennes,08,Vrigne-Meuse
 Ardennes,08,Wadelincourt
@@ -3201,7 +3172,6 @@ Ariège,09,Vira
 Ariège,09,Viviès
 Ariège,09,Sainte-Suzanne
 Aube,10,Ailleville
-Aube,10,Aix-Villemaur-Pâlis
 Aube,10,Aix-Villemaur-Pâlis
 Aube,10,Allibaudières
 Aube,10,Amance
@@ -4081,7 +4051,6 @@ Aveyron,12,Ayssènes
 Aveyron,12,Balaguier-d'Olt
 Aveyron,12,Balaguier-sur-Rance
 Aveyron,12,Le Bas Ségala
-Aveyron,12,Le Bas Ségala
 Aveyron,12,La Bastide-Pradines
 Aveyron,12,La Bastide-Solages
 Aveyron,12,Belcastel
@@ -4107,7 +4076,6 @@ Aveyron,12,Camarès
 Aveyron,12,Camboulazet
 Aveyron,12,Camjac
 Aveyron,12,Campagnac
-Aveyron,12,Campouriez
 Aveyron,12,Campouriez
 Aveyron,12,Campuac
 Aveyron,12,Canet-de-Salars
@@ -4148,7 +4116,6 @@ Aveyron,12,Crespin
 Aveyron,12,La Cresse
 Aveyron,12,Curières
 Aveyron,12,Decazeville
-Aveyron,12,Druelle Balsac
 Aveyron,12,Druelle Balsac
 Aveyron,12,Drulhe
 Aveyron,12,Durenque
@@ -4229,8 +4196,6 @@ Aveyron,12,Le Nayrac
 Aveyron,12,Olemps
 Aveyron,12,Ols-et-Rinhodes
 Aveyron,12,Onet-le-Château
-Aveyron,12,Onet-le-Château
-Aveyron,12,Palmas d'Aveyron
 Aveyron,12,Palmas d'Aveyron
 Aveyron,12,Paulhe
 Aveyron,12,Peux-et-Couffouleux
@@ -4276,7 +4241,6 @@ Aveyron,12,Sainte-Eulalie-de-Cernon
 Aveyron,12,Saint-Félix-de-Lunel
 Aveyron,12,Saint-Félix-de-Sorgues
 Aveyron,12,Argences en Aubrac
-Aveyron,12,Argences en Aubrac
 Aveyron,12,Saint Geniez d'Olt et d'Aubrac
 Aveyron,12,Saint-Georges-de-Luzençon
 Aveyron,12,Saint-Hippolyte
@@ -4288,7 +4252,6 @@ Aveyron,12,Saint-Jean-du-Bruel
 Aveyron,12,Saint-Jean-et-Saint-Paul
 Aveyron,12,Saint-Juéry
 Aveyron,12,Sainte-Juliette-sur-Viaur
-Aveyron,12,Saint-Just-sur-Viaur
 Aveyron,12,Saint-Just-sur-Viaur
 Aveyron,12,Saint-Laurent-de-Lévézou
 Aveyron,12,Saint-Laurent-d'Olt
@@ -4356,16 +4319,8 @@ Aveyron,12,Vimenet
 Aveyron,12,Viviez
 Aveyron,12,Curan
 Bouches-du-Rhône,13,Aix-en-Provence
-Bouches-du-Rhône,13,Aix-en-Provence
-Bouches-du-Rhône,13,Aix-en-Provence
-Bouches-du-Rhône,13,Aix-en-Provence
-Bouches-du-Rhône,13,Aix-en-Provence
 Bouches-du-Rhône,13,Allauch
 Bouches-du-Rhône,13,Alleins
-Bouches-du-Rhône,13,Arles
-Bouches-du-Rhône,13,Arles
-Bouches-du-Rhône,13,Arles
-Bouches-du-Rhône,13,Arles
 Bouches-du-Rhône,13,Arles
 Bouches-du-Rhône,13,Aubagne
 Bouches-du-Rhône,13,Aureille
@@ -4410,7 +4365,6 @@ Bouches-du-Rhône,13,Grans
 Bouches-du-Rhône,13,Graveson
 Bouches-du-Rhône,13,Gréasque
 Bouches-du-Rhône,13,Istres
-Bouches-du-Rhône,13,Istres
 Bouches-du-Rhône,13,Jouques
 Bouches-du-Rhône,13,Lamanon
 Bouches-du-Rhône,13,Lambesc
@@ -4419,22 +4373,6 @@ Bouches-du-Rhône,13,Maillane
 Bouches-du-Rhône,13,Mallemort
 Bouches-du-Rhône,13,Marignane
 Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Marseille
-Bouches-du-Rhône,13,Martigues
 Bouches-du-Rhône,13,Martigues
 Bouches-du-Rhône,13,Mas-Blanc-des-Alpilles
 Bouches-du-Rhône,13,Maussane-les-Alpilles
@@ -4482,7 +4420,6 @@ Bouches-du-Rhône,13,Saint-Paul-lès-Durance
 Bouches-du-Rhône,13,Saint-Rémy-de-Provence
 Bouches-du-Rhône,13,Saint-Savournin
 Bouches-du-Rhône,13,Saint-Victoret
-Bouches-du-Rhône,13,Saint-Victoret
 Bouches-du-Rhône,13,Salon-de-Provence
 Bouches-du-Rhône,13,Sausset-les-Pins
 Bouches-du-Rhône,13,Sénas
@@ -4504,12 +4441,9 @@ Calvados,14,Ablon
 Calvados,14,Acqueville
 Calvados,14,Agy
 Calvados,14,Valambray
-Calvados,14,Valambray
-Calvados,14,Valambray
 Calvados,14,Amayé-sur-Orne
 Calvados,14,Amayé-sur-Seulles
 Calvados,14,Amfreville
-Calvados,14,Aurseulles
 Calvados,14,Aurseulles
 Calvados,14,Angerville
 Calvados,14,Angoville
@@ -4524,7 +4458,6 @@ Calvados,14,Asnières-en-Bessin
 Calvados,14,Auberville
 Calvados,14,Aubigny
 Calvados,14,Audrieu
-Calvados,14,Les Monts d'Aunay
 Calvados,14,Les Monts d'Aunay
 Calvados,14,Authie
 Calvados,14,Les Authieux-sur-Calonne
@@ -4552,7 +4485,6 @@ Calvados,14,Bellengreville
 Calvados,14,Benerville-sur-Mer
 Calvados,14,Bénouville
 Calvados,14,Souleuvre en Bocage
-Calvados,14,Souleuvre en Bocage
 Calvados,14,Bény-sur-Mer
 Calvados,14,Bernesq
 Calvados,14,Bernières-d'Ailly
@@ -4579,8 +4511,6 @@ Calvados,14,Bourguébus
 Calvados,14,Branville
 Calvados,14,Brémoy
 Calvados,14,Bretteville-le-Rabet
-Calvados,14,Thue et Mue
-Calvados,14,Thue et Mue
 Calvados,14,Thue et Mue
 Calvados,14,Bretteville-sur-Laize
 Calvados,14,Bretteville-sur-Odon
@@ -4632,7 +4562,6 @@ Calvados,14,Colombiers-sur-Seulles
 Calvados,14,Combray
 Calvados,14,Commes
 Calvados,14,Condé-sur-Ifs
-Calvados,14,Condé-en-Normandie
 Calvados,14,Condé-en-Normandie
 Calvados,14,Condé-sur-Seulles
 Calvados,14,Coquainvilliers
@@ -4759,7 +4688,6 @@ Calvados,14,Houlgate
 Calvados,14,Hubert-Folie
 Calvados,14,Ifs
 Calvados,14,Isigny-sur-Mer
-Calvados,14,Isigny-sur-Mer
 Calvados,14,Les Isles-Bardel
 Calvados,14,Janville
 Calvados,14,Jort
@@ -4781,7 +4709,6 @@ Calvados,14,Lison
 Calvados,14,Lisores
 Calvados,14,Litteau
 Calvados,14,Le Molay-Littry
-Calvados,14,Livarot-Pays-d'Auge
 Calvados,14,Livarot-Pays-d'Auge
 Calvados,14,Les Loges
 Calvados,14,Les Loges-Saulces
@@ -4807,7 +4734,6 @@ Calvados,14,Le Marais-la-Chapelle
 Calvados,14,Marolles
 Calvados,14,Martainville
 Calvados,14,Martigny-sur-l'Ante
-Calvados,14,Moulins en Bessin
 Calvados,14,Moulins en Bessin
 Calvados,14,Mathieu
 Calvados,14,May-sur-Orne
@@ -4847,7 +4773,6 @@ Calvados,14,Norrey-en-Auge
 Calvados,14,Notre-Dame-de-Livaye
 Calvados,14,Notre-Dame-d'Estrées-Corbon
 Calvados,14,Val d'Arry
-Calvados,14,Val d'Arry
 Calvados,14,Olendon
 Calvados,14,Orbec
 Calvados,14,Osmanville
@@ -4883,7 +4808,6 @@ Calvados,14,Le Pré-d'Auge
 Calvados,14,Prêtreville
 Calvados,14,Putot-en-Auge
 Calvados,14,Belle Vie en Auge
-Calvados,14,Belle Vie en Auge
 Calvados,14,Quetteville
 Calvados,14,Ranchy
 Calvados,14,Ranville
@@ -4896,7 +4820,6 @@ Calvados,14,Rocquancourt
 Calvados,14,Rocques
 Calvados,14,La Roque-Baignard
 Calvados,14,Rosel
-Calvados,14,Rots
 Calvados,14,Rots
 Calvados,14,Rouvres
 Calvados,14,Rubercy
@@ -4921,14 +4844,12 @@ Calvados,14,Saint-Étienne-la-Thillaye
 Calvados,14,Val-de-Vie
 Calvados,14,Saint-Gatien-des-Bois
 Calvados,14,Seulline
-Calvados,14,Seulline
 Calvados,14,Saint-Germain-de-Livet
 Calvados,14,Saint-Germain-du-Pert
 Calvados,14,Saint-Germain-la-Blanche-Herbe
 Calvados,14,Saint-Germain-Langot
 Calvados,14,Saint-Germain-le-Vasson
 Calvados,14,Sainte-Honorine-de-Ducy
-Calvados,14,Aure sur Mer
 Calvados,14,Aure sur Mer
 Calvados,14,Sainte-Honorine-du-Fay
 Calvados,14,Saint-Hymer
@@ -4968,7 +4889,6 @@ Calvados,14,Saint-Pierre-du-Fresne
 Calvados,14,Saint-Pierre-du-Jonquet
 Calvados,14,Saint-Pierre-du-Mont
 Calvados,14,Saint-Pierre-en-Auge
-Calvados,14,Saint-Pierre-en-Auge
 Calvados,14,Saint-Rémy
 Calvados,14,Saint-Samson
 Calvados,14,Noues de Sienne
@@ -4981,7 +4901,6 @@ Calvados,14,Sallenelles
 Calvados,14,Saon
 Calvados,14,Saonnet
 Calvados,14,Sassy
-Calvados,14,Val de Drôme
 Calvados,14,Val de Drôme
 Calvados,14,Soignolles
 Calvados,14,Soliers
@@ -5012,7 +4931,6 @@ Calvados,14,Tracy-sur-Mer
 Calvados,14,Tréprel
 Calvados,14,Trévières
 Calvados,14,Saline
-Calvados,14,Saline
 Calvados,14,Trois-Monts
 Calvados,14,Le Tronquay
 Calvados,14,Trouville-sur-Mer
@@ -5022,7 +4940,6 @@ Calvados,14,Ussy
 Calvados,14,Vacognes-Neuilly
 Calvados,14,Valsemé
 Calvados,14,Varaville
-Calvados,14,Valdallière
 Calvados,14,Valdallière
 Calvados,14,Vaucelles
 Calvados,14,Vauville
@@ -5182,8 +5099,6 @@ Cantal,15,Murat
 Cantal,15,Narnhac
 Cantal,15,Naucelles
 Cantal,15,Neussargues en Pinatelle
-Cantal,15,Neussargues en Pinatelle
-Cantal,15,Neuvéglise-sur-Truyère
 Cantal,15,Neuvéglise-sur-Truyère
 Cantal,15,Nieudan
 Cantal,15,Omps
@@ -5299,7 +5214,6 @@ Cantal,15,Virargues
 Cantal,15,Vitrac
 Cantal,15,Ydes
 Cantal,15,Yolet
-Cantal,15,Ytrac
 Cantal,15,Ytrac
 Cantal,15,Le Rouget-Pers
 Cantal,15,Besse
@@ -5836,7 +5750,6 @@ Charente-Maritime,17,Fenioux
 Charente-Maritime,17,Ferrières
 Charente-Maritime,17,Fléac-sur-Seugne
 Charente-Maritime,17,Floirac
-Charente-Maritime,17,Floirac
 Charente-Maritime,17,La Flotte
 Charente-Maritime,17,Fontaine-Chalendray
 Charente-Maritime,17,Fontaines-d'Ozillac
@@ -6123,7 +6036,6 @@ Charente-Maritime,17,Trizay
 Charente-Maritime,17,Tugéras-Saint-Maurice
 Charente-Maritime,17,La Vallée
 Charente-Maritime,17,La Devise
-Charente-Maritime,17,La Devise
 Charente-Maritime,17,Vanzac
 Charente-Maritime,17,Varaize
 Charente-Maritime,17,Varzay
@@ -6367,7 +6279,6 @@ Cher,18,Saint-Germain-des-Bois
 Cher,18,Saint-Germain-du-Puy
 Cher,18,Saint-Hilaire-de-Court
 Cher,18,Saint-Hilaire-de-Gondilly
-Cher,18,Saint-Hilaire-de-Gondilly
 Cher,18,Saint-Hilaire-en-Lignières
 Cher,18,Saint-Jeanvrin
 Cher,18,Saint-Just
@@ -6452,7 +6363,6 @@ Corrèze,19,Alleyrat
 Corrèze,19,Altillac
 Corrèze,19,Ambrugeat
 Corrèze,19,Les Angles-sur-Corrèze
-Corrèze,19,Argentat-sur-Dordogne
 Corrèze,19,Argentat-sur-Dordogne
 Corrèze,19,Arnac-Pompadour
 Corrèze,19,Astaillac
@@ -7481,7 +7391,6 @@ Côtes-d'Armor,22,Duault
 Côtes-d'Armor,22,Éréac
 Côtes-d'Armor,22,Erquy
 Côtes-d'Armor,22,Binic-Étables-sur-Mer
-Côtes-d'Armor,22,Binic-Étables-sur-Mer
 Côtes-d'Armor,22,Évran
 Côtes-d'Armor,22,Le Faouët
 Côtes-d'Armor,22,Le Fœil
@@ -8068,7 +7977,6 @@ Dordogne,24,Baneuil
 Dordogne,24,Bardou
 Dordogne,24,Bars
 Dordogne,24,Bassillac et Auberoche
-Dordogne,24,Bassillac et Auberoche
 Dordogne,24,Bayac
 Dordogne,24,Beaumontois en Périgord
 Dordogne,24,Beaupouyet
@@ -8090,7 +7998,6 @@ Dordogne,24,Bonneville-et-Saint-Avit-de-Fumadières
 Dordogne,24,Borrèze
 Dordogne,24,Bosset
 Dordogne,24,Bouillac
-Dordogne,24,Boulazac Isle Manoire
 Dordogne,24,Boulazac Isle Manoire
 Dordogne,24,Bouniagues
 Dordogne,24,Bourdeilles
@@ -8320,8 +8227,6 @@ Dordogne,24,Négrondes
 Dordogne,24,Neuvic
 Dordogne,24,Nontron
 Dordogne,24,Sanilhac
-Dordogne,24,Sanilhac
-Dordogne,24,Sanilhac
 Dordogne,24,Orliac
 Dordogne,24,Orliaguet
 Dordogne,24,Parcoul-Chenaud
@@ -8364,7 +8269,6 @@ Dordogne,24,Rouffignac-de-Sigoulès
 Dordogne,24,Sadillac
 Dordogne,24,Sagelat
 Dordogne,24,Saint-Agne
-Dordogne,24,Val de Louyre et Caudeau
 Dordogne,24,Val de Louyre et Caudeau
 Dordogne,24,Saint-Amand-de-Coly
 Dordogne,24,Saint-Amand-de-Vergt
@@ -8526,7 +8430,6 @@ Dordogne,24,Simeyrols
 Dordogne,24,Singleyrac
 Dordogne,24,Siorac-de-Ribérac
 Dordogne,24,Siorac-en-Périgord
-Dordogne,24,Sorges et Ligueux en Périgord
 Dordogne,24,Sorges et Ligueux en Périgord
 Dordogne,24,Soudat
 Dordogne,24,Soulaures
@@ -8700,7 +8603,6 @@ Doubs,25,Chaux-Neuve
 Doubs,25,Chay
 Doubs,25,Chazot
 Doubs,25,Chemaudin et Vaux
-Doubs,25,Chemaudin et Vaux
 Doubs,25,La Chenalotte
 Doubs,25,Chenecey-Buillon
 Doubs,25,Chevigney-sur-l'Ognon
@@ -8768,7 +8670,6 @@ Doubs,25,Épenouse
 Doubs,25,Épenoy
 Doubs,25,Épeugney
 Doubs,25,Esnans
-Doubs,25,Étalans
 Doubs,25,Étalans
 Doubs,25,Éternoz
 Doubs,25,Étouvans
@@ -8964,11 +8865,9 @@ Doubs,25,Onans
 Doubs,25,Orchamps-Vennes
 Doubs,25,Orgeans-Blanchefontaine
 Doubs,25,Ornans
-Doubs,25,Ornans
 Doubs,25,Orsans
 Doubs,25,Orve
 Doubs,25,Osse
-Doubs,25,Osselle-Routelle
 Doubs,25,Osselle-Routelle
 Doubs,25,Ougney-Douvot
 Doubs,25,Ouhans
@@ -9539,7 +9438,6 @@ Eure,27,Armentières-sur-Avre
 Eure,27,Arnières-sur-Iton
 Eure,27,Asnières
 Eure,27,Le Val d'Hazey
-Eure,27,Le Val d'Hazey
 Eure,27,Aulnay-sur-Iton
 Eure,27,Autheuil-Authouillet
 Eure,27,Authevernes
@@ -9563,8 +9461,6 @@ Eure,27,Bazoques
 Eure,27,Beaubray
 Eure,27,Beauficel-en-Lyons
 Eure,27,Mesnil-en-Ouche
-Eure,27,Mesnil-en-Ouche
-Eure,27,Mesnil-en-Ouche
 Eure,27,Beaumontel
 Eure,27,Beaumont-le-Roger
 Eure,27,Le Bec-Hellouin
@@ -9575,7 +9471,6 @@ Eure,27,Bernay
 Eure,27,Bernienville
 Eure,27,Bernouville
 Eure,27,Berthouville
-Eure,27,Les Monts du Roumois
 Eure,27,Les Monts du Roumois
 Eure,27,Berville-la-Campagne
 Eure,27,Berville-sur-Mer
@@ -9598,7 +9493,6 @@ Eure,27,Boncourt
 Eure,27,La Bonneville-sur-Iton
 Eure,27,Bonneville-Aptot
 Eure,27,Flancourt-Crescy-en-Roumois
-Eure,27,Thénouville
 Eure,27,Thénouville
 Eure,27,Bosroumois
 Eure,27,Bosgouet
@@ -9660,7 +9554,6 @@ Eure,27,Chavigny-Bailleul
 Eure,27,Chennebrun
 Eure,27,Chéronvilliers
 Eure,27,Marbois
-Eure,27,Marbois
 Eure,27,Cierrey
 Eure,27,Claville
 Eure,27,Collandres-Quincarnon
@@ -9694,7 +9587,6 @@ Eure,27,Croth
 Eure,27,Cuverville
 Eure,27,Les Damps
 Eure,27,Mesnils-sur-Iton
-Eure,27,Mesnils-sur-Iton
 Eure,27,Dangu
 Eure,27,Dardez
 Eure,27,Daubeuf-la-Campagne
@@ -9708,8 +9600,6 @@ Eure,27,Duranville
 Eure,27,Écaquelon
 Eure,27,Écardenville-la-Campagne
 Eure,27,Écauville
-Eure,27,Vexin-sur-Epte
-Eure,27,Vexin-sur-Epte
 Eure,27,Vexin-sur-Epte
 Eure,27,Écouis
 Eure,27,Ecquetot
@@ -9774,7 +9664,6 @@ Eure,27,La Goulafrière
 Eure,27,Goupil-Othon
 Eure,27,Gournay-le-Guérin
 Eure,27,Val d'Orger
-Eure,27,Val d'Orger
 Eure,27,Grand-Camp
 Eure,27,Grandvilliers
 Eure,27,Graveron-Sémerville
@@ -9806,7 +9695,6 @@ Eure,27,Hectomare
 Eure,27,Hennezis
 Eure,27,Herqueville
 Eure,27,Heubécourt-Haricourt
-Eure,27,Heudebouville
 Eure,27,Heudebouville
 Eure,27,Heudicourt
 Eure,27,Heudreville-en-Lieuvin
@@ -9880,7 +9768,6 @@ Eure,27,Mézières-en-Vexin
 Eure,27,Miserey
 Eure,27,Moisville
 Eure,27,Terres de Bord
-Eure,27,Terres de Bord
 Eure,27,Montfort-sur-Risle
 Eure,27,Montreuil-l'Argillé
 Eure,27,Morainville-Jouveaux
@@ -9893,8 +9780,6 @@ Eure,27,Mousseaux-Neuville
 Eure,27,Muids
 Eure,27,Muzy
 Eure,27,Nagel-Séez-Mesnil
-Eure,27,Nassandres sur Risle
-Eure,27,Nassandres sur Risle
 Eure,27,Nassandres sur Risle
 Eure,27,Neaufles-Saint-Martin
 Eure,27,Neaufles-Auvergny
@@ -9936,7 +9821,6 @@ Eure,27,Pont-Audemer
 Eure,27,Pont-Authou
 Eure,27,Pont-de-l'Arche
 Eure,27,Pont-Saint-Pierre
-Eure,27,Porte-de-Seine
 Eure,27,Porte-de-Seine
 Eure,27,Portes
 Eure,27,Port-Mort
@@ -10106,10 +9990,8 @@ Eure,27,Vascœuil
 Eure,27,Vatteville
 Eure,27,Vaux-sur-Eure
 Eure,27,Les Trois Lacs
-Eure,27,Les Trois Lacs
 Eure,27,Venon
 Eure,27,Les Ventes
-Eure,27,Verneuil d'Avre et d'Iton
 Eure,27,Verneuil d'Avre et d'Iton
 Eure,27,Verneusses
 Eure,27,Vernon
@@ -10141,7 +10023,6 @@ Eure-et-Loir,28,Anet
 Eure-et-Loir,28,Ardelles
 Eure-et-Loir,28,Ardelu
 Eure-et-Loir,28,Argenvilliers
-Eure-et-Loir,28,Commune nouvelle d'Arrou
 Eure-et-Loir,28,Commune nouvelle d'Arrou
 Eure-et-Loir,28,Aunay-sous-Auneau
 Eure-et-Loir,28,Aunay-sous-Crécy
@@ -10291,7 +10172,6 @@ Eure-et-Loir,28,Gellainville
 Eure-et-Loir,28,Germainville
 Eure-et-Loir,28,Gilles
 Eure-et-Loir,28,Gohory
-Eure-et-Loir,28,Gommerville
 Eure-et-Loir,28,Gommerville
 Eure-et-Loir,28,Gouillons
 Eure-et-Loir,28,Goussainville
@@ -10469,7 +10349,6 @@ Eure-et-Loir,28,Soulaires
 Eure-et-Loir,28,Sours
 Eure-et-Loir,28,Terminiers
 Eure-et-Loir,28,Theuville
-Eure-et-Loir,28,Theuville
 Eure-et-Loir,28,Le Thieulin
 Eure-et-Loir,28,Thimert-Gâtelles
 Eure-et-Loir,28,Thiron-Gardais
@@ -10489,7 +10368,6 @@ Eure-et-Loir,28,Vaupillon
 Eure-et-Loir,28,Ver-lès-Chartres
 Eure-et-Loir,28,Vernouillet
 Eure-et-Loir,28,Vert-en-Drouais
-Eure-et-Loir,28,Eole-en-Beauce
 Eure-et-Loir,28,Eole-en-Beauce
 Eure-et-Loir,28,Vichères
 Eure-et-Loir,28,Vierville
@@ -10789,10 +10667,7 @@ Finistère,29,Trézilidé
 Finistère,29,Pont-de-Buis-lès-Quimerch
 Corse-du-Sud,2A,Afa
 Corse-du-Sud,2A,Ajaccio
-Corse-du-Sud,2A,Ajaccio
-Corse-du-Sud,2A,Ajaccio
 Corse-du-Sud,2A,Alata
-Corse-du-Sud,2A,Albitreccia
 Corse-du-Sud,2A,Albitreccia
 Corse-du-Sud,2A,Altagène
 Corse-du-Sud,2A,Ambiegna
@@ -10824,8 +10699,6 @@ Corse-du-Sud,2A,Casalabriva
 Corse-du-Sud,2A,Cauro
 Corse-du-Sud,2A,Ciamannacce
 Corse-du-Sud,2A,Coggia
-Corse-du-Sud,2A,Coggia
-Corse-du-Sud,2A,Cognocoli-Monticchi
 Corse-du-Sud,2A,Cognocoli-Monticchi
 Corse-du-Sud,2A,Conca
 Corse-du-Sud,2A,Corrano
@@ -10843,7 +10716,6 @@ Corse-du-Sud,2A,Frasseto
 Corse-du-Sud,2A,Giuncheto
 Corse-du-Sud,2A,Granace
 Corse-du-Sud,2A,Grossa
-Corse-du-Sud,2A,Grosseto-Prugna
 Corse-du-Sud,2A,Grosseto-Prugna
 Corse-du-Sud,2A,Guagno
 Corse-du-Sud,2A,Guargualé
@@ -10874,7 +10746,6 @@ Corse-du-Sud,2A,Piana
 Corse-du-Sud,2A,Pianottoli-Caldarello
 Corse-du-Sud,2A,Pietrosella
 Corse-du-Sud,2A,Pila-Canale
-Corse-du-Sud,2A,Poggiolo
 Corse-du-Sud,2A,Poggiolo
 Corse-du-Sud,2A,Porto-Vecchio
 Corse-du-Sud,2A,Propriano
@@ -10910,14 +10781,12 @@ Corse-du-Sud,2A,Urbalacone
 Corse-du-Sud,2A,Valle-di-Mezzana
 Corse-du-Sud,2A,Vero
 Corse-du-Sud,2A,Vico
-Corse-du-Sud,2A,Vico
 Corse-du-Sud,2A,Viggianello
 Corse-du-Sud,2A,Villanova
 Corse-du-Sud,2A,Zérubia
 Corse-du-Sud,2A,Zévaco
 Corse-du-Sud,2A,Zicavo
 Corse-du-Sud,2A,Zigliara
-Corse-du-Sud,2A,Zonza
 Corse-du-Sud,2A,Zonza
 Corse-du-Sud,2A,Zoza
 Haute-Corse,2B,Aghione
@@ -10936,7 +10805,6 @@ Haute-Corse,2B,Avapessa
 Haute-Corse,2B,Barbaggio
 Haute-Corse,2B,Barrettali
 Haute-Corse,2B,Bastia
-Haute-Corse,2B,Bastia
 Haute-Corse,2B,Belgodère
 Haute-Corse,2B,Bigorno
 Haute-Corse,2B,Biguglia
@@ -10946,7 +10814,6 @@ Haute-Corse,2B,Brando
 Haute-Corse,2B,Bustanico
 Haute-Corse,2B,Cagnano
 Haute-Corse,2B,Calacuccia
-Haute-Corse,2B,Calenzana
 Haute-Corse,2B,Calenzana
 Haute-Corse,2B,Calvi
 Haute-Corse,2B,Cambia
@@ -10976,7 +10843,6 @@ Haute-Corse,2B,Cateri
 Haute-Corse,2B,Centuri
 Haute-Corse,2B,Cervione
 Haute-Corse,2B,Chiatra
-Haute-Corse,2B,Corbara
 Haute-Corse,2B,Corbara
 Haute-Corse,2B,Corscia
 Haute-Corse,2B,Corte
@@ -11048,7 +10914,6 @@ Haute-Corse,2B,Ortale
 Haute-Corse,2B,Ortiporio
 Haute-Corse,2B,Palasca
 Haute-Corse,2B,Pancheraccia
-Haute-Corse,2B,Pancheraccia
 Haute-Corse,2B,Parata
 Haute-Corse,2B,Patrimonio
 Haute-Corse,2B,Penta-Acquatella
@@ -11093,7 +10958,6 @@ Haute-Corse,2B,Rapaggio
 Haute-Corse,2B,Rapale
 Haute-Corse,2B,Riventosa
 Haute-Corse,2B,Rogliano
-Haute-Corse,2B,Rogliano
 Haute-Corse,2B,Rospigliani
 Haute-Corse,2B,Rusio
 Haute-Corse,2B,Rutali
@@ -11126,7 +10990,6 @@ Haute-Corse,2B,Santa-Lucia-di-Moriani
 Haute-Corse,2B,Santa-Maria-di-Lota
 Haute-Corse,2B,Santa-Maria-Poggio
 Haute-Corse,2B,San-Nicolao
-Haute-Corse,2B,Santo-Pietro-di-Tenda
 Haute-Corse,2B,Santo-Pietro-di-Tenda
 Haute-Corse,2B,Santo-Pietro-di-Venaco
 Haute-Corse,2B,Santa-Reparata-di-Balagna
@@ -11347,7 +11210,6 @@ Gard,30,Mus
 Gard,30,Nages-et-Solorgues
 Gard,30,Navacelles
 Gard,30,Ners
-Gard,30,Nîmes
 Gard,30,Nîmes
 Gard,30,Notre-Dame-de-la-Rouvière
 Gard,30,Orsan
@@ -11599,7 +11461,6 @@ Haute-Garonne,31,Bourg-d'Oueil
 Haute-Garonne,31,Bourg-Saint-Bernard
 Haute-Garonne,31,Boussan
 Haute-Garonne,31,Boussens
-Haute-Garonne,31,Boutx
 Haute-Garonne,31,Boutx
 Haute-Garonne,31,Bouzin
 Haute-Garonne,31,Bragayrac
@@ -12066,11 +11927,6 @@ Haute-Garonne,31,Terrebasse
 Haute-Garonne,31,Thil
 Haute-Garonne,31,Touille
 Haute-Garonne,31,Toulouse
-Haute-Garonne,31,Toulouse
-Haute-Garonne,31,Toulouse
-Haute-Garonne,31,Toulouse
-Haute-Garonne,31,Toulouse
-Haute-Garonne,31,Toulouse
 Haute-Garonne,31,Les Tourreilles
 Haute-Garonne,31,Tournefeuille
 Haute-Garonne,31,Toutens
@@ -12185,7 +12041,6 @@ Gers,32,Cassaigne
 Gers,32,Castelnau-Barbarens
 Gers,32,Castelnau-d'Anglès
 Gers,32,Castelnau-d'Arbieu
-Gers,32,Castelnau d'Auzan Labarrère
 Gers,32,Castelnau d'Auzan Labarrère
 Gers,32,Castelnau-sur-l'Auvignon
 Gers,32,Castelnavet
@@ -12634,10 +12489,6 @@ Gironde,33,Bommes
 Gironde,33,Bonnetan
 Gironde,33,Bonzac
 Gironde,33,Bordeaux
-Gironde,33,Bordeaux
-Gironde,33,Bordeaux
-Gironde,33,Bordeaux
-Gironde,33,Bordeaux
 Gironde,33,Bossugan
 Gironde,33,Bouliac
 Gironde,33,Bourdelles
@@ -12806,7 +12657,6 @@ Gironde,33,Lartigue
 Gironde,33,Laruscade
 Gironde,33,Latresne
 Gironde,33,Lavazan
-Gironde,33,Lège-Cap-Ferret
 Gironde,33,Lège-Cap-Ferret
 Gironde,33,Léogeats
 Gironde,33,Léognan
@@ -13087,7 +12937,6 @@ Gironde,33,Tayac
 Gironde,33,Le Teich
 Gironde,33,Le Temple
 Gironde,33,La Teste-de-Buch
-Gironde,33,La Teste-de-Buch
 Gironde,33,Teuillac
 Gironde,33,Tizac-de-Curton
 Gironde,33,Tizac-de-Lapouyade
@@ -13268,7 +13117,6 @@ Hérault,34,Marsillargues
 Hérault,34,Mas-de-Londres
 Hérault,34,Les Matelles
 Hérault,34,Mauguio
-Hérault,34,Mauguio
 Hérault,34,Maureilhan
 Hérault,34,Mérifons
 Hérault,34,Mèze
@@ -13286,9 +13134,6 @@ Hérault,34,Montesquieu
 Hérault,34,Montferrier-sur-Lez
 Hérault,34,Montouliers
 Hérault,34,Montoulieu
-Hérault,34,Montpellier
-Hérault,34,Montpellier
-Hérault,34,Montpellier
 Hérault,34,Montpellier
 Hérault,34,Montpeyroux
 Hérault,34,Moulès-et-Baucels
@@ -13394,7 +13239,6 @@ Hérault,34,Saint-Martin-de-l'Arçon
 Hérault,34,Saint-Martin-de-Londres
 Hérault,34,Saint-Mathieu-de-Tréviers
 Hérault,34,Saint-Maurice-Navacelles
-Hérault,34,Saint-Maurice-Navacelles
 Hérault,34,Saint-Michel
 Hérault,34,Saint-Nazaire-de-Ladarez
 Hérault,34,Saint-Nazaire-de-Pézan
@@ -13453,7 +13297,6 @@ Hérault,34,Vias
 Hérault,34,Vic-la-Gardiole
 Hérault,34,Vieussan
 Hérault,34,Villemagne-l'Argentière
-Hérault,34,Villeneuve-lès-Béziers
 Hérault,34,Villeneuve-lès-Béziers
 Hérault,34,Villeneuve-lès-Maguelone
 Hérault,34,Villeneuvette
@@ -13688,8 +13531,6 @@ Ille-et-Vilaine,35,Quédillac
 Ille-et-Vilaine,35,Rannée
 Ille-et-Vilaine,35,Redon
 Ille-et-Vilaine,35,Renac
-Ille-et-Vilaine,35,Rennes
-Ille-et-Vilaine,35,Rennes
 Ille-et-Vilaine,35,Rennes
 Ille-et-Vilaine,35,Retiers
 Ille-et-Vilaine,35,Le Rheu
@@ -14073,7 +13914,6 @@ Indre-et-Loire,37,Ballan-Miré
 Indre-et-Loire,37,Barrou
 Indre-et-Loire,37,Beaulieu-lès-Loches
 Indre-et-Loire,37,Beaumont-Louestault
-Indre-et-Loire,37,Beaumont-Louestault
 Indre-et-Loire,37,Beaumont-en-Véron
 Indre-et-Loire,37,Beaumont-Village
 Indre-et-Loire,37,Benais
@@ -14273,7 +14113,6 @@ Indre-et-Loire,37,Saint-Nicolas-des-Motets
 Indre-et-Loire,37,Saint-Ouen-les-Vignes
 Indre-et-Loire,37,Saint-Paterne-Racan
 Indre-et-Loire,37,Coteaux-sur-Loire
-Indre-et-Loire,37,Coteaux-sur-Loire
 Indre-et-Loire,37,Saint-Pierre-des-Corps
 Indre-et-Loire,37,Saint-Quentin-sur-Indrois
 Indre-et-Loire,37,Saint-Règle
@@ -14300,8 +14139,6 @@ Indre-et-Loire,37,Thilouze
 Indre-et-Loire,37,Thizay
 Indre-et-Loire,37,Tournon-Saint-Pierre
 Indre-et-Loire,37,La Tour-Saint-Gelin
-Indre-et-Loire,37,Tours
-Indre-et-Loire,37,Tours
 Indre-et-Loire,37,Tours
 Indre-et-Loire,37,Trogues
 Indre-et-Loire,37,Truyes
@@ -14490,7 +14327,6 @@ Isère,38,Le Grand-Lemps
 Isère,38,Granieu
 Isère,38,Grenay
 Isère,38,Grenoble
-Isère,38,Grenoble
 Isère,38,Gresse-en-Vercors
 Isère,38,Le Gua
 Isère,38,Herbeys
@@ -14527,7 +14363,6 @@ Isère,38,Massieu
 Isère,38,Maubec
 Isère,38,Mayres-Savel
 Isère,38,Autrans-Méaudre en Vercors
-Isère,38,Autrans-Méaudre en Vercors
 Isère,38,Mens
 Isère,38,Merlas
 Isère,38,Meylan
@@ -14551,7 +14386,6 @@ Isère,38,Montaud
 Isère,38,Montbonnot-Saint-Martin
 Isère,38,Montcarra
 Isère,38,Montchaboud
-Isère,38,Les Deux Alpes
 Isère,38,Les Deux Alpes
 Isère,38,Monteynard
 Isère,38,Montfalcon
@@ -14590,7 +14424,6 @@ Isère,38,Oytier-Saint-Oblas
 Isère,38,Oz
 Isère,38,Pact
 Isère,38,Pajay
-Isère,38,Villages du Lac de Paladru
 Isère,38,Villages du Lac de Paladru
 Isère,38,Panissage
 Isère,38,Panossas
@@ -14702,7 +14535,6 @@ Isère,38,Saint-Jean-le-Vieux
 Isère,38,Saint-Joseph-de-Rivière
 Isère,38,Saint-Julien-de-l'Herms
 Isère,38,La Sure en Chartreuse
-Isère,38,La Sure en Chartreuse
 Isère,38,Saint-Just-Chaleyssin
 Isère,38,Saint-Just-de-Claix
 Isère,38,Saint-Lattier
@@ -14733,7 +14565,6 @@ Isère,38,Saint-Pancrasse
 Isère,38,Saint-Paul-de-Varces
 Isère,38,Saint-Paul-d'Izeaux
 Isère,38,Saint-Paul-lès-Monestier
-Isère,38,Crêts en Belledonne
 Isère,38,Crêts en Belledonne
 Isère,38,Saint-Pierre-de-Bressieux
 Isère,38,Saint-Pierre-de-Chartreuse
@@ -14866,11 +14697,9 @@ Jura,39,Archelange
 Jura,39,Ardon
 Jura,39,Arinthod
 Jura,39,Arlay
-Jura,39,Arlay
 Jura,39,Aromas
 Jura,39,Les Arsures
 Jura,39,Arsure-Arsurette
-Jura,39,La Chailleuse
 Jura,39,La Chailleuse
 Jura,39,Asnans-Beauvoisin
 Jura,39,Audelange
@@ -14888,7 +14717,6 @@ Jura,39,Bans
 Jura,39,Barésia-sur-l'Ain
 Jura,39,La Barre
 Jura,39,Barretaine
-Jura,39,Baume-les-Messieurs
 Jura,39,Baume-les-Messieurs
 Jura,39,Baverans
 Jura,39,Beaufort
@@ -15010,7 +14838,6 @@ Jura,39,Coyrière
 Jura,39,Coyron
 Jura,39,Cramans
 Jura,39,Hauteroche
-Jura,39,Hauteroche
 Jura,39,Crans
 Jura,39,Crenans
 Jura,39,Cressia
@@ -15039,7 +14866,6 @@ Jura,39,Éclans-Nenon
 Jura,39,Écleux
 Jura,39,Écrille
 Jura,39,Entre-deux-Monts
-Jura,39,Val-d'Épy
 Jura,39,Val-d'Épy
 Jura,39,Équevillon
 Jura,39,Les Essards-Taignevaux
@@ -15093,7 +14919,6 @@ Jura,39,Jouhe
 Jura,39,Lac-des-Rouges-Truites
 Jura,39,Ladoye-sur-Seille
 Jura,39,Montlainsia
-Jura,39,Lajoux
 Jura,39,Lajoux
 Jura,39,Lamoura
 Jura,39,Le Larderet
@@ -15227,7 +15052,6 @@ Jura,39,Plaisia
 Jura,39,Les Planches-en-Montagne
 Jura,39,Les Planches-près-Arbois
 Jura,39,Plasne
-Jura,39,Plasne
 Jura,39,Plénise
 Jura,39,Plénisette
 Jura,39,Pleure
@@ -15239,9 +15063,7 @@ Jura,39,Pont-de-Poitte
 Jura,39,Pont-d'Héry
 Jura,39,Pont-du-Navoy
 Jura,39,Port-Lesney
-Jura,39,Port-Lesney
 Jura,39,Pratz
-Jura,39,Prémanon
 Jura,39,Prémanon
 Jura,39,Présilly
 Jura,39,Pretin
@@ -15268,7 +15090,6 @@ Jura,39,Rosay
 Jura,39,Rotalier
 Jura,39,Rothonay
 Jura,39,Rouffange
-Jura,39,Les Rousses
 Jura,39,Les Rousses
 Jura,39,Ruffey-sur-Seille
 Jura,39,Rye
@@ -15327,7 +15148,6 @@ Jura,39,Toulouse-le-Château
 Jura,39,La Tour-du-Meix
 Jura,39,Tourmont
 Jura,39,Trenal
-Jura,39,Trenal
 Jura,39,Uxelles
 Jura,39,Vadans
 Jura,39,Valempoulières
@@ -15349,12 +15169,10 @@ Jura,39,La Vieille-Loye
 Jura,39,Villard-Saint-Sauveur
 Jura,39,Villards-d'Héria
 Jura,39,Villard-sur-Bienne
-Jura,39,Villard-sur-Bienne
 Jura,39,Villeneuve-d'Aval
 Jura,39,Villeneuve-sous-Pymont
 Jura,39,Villerserine
 Jura,39,Villers-Farlay
-Jura,39,Villers-les-Bois
 Jura,39,Villers-les-Bois
 Jura,39,Villers-Robert
 Jura,39,Villette-lès-Arbois
@@ -15858,7 +15676,6 @@ Loir-et-Cher,41,Ouchamps
 Loir-et-Cher,41,Oucques La Nouvelle
 Loir-et-Cher,41,Ouzouer-le-Doyen
 Loir-et-Cher,41,Beauce la Romaine
-Loir-et-Cher,41,Beauce la Romaine
 Loir-et-Cher,41,Périgny
 Loir-et-Cher,41,Pezou
 Loir-et-Cher,41,Pierrefitte-sur-Sauldre
@@ -16184,8 +16001,6 @@ Loire,42,Saint-Denis-de-Cabanne
 Loire,42,Saint-Denis-sur-Coise
 Loire,42,Saint-Didier-sur-Rochefort
 Loire,42,Saint-Étienne
-Loire,42,Saint-Étienne
-Loire,42,Saint-Étienne
 Loire,42,Saint-Étienne-le-Molard
 Loire,42,Saint-Forgeux-Lespinasse
 Loire,42,Sainte-Foy-Saint-Sulpice
@@ -16354,7 +16169,6 @@ Haute-Loire,43,Chambezon
 Haute-Loire,43,Le Chambon-sur-Lignon
 Haute-Loire,43,Champagnac-le-Vieux
 Haute-Loire,43,Champclause
-Haute-Loire,43,Champclause
 Haute-Loire,43,Chanaleilles
 Haute-Loire,43,Chaniat
 Haute-Loire,43,Chanteuges
@@ -16390,7 +16204,6 @@ Haute-Loire,43,Domeyrat
 Haute-Loire,43,Dunières
 Haute-Loire,43,Espalem
 Haute-Loire,43,Espaly-Saint-Marcel
-Haute-Loire,43,Esplantas-Vazeilles
 Haute-Loire,43,Esplantas-Vazeilles
 Haute-Loire,43,Les Estables
 Haute-Loire,43,Fay-sur-Lignon
@@ -16540,7 +16353,6 @@ Haute-Loire,43,Solignac-sur-Loire
 Haute-Loire,43,Tailhac
 Haute-Loire,43,Tence
 Haute-Loire,43,Thoras
-Haute-Loire,43,Thoras
 Haute-Loire,43,Tiranges
 Haute-Loire,43,Torsiac
 Haute-Loire,43,Valprivas
@@ -16564,7 +16376,6 @@ Haute-Loire,43,Yssingeaux
 Loire-Atlantique,44,Abbaretz
 Loire-Atlantique,44,Aigrefeuille-sur-Maine
 Loire-Atlantique,44,Ancenis
-Loire-Atlantique,44,Chaumes-en-Retz
 Loire-Atlantique,44,Chaumes-en-Retz
 Loire-Atlantique,44,Assérac
 Loire-Atlantique,44,Avessac
@@ -16660,9 +16471,6 @@ Loire-Atlantique,44,Mouais
 Loire-Atlantique,44,Les Moutiers-en-Retz
 Loire-Atlantique,44,Mouzeil
 Loire-Atlantique,44,Mouzillon
-Loire-Atlantique,44,Nantes
-Loire-Atlantique,44,Nantes
-Loire-Atlantique,44,Nantes
 Loire-Atlantique,44,Nantes
 Loire-Atlantique,44,Nort-sur-Erdre
 Loire-Atlantique,44,Notre-Dame-des-Landes
@@ -16951,7 +16759,6 @@ Loiret,45,Lorris
 Loiret,45,Loury
 Loiret,45,Louzouer
 Loiret,45,Le Malesherbois
-Loiret,45,Le Malesherbois
 Loiret,45,Marcilly-en-Villette
 Loiret,45,Mardié
 Loiret,45,Mareau-aux-Bois
@@ -16991,7 +16798,6 @@ Loiret,45,Noyers
 Loiret,45,Oison
 Loiret,45,Olivet
 Loiret,45,Ondreville-sur-Essonne
-Loiret,45,Orléans
 Loiret,45,Orléans
 Loiret,45,Ormes
 Loiret,45,Orville
@@ -17356,7 +17162,6 @@ Lot,46,Saint-Denis-Catus
 Lot,46,Saint-Denis-lès-Martel
 Lot,46,Saint-Félix
 Lot,46,Saint-Germain-du-Bel-Air
-Lot,46,Saint Géry-Vers
 Lot,46,Saint Géry-Vers
 Lot,46,Saint-Hilaire
 Lot,46,Saint-Jean-de-Laur
@@ -17762,8 +17567,6 @@ Lozère,48,La Bastide-Puylaurent
 Lozère,48,Les Bessons
 Lozère,48,Blavignac
 Lozère,48,Mont Lozère et Goulet
-Lozère,48,Mont Lozère et Goulet
-Lozère,48,Mont Lozère et Goulet
 Lozère,48,Les Bondons
 Lozère,48,Le Born
 Lozère,48,Brenoux
@@ -17813,13 +17616,11 @@ Lozère,48,Les Laubies
 Lozère,48,Laval-du-Tarn
 Lozère,48,Luc
 Lozère,48,Prinsuéjols-Malbouzon
-Lozère,48,Prinsuéjols-Malbouzon
 Lozère,48,La Malène
 Lozère,48,Le Malzieu-Forain
 Lozère,48,Le Malzieu-Ville
 Lozère,48,Marchastel
 Lozère,48,Marvejols
-Lozère,48,Massegros Causses Gorges
 Lozère,48,Massegros Causses Gorges
 Lozère,48,Mende
 Lozère,48,Meyrueis
@@ -17861,13 +17662,11 @@ Lozère,48,Mas-Saint-Chély
 Lozère,48,Sainte-Croix-Vallée-Française
 Lozère,48,Saint-Denis-en-Margeride
 Lozère,48,Gorges du Tarn Causses
-Lozère,48,Gorges du Tarn Causses
 Lozère,48,Saint-Étienne-du-Valdonnez
 Lozère,48,Saint-Étienne-Vallée-Française
 Lozère,48,Sainte-Eulalie
 Lozère,48,Saint-Flour-de-Mercoire
 Lozère,48,Saint-Frézal-d'Albuges
-Lozère,48,Ventalon en Cévennes
 Lozère,48,Ventalon en Cévennes
 Lozère,48,Saint-Gal
 Lozère,48,Saint-Germain-de-Calberte
@@ -17908,7 +17707,6 @@ Lozère,48,Villefort
 Maine-et-Loire,49,Allonnes
 Maine-et-Loire,49,Tuffalun
 Maine-et-Loire,49,Angers
-Maine-et-Loire,49,Angers
 Maine-et-Loire,49,Angrie
 Maine-et-Loire,49,Antoigné
 Maine-et-Loire,49,Armaillé
@@ -17920,9 +17718,6 @@ Maine-et-Loire,49,Baugé-en-Anjou
 Maine-et-Loire,49,Beaucouzé
 Maine-et-Loire,49,Beaufort-en-Anjou
 Maine-et-Loire,49,Beaulieu-sur-Layon
-Maine-et-Loire,49,Beaupréau-en-Mauges
-Maine-et-Loire,49,Beaupréau-en-Mauges
-Maine-et-Loire,49,Beaupréau-en-Mauges
 Maine-et-Loire,49,Beaupréau-en-Mauges
 Maine-et-Loire,49,Bécon-les-Granits
 Maine-et-Loire,49,Bégrolles-en-Mauges
@@ -17936,7 +17731,6 @@ Maine-et-Loire,49,Brain-sur-Allonnes
 Maine-et-Loire,49,La Breille-les-Pins
 Maine-et-Loire,49,Brézé
 Maine-et-Loire,49,Briollay
-Maine-et-Loire,49,Brissac Loire Aubance
 Maine-et-Loire,49,Brissac Loire Aubance
 Maine-et-Loire,49,Brossay
 Maine-et-Loire,49,Candé
@@ -17952,18 +17746,13 @@ Maine-et-Loire,49,Les Hauts d'Anjou
 Maine-et-Loire,49,Chenillé-Champteussé
 Maine-et-Loire,49,Champtocé-sur-Loire
 Maine-et-Loire,49,Orée d'Anjou
-Maine-et-Loire,49,Orée d'Anjou
 Maine-et-Loire,49,Chanteloup-les-Bois
 Maine-et-Loire,49,La Chapelle-Saint-Laud
 Maine-et-Loire,49,Châteauneuf-sur-Sarthe
 Maine-et-Loire,49,Chaudefonds-sur-Layon
 Maine-et-Loire,49,Terranjou
-Maine-et-Loire,49,Terranjou
 Maine-et-Loire,49,Chazé-sur-Argos
 Maine-et-Loire,49,Cheffes
-Maine-et-Loire,49,Chemillé-en-Anjou
-Maine-et-Loire,49,Chemillé-en-Anjou
-Maine-et-Loire,49,Chemillé-en-Anjou
 Maine-et-Loire,49,Chemillé-en-Anjou
 Maine-et-Loire,49,Cholet
 Maine-et-Loire,49,Cizay-la-Madeleine
@@ -17992,7 +17781,6 @@ Maine-et-Loire,49,Ingrandes-Le Fresne sur Loire
 Maine-et-Loire,49,La Jaille-Yvon
 Maine-et-Loire,49,Jarzé Villages
 Maine-et-Loire,49,Les Garennes sur Loire
-Maine-et-Loire,49,Les Garennes sur Loire
 Maine-et-Loire,49,Juvardeil
 Maine-et-Loire,49,La Lande-Chasles
 Maine-et-Loire,49,Lézigné
@@ -18001,14 +17789,11 @@ Maine-et-Loire,49,Loiré
 Maine-et-Loire,49,Longué-Jumelles
 Maine-et-Loire,49,Louresse-Rochemenier
 Maine-et-Loire,49,Val d'Erdre-Auxence
-Maine-et-Loire,49,Val d'Erdre-Auxence
 Maine-et-Loire,49,Marcé
 Maine-et-Loire,49,Maulévrier
 Maine-et-Loire,49,Le May-sur-Èvre
 Maine-et-Loire,49,Mazé-Milon
-Maine-et-Loire,49,Mazé-Milon
 Maine-et-Loire,49,Mazières-en-Mauges
-Maine-et-Loire,49,Longuenée-en-Anjou
 Maine-et-Loire,49,Longuenée-en-Anjou
 Maine-et-Loire,49,La Ménitré
 Maine-et-Loire,49,Miré
@@ -18019,15 +17804,12 @@ Maine-et-Loire,49,Montreuil-Bellay
 Maine-et-Loire,49,Montreuil-sur-Loir
 Maine-et-Loire,49,Montreuil-sur-Maine
 Maine-et-Loire,49,Montrevault-sur-Èvre
-Maine-et-Loire,49,Montrevault-sur-Èvre
-Maine-et-Loire,49,Montrevault-sur-Èvre
 Maine-et-Loire,49,Montsoreau
 Maine-et-Loire,49,Morannes sur Sarthe-Daumeray
 Maine-et-Loire,49,Mouliherne
 Maine-et-Loire,49,Mozé-sur-Louet
 Maine-et-Loire,49,Mûrs-Erigné
 Maine-et-Loire,49,Neuillé
-Maine-et-Loire,49,Noyant-Villages
 Maine-et-Loire,49,Noyant-Villages
 Maine-et-Loire,49,Nuaillé
 Maine-et-Loire,49,Parnay
@@ -18036,20 +17818,13 @@ Maine-et-Loire,49,La Pellerine
 Maine-et-Loire,49,La Plaine
 Maine-et-Loire,49,Le Plessis-Grammoire
 Maine-et-Loire,49,Mauges-sur-Loire
-Maine-et-Loire,49,Mauges-sur-Loire
-Maine-et-Loire,49,Mauges-sur-Loire
-Maine-et-Loire,49,Mauges-sur-Loire
-Maine-et-Loire,49,Mauges-sur-Loire
 Maine-et-Loire,49,Les Ponts-de-Cé
 Maine-et-Loire,49,La Possonnière
-Maine-et-Loire,49,Ombrée d'Anjou
 Maine-et-Loire,49,Ombrée d'Anjou
 Maine-et-Loire,49,Le Puy-Notre-Dame
 Maine-et-Loire,49,Les Rairies
 Maine-et-Loire,49,Rochefort-sur-Loire
 Maine-et-Loire,49,La Romagne
-Maine-et-Loire,49,Gennes-Val-de-Loire
-Maine-et-Loire,49,Gennes-Val-de-Loire
 Maine-et-Loire,49,Gennes-Val-de-Loire
 Maine-et-Loire,49,Rou-Marson
 Maine-et-Loire,49,Saint-Augustin-des-Bois
@@ -18065,31 +17840,22 @@ Maine-et-Loire,49,Saint-Jean-de-la-Croix
 Maine-et-Loire,49,Saint-Jean-de-Linières
 Maine-et-Loire,49,Saint-Just-sur-Dive
 Maine-et-Loire,49,Val-du-Layon
-Maine-et-Loire,49,Val-du-Layon
 Maine-et-Loire,49,Saint-Lambert-la-Potherie
 Maine-et-Loire,49,Saint-Léger-des-Bois
 Maine-et-Loire,49,Saint-Léger-sous-Cholet
 Maine-et-Loire,49,Sèvremoine
-Maine-et-Loire,49,Sèvremoine
-Maine-et-Loire,49,Sèvremoine
-Maine-et-Loire,49,Sèvremoine
 Maine-et-Loire,49,Saint-Macaire-du-Bois
 Maine-et-Loire,49,Saint-Martin-du-Fouilloux
-Maine-et-Loire,49,Loire-Authion
-Maine-et-Loire,49,Loire-Authion
-Maine-et-Loire,49,Loire-Authion
 Maine-et-Loire,49,Loire-Authion
 Maine-et-Loire,49,Saint-Melaine-sur-Aubance
 Maine-et-Loire,49,Saint-Paul-du-Bois
 Maine-et-Loire,49,Saint-Philbert-du-Peuple
 Maine-et-Loire,49,Saint-Sigismond
 Maine-et-Loire,49,Verrières-en-Anjou
-Maine-et-Loire,49,Verrières-en-Anjou
 Maine-et-Loire,49,Sarrigné
 Maine-et-Loire,49,Saumur
 Maine-et-Loire,49,Savennières
 Maine-et-Loire,49,Sceaux-d'Anjou
-Maine-et-Loire,49,Segré-en-Anjou Bleu
 Maine-et-Loire,49,Segré-en-Anjou Bleu
 Maine-et-Loire,49,La Séguinière
 Maine-et-Loire,49,Seiches-sur-le-Loir
@@ -18102,7 +17868,6 @@ Maine-et-Loire,49,Souzay-Champigny
 Maine-et-Loire,49,La Tessoualle
 Maine-et-Loire,49,Thorigné-d'Anjou
 Maine-et-Loire,49,Bellevigne-en-Layon
-Maine-et-Loire,49,Bellevigne-en-Layon
 Maine-et-Loire,49,Tiercé
 Maine-et-Loire,49,Toutlemonde
 Maine-et-Loire,49,Trélazé
@@ -18113,13 +17878,10 @@ Maine-et-Loire,49,Varennes-sur-Loire
 Maine-et-Loire,49,Varrains
 Maine-et-Loire,49,Vaudelnay
 Maine-et-Loire,49,Erdre-en-Anjou
-Maine-et-Loire,49,Erdre-en-Anjou
 Maine-et-Loire,49,Vernantes
 Maine-et-Loire,49,Vernoil-le-Fourrier
 Maine-et-Loire,49,Verrie
 Maine-et-Loire,49,Vezins
-Maine-et-Loire,49,Lys-Haut-Layon
-Maine-et-Loire,49,Lys-Haut-Layon
 Maine-et-Loire,49,Lys-Haut-Layon
 Maine-et-Loire,49,Villebernier
 Maine-et-Loire,49,Villevêque
@@ -18154,8 +17916,6 @@ Manche,50,Baupte
 Manche,50,Beauchamps
 Manche,50,Beaucoudray
 Manche,50,Beauficel
-Manche,50,La Hague
-Manche,50,La Hague
 Manche,50,La Hague
 Manche,50,Beauvoir
 Manche,50,Belval
@@ -18199,7 +17959,6 @@ Manche,50,Canteloup
 Manche,50,Canville-la-Rocque
 Manche,50,Carantilly
 Manche,50,Carentan les Marais
-Manche,50,Carentan les Marais
 Manche,50,Carneville
 Manche,50,Carolles
 Manche,50,Carquebut
@@ -18219,16 +17978,10 @@ Manche,50,La Chapelle-Cécelin
 Manche,50,La Chapelle-Urée
 Manche,50,Chavoy
 Manche,50,Cherbourg-en-Cotentin
-Manche,50,Cherbourg-en-Cotentin
-Manche,50,Cherbourg-en-Cotentin
-Manche,50,Cherbourg-en-Cotentin
-Manche,50,Cherbourg-en-Cotentin
-Manche,50,Cherbourg-en-Cotentin
 Manche,50,Chérencé-le-Héron
 Manche,50,Clitourps
 Manche,50,La Colombe
 Manche,50,Colomby
-Manche,50,Condé-sur-Vire
 Manche,50,Condé-sur-Vire
 Manche,50,Contrières
 Manche,50,Vicq-sur-Mer
@@ -18286,7 +18039,6 @@ Manche,50,Gonneville-Le Theil
 Manche,50,Gorges
 Manche,50,Gouvets
 Manche,50,Gouville sur Mer
-Manche,50,Gouville sur Mer
 Manche,50,Graignes-Mesnil-Angot
 Manche,50,Le Grand-Celland
 Manche,50,Granville
@@ -18305,10 +18057,8 @@ Manche,50,Hautteville-Bocage
 Manche,50,La Haye-Bellefond
 Manche,50,La Haye-d'Ectot
 Manche,50,La Haye
-Manche,50,La Haye
 Manche,50,La Haye-Pesnel
 Manche,50,Héauville
-Manche,50,Thèreval
 Manche,50,Thèreval
 Manche,50,Helleville
 Manche,50,Hémevez
@@ -18399,7 +18149,6 @@ Manche,50,Morville
 Manche,50,La Mouche
 Manche,50,Moulines
 Manche,50,Moyon Villages
-Manche,50,Moyon Villages
 Manche,50,Muneville-le-Bingard
 Manche,50,Muneville-sur-Mer
 Manche,50,Nay
@@ -18426,15 +18175,12 @@ Manche,50,Perriers-en-Beauficel
 Manche,50,Le Perron
 Manche,50,Le Petit-Celland
 Manche,50,Picauville
-Manche,50,Picauville
-Manche,50,Picauville
 Manche,50,Pierreville
 Manche,50,Les Pieux
 Manche,50,Pirou
 Manche,50,Le Plessis-Lastelle
 Manche,50,Poilley
 Manche,50,Pontaubault
-Manche,50,Pont-Hébert
 Manche,50,Pont-Hébert
 Manche,50,Pontorson
 Manche,50,Ponts
@@ -18452,7 +18198,6 @@ Manche,50,Ravenoville
 Manche,50,Reffuveille
 Manche,50,Regnéville-sur-Mer
 Manche,50,Reigneville-Bocage
-Manche,50,Remilly Les Marais
 Manche,50,Remilly Les Marais
 Manche,50,Réville
 Manche,50,Rocheville
@@ -18495,7 +18240,6 @@ Manche,50,Saint-Germain-sur-Ay
 Manche,50,Saint-Germain-sur-Sèves
 Manche,50,Saint-Gilles
 Manche,50,Saint-Hilaire-du-Harcouët
-Manche,50,Saint-Hilaire-du-Harcouët
 Manche,50,Saint-Hilaire-Petitville
 Manche,50,Saint-Jacques-de-Néhou
 Manche,50,Saint-James
@@ -18533,7 +18277,6 @@ Manche,50,Saint-Michel-de-la-Pierre
 Manche,50,Saint-Michel-de-Montjoie
 Manche,50,Saint-Nicolas-de-Pierrepont
 Manche,50,Saint-Nicolas-des-Bois
-Manche,50,Saint-Ovin
 Manche,50,Saint-Ovin
 Manche,50,Saint-Pair-sur-Mer
 Manche,50,Saint-Patrice-de-Claids
@@ -18645,7 +18388,6 @@ Marne,51,Auménancourt
 Marne,51,Auve
 Marne,51,Avenay-Val-d'Or
 Marne,51,Avize
-Marne,51,Aÿ-Champagne
 Marne,51,Aÿ-Champagne
 Marne,51,Baconnes
 Marne,51,Bagneux
@@ -19187,7 +18929,6 @@ Marne,51,Verneuil
 Marne,51,Verrières
 Marne,51,Vert-Toulon
 Marne,51,Blancs-Coteaux
-Marne,51,Blancs-Coteaux
 Marne,51,Verzenay
 Marne,51,Verzy
 Marne,51,Vésigneul-sur-Marne
@@ -19260,7 +19001,6 @@ Haute-Marne,52,Aujeurres
 Haute-Marne,52,Aulnoy-sur-Aube
 Haute-Marne,52,Autigny-le-Grand
 Haute-Marne,52,Autigny-le-Petit
-Haute-Marne,52,Autreville-sur-la-Renne
 Haute-Marne,52,Autreville-sur-la-Renne
 Haute-Marne,52,Avrecourt
 Haute-Marne,52,Bailly-aux-Forges
@@ -19384,7 +19124,6 @@ Haute-Marne,52,Ecot-la-Combe
 Haute-Marne,52,Effincourt
 Haute-Marne,52,Enfonvelle
 Haute-Marne,52,Épizon
-Haute-Marne,52,Épizon
 Haute-Marne,52,Le Val-d'Esnoms
 Haute-Marne,52,Esnouveaux
 Haute-Marne,52,Euffigneix
@@ -19398,7 +19137,6 @@ Haute-Marne,52,Flagey
 Haute-Marne,52,Flammerécourt
 Haute-Marne,52,Fontaines-sur-Marne
 Haute-Marne,52,Forcey
-Haute-Marne,52,Foulain
 Haute-Marne,52,Foulain
 Haute-Marne,52,Frampas
 Haute-Marne,52,Frécourt
@@ -19497,7 +19235,6 @@ Haute-Marne,52,Moëslains
 Haute-Marne,52,Montcharvot
 Haute-Marne,52,Montheries
 Haute-Marne,52,La Porte du Der
-Haute-Marne,52,Val-de-Meuse
 Haute-Marne,52,Val-de-Meuse
 Haute-Marne,52,Montot-sur-Rognon
 Haute-Marne,52,Montreuil-sur-Blaise
@@ -19649,7 +19386,6 @@ Haute-Marne,52,Vignory
 Haute-Marne,52,Villars-en-Azois
 Haute-Marne,52,Villars-Santenoge
 Haute-Marne,52,Ville-en-Blaisois
-Haute-Marne,52,Villegusien-le-Lac
 Haute-Marne,52,Villegusien-le-Lac
 Haute-Marne,52,Villiers-en-Lieu
 Haute-Marne,52,Villiers-le-Sec
@@ -20020,7 +19756,6 @@ Meurthe-et-Moselle,54,Bréhain-la-Ville
 Meurthe-et-Moselle,54,Bréménil
 Meurthe-et-Moselle,54,Brémoncourt
 Meurthe-et-Moselle,54,Val de Briey
-Meurthe-et-Moselle,54,Val de Briey
 Meurthe-et-Moselle,54,Brin-sur-Seille
 Meurthe-et-Moselle,54,Brouville
 Meurthe-et-Moselle,54,Bruley
@@ -20309,7 +20044,6 @@ Meurthe-et-Moselle,54,Moutiers
 Meurthe-et-Moselle,54,Moutrot
 Meurthe-et-Moselle,54,Moyen
 Meurthe-et-Moselle,54,Murville
-Meurthe-et-Moselle,54,Nancy
 Meurthe-et-Moselle,54,Nancy
 Meurthe-et-Moselle,54,Neufmaisons
 Meurthe-et-Moselle,54,Neuves-Maisons
@@ -21204,7 +20938,6 @@ Morbihan,56,Rieux
 Morbihan,56,La Roche-Bernard
 Morbihan,56,Rochefort-en-Terre
 Morbihan,56,Val d'Oust
-Morbihan,56,Val d'Oust
 Morbihan,56,Rohan
 Morbihan,56,Roudouallec
 Morbihan,56,Ruffiac
@@ -21707,8 +21440,6 @@ Moselle,57,Merten
 Moselle,57,Métairies-Saint-Quirin
 Moselle,57,Metting
 Moselle,57,Metz
-Moselle,57,Metz
-Moselle,57,Metz
 Moselle,57,Metzeresche
 Moselle,57,Metzervisse
 Moselle,57,Metzing
@@ -21727,7 +21458,6 @@ Moselle,57,Montdidier
 Moselle,57,Montenach
 Moselle,57,Montigny-lès-Metz
 Moselle,57,Montois-la-Montagne
-Moselle,57,Ogy-Montoy-Flanville
 Moselle,57,Ogy-Montoy-Flanville
 Moselle,57,Morhange
 Moselle,57,Morsbach
@@ -22318,8 +22048,6 @@ Nord,59,Amfroipret
 Nord,59,Anhiers
 Nord,59,Aniche
 Nord,59,Villeneuve-d'Ascq
-Nord,59,Villeneuve-d'Ascq
-Nord,59,Villeneuve-d'Ascq
 Nord,59,Anneux
 Nord,59,Annœullin
 Nord,59,Anor
@@ -22489,10 +22217,6 @@ Nord,59,Le Doulieu
 Nord,59,Dourlers
 Nord,59,Drincham
 Nord,59,Dunkerque
-Nord,59,Dunkerque
-Nord,59,Dunkerque
-Nord,59,Dunkerque
-Nord,59,Dunkerque
 Nord,59,Ebblinghem
 Nord,59,Écaillon
 Nord,59,Eccles
@@ -22566,7 +22290,6 @@ Nord,59,Fretin
 Nord,59,Fromelles
 Nord,59,Genech
 Nord,59,Ghissignies
-Nord,59,Ghyvelde
 Nord,59,Ghyvelde
 Nord,59,Glageon
 Nord,59,Godewaersvelde
@@ -22656,10 +22379,6 @@ Nord,59,Lezennes
 Nord,59,Liessies
 Nord,59,Lieu-Saint-Amand
 Nord,59,Ligny-en-Cambrésis
-Nord,59,Lille
-Nord,59,Lille
-Nord,59,Lille
-Nord,59,Lille
 Nord,59,Lille
 Nord,59,Limont-Fontaine
 Nord,59,Linselles
@@ -22888,7 +22607,6 @@ Nord,59,Templemars
 Nord,59,Templeuve-en-Pévèle
 Nord,59,Terdeghem
 Nord,59,Téteghem-Coudekerque-Village
-Nord,59,Téteghem-Coudekerque-Village
 Nord,59,Thiant
 Nord,59,Thiennes
 Nord,59,Thivencelle
@@ -23015,7 +22733,6 @@ Oise,60,Balagny-sur-Thérain
 Oise,60,Barbery
 Oise,60,Bargny
 Oise,60,Baron
-Oise,60,Baugy
 Oise,60,Baugy
 Oise,60,Bazancourt
 Oise,60,Bazicourt
@@ -23529,7 +23246,6 @@ Oise,60,Saint-Aubin-en-Bray
 Oise,60,Saint-Aubin-sous-Erquery
 Oise,60,Saint-Crépin-aux-Bois
 Oise,60,Saint-Crépin-Ibouvillers
-Oise,60,Saint-Crépin-Ibouvillers
 Oise,60,Saint-Deniscourt
 Oise,60,Saint-Étienne-Roilaye
 Oise,60,Sainte-Eusoye
@@ -23662,7 +23378,6 @@ Orne,61,Almenêches
 Orne,61,Appenai-sous-Bellême
 Orne,61,Argentan
 Orne,61,Athis-Val de Rouvre
-Orne,61,Athis-Val de Rouvre
 Orne,61,Aube
 Orne,61,Aubry-le-Panthou
 Orne,61,Aubusson
@@ -23695,7 +23410,6 @@ Orne,61,Bizou
 Orne,61,Boëcé
 Orne,61,Boissei-la-Lande
 Orne,61,Cour-Maugis sur Huisne
-Orne,61,Cour-Maugis sur Huisne
 Orne,61,Boitron
 Orne,61,Bonnefoi
 Orne,61,Bonsmoulins
@@ -23722,7 +23436,6 @@ Orne,61,Cerisy-Belle-Étoile
 Orne,61,Ceton
 Orne,61,Chahains
 Orne,61,Chailloué
-Orne,61,Chailloué
 Orne,61,Le Chalange
 Orne,61,Champcerie
 Orne,61,Le Champ-de-la-Pierre
@@ -23735,7 +23448,6 @@ Orne,61,Chandai
 Orne,61,Chanu
 Orne,61,La Chapelle-au-Moine
 Orne,61,La Chapelle-Biche
-Orne,61,Rives d'Andaine
 Orne,61,Rives d'Andaine
 Orne,61,La Chapelle-Montligeon
 Orne,61,La Chapelle-près-Sées
@@ -23778,7 +23490,6 @@ Orne,61,Échauffour
 Orne,61,Écorcei
 Orne,61,Écorches
 Orne,61,Écouché-les-Vallées
-Orne,61,Écouché-les-Vallées
 Orne,61,Essay
 Orne,61,Faverolles
 Orne,61,Fay
@@ -23789,8 +23500,6 @@ Orne,61,La Ferrière-Béchet
 Orne,61,La Ferrière-Bochard
 Orne,61,Ferrières-la-Verrerie
 Orne,61,La Ferté-en-Ouche
-Orne,61,La Ferté-en-Ouche
-Orne,61,La Ferté Macé
 Orne,61,La Ferté Macé
 Orne,61,Flers
 Orne,61,Fleuré
@@ -23811,8 +23520,6 @@ Orne,61,La Gonfrière
 Orne,61,Monts-sur-Orne
 Orne,61,Le Grais
 Orne,61,Belforêt-en-Perche
-Orne,61,Belforêt-en-Perche
-Orne,61,Belforêt-en-Perche
 Orne,61,Guêprei
 Orne,61,Guerquesalles
 Orne,61,Habloville
@@ -23823,7 +23530,6 @@ Orne,61,Igé
 Orne,61,Irai
 Orne,61,Joué-du-Bois
 Orne,61,Joué-du-Plain
-Orne,61,Juvigny Val d'Andaine
 Orne,61,Juvigny Val d'Andaine
 Orne,61,Juvigny-sur-Orne
 Orne,61,Lalacelle
@@ -24018,7 +23724,6 @@ Orne,61,Saint-Sulpice-sur-Risle
 Orne,61,Saint-Symphorien-des-Bruyères
 Orne,61,Saires-la-Verrerie
 Orne,61,Sap-en-Auge
-Orne,61,Sap-en-Auge
 Orne,61,Le Sap-André
 Orne,61,Sarceaux
 Orne,61,Les Monts d'Andaine
@@ -24028,8 +23733,6 @@ Orne,61,Semallé
 Orne,61,Sévigny
 Orne,61,Sevrai
 Orne,61,Gouffern en Auge
-Orne,61,Gouffern en Auge
-Orne,61,Gouffern en Auge
 Orne,61,Soligny-la-Trappe
 Orne,61,Suré
 Orne,61,Tanques
@@ -24037,9 +23740,6 @@ Orne,61,Tanville
 Orne,61,Tellières-le-Plessis
 Orne,61,Tessé-Froulay
 Orne,61,Bagnoles de l'Orne Normandie
-Orne,61,Bagnoles de l'Orne Normandie
-Orne,61,Val-au-Perche
-Orne,61,Val-au-Perche
 Orne,61,Val-au-Perche
 Orne,61,Ticheville
 Orne,61,Tinchebray-Bocage
@@ -24738,7 +24438,6 @@ Pas-de-Calais,62,Rang-du-Fliers
 Pas-de-Calais,62,Ransart
 Pas-de-Calais,62,Raye-sur-Authie
 Pas-de-Calais,62,Saint-Augustin
-Pas-de-Calais,62,Saint-Augustin
 Pas-de-Calais,62,Rebergues
 Pas-de-Calais,62,Rebreuve-Ranchicourt
 Pas-de-Calais,62,Rebreuve-sur-Canche
@@ -25064,7 +24763,6 @@ Puy-de-Dôme,63,Chidrac
 Puy-de-Dôme,63,Cisternes-la-Forêt
 Puy-de-Dôme,63,Clémensat
 Puy-de-Dôme,63,Clerlande
-Puy-de-Dôme,63,Clermont-Ferrand
 Puy-de-Dôme,63,Clermont-Ferrand
 Puy-de-Dôme,63,Collanges
 Puy-de-Dôme,63,Combrailles
@@ -25954,7 +25652,6 @@ Pyrénées-Atlantiques,64,Urdos
 Pyrénées-Atlantiques,64,Urepel
 Pyrénées-Atlantiques,64,Urost
 Pyrénées-Atlantiques,64,Urrugne
-Pyrénées-Atlantiques,64,Urrugne
 Pyrénées-Atlantiques,64,Urt
 Pyrénées-Atlantiques,64,Ustaritz
 Pyrénées-Atlantiques,64,Uzan
@@ -26024,7 +25721,6 @@ Hautes-Pyrénées,65,Ayros-Arbouix
 Hautes-Pyrénées,65,Ayzac-Ost
 Hautes-Pyrénées,65,Azereix
 Hautes-Pyrénées,65,Azet
-Hautes-Pyrénées,65,Bagnères-de-Bigorre
 Hautes-Pyrénées,65,Bagnères-de-Bigorre
 Hautes-Pyrénées,65,Banios
 Hautes-Pyrénées,65,Barbachen
@@ -26244,7 +25940,6 @@ Hautes-Pyrénées,65,Lomné
 Hautes-Pyrénées,65,Lortet
 Hautes-Pyrénées,65,Loubajac
 Hautes-Pyrénées,65,Loucrup
-Hautes-Pyrénées,65,Loudenvielle
 Hautes-Pyrénées,65,Loudenvielle
 Hautes-Pyrénées,65,Loudervielle
 Hautes-Pyrénées,65,Louey
@@ -26572,7 +26267,6 @@ Pyrénées-Orientales,66,Palau-de-Cerdagne
 Pyrénées-Orientales,66,Palau-del-Vidre
 Pyrénées-Orientales,66,Passa
 Pyrénées-Orientales,66,Perpignan
-Pyrénées-Orientales,66,Perpignan
 Pyrénées-Orientales,66,Le Perthus
 Pyrénées-Orientales,66,Peyrestortes
 Pyrénées-Orientales,66,Pézilla-de-Conflent
@@ -26672,7 +26366,6 @@ Bas-Rhin,67,Achenheim
 Bas-Rhin,67,Adamswiller
 Bas-Rhin,67,Albé
 Bas-Rhin,67,Sommerau
-Bas-Rhin,67,Sommerau
 Bas-Rhin,67,Alteckendorf
 Bas-Rhin,67,Altenheim
 Bas-Rhin,67,Altorf
@@ -26728,7 +26421,6 @@ Bas-Rhin,67,Bouxwiller
 Bas-Rhin,67,Breitenau
 Bas-Rhin,67,Breitenbach
 Bas-Rhin,67,Breuschwickersheim
-Bas-Rhin,67,La Broque
 Bas-Rhin,67,La Broque
 Bas-Rhin,67,Brumath
 Bas-Rhin,67,Buswiller
@@ -27001,7 +26693,6 @@ Bas-Rhin,67,Oermingen
 Bas-Rhin,67,Offendorf
 Bas-Rhin,67,Offwiller
 Bas-Rhin,67,Ohlungen
-Bas-Rhin,67,Ohlungen
 Bas-Rhin,67,Ohnenheim
 Bas-Rhin,67,Olwisheim
 Bas-Rhin,67,Orschwiller
@@ -27115,8 +26806,6 @@ Bas-Rhin,67,Steinseltz
 Bas-Rhin,67,Still
 Bas-Rhin,67,Stotzheim
 Bas-Rhin,67,Strasbourg
-Bas-Rhin,67,Strasbourg
-Bas-Rhin,67,Strasbourg
 Bas-Rhin,67,Struth
 Bas-Rhin,67,Stundwiller
 Bas-Rhin,67,Stutzheim-Offenheim
@@ -27170,7 +26859,6 @@ Bas-Rhin,67,Windstein
 Bas-Rhin,67,Wingen
 Bas-Rhin,67,Wingen-sur-Moder
 Bas-Rhin,67,Wingersheim les Quatre Bans
-Bas-Rhin,67,Wingersheim les Quatre Bans
 Bas-Rhin,67,Wintershouse
 Bas-Rhin,67,Wintzenbach
 Bas-Rhin,67,Wintzenheim-Kochersberg
@@ -27194,7 +26882,6 @@ Haut-Rhin,68,Algolsheim
 Haut-Rhin,68,Altenach
 Haut-Rhin,68,Altkirch
 Haut-Rhin,68,Ammerschwihr
-Haut-Rhin,68,Ammerschwihr
 Haut-Rhin,68,Bernwiller
 Haut-Rhin,68,Andolsheim
 Haut-Rhin,68,Appenwihr
@@ -27215,7 +26902,6 @@ Haut-Rhin,68,Battenheim
 Haut-Rhin,68,Beblenheim
 Haut-Rhin,68,Bellemagny
 Haut-Rhin,68,Bendorf
-Haut-Rhin,68,Bennwihr
 Haut-Rhin,68,Bennwihr
 Haut-Rhin,68,Berentzwiller
 Haut-Rhin,68,Bergheim
@@ -27405,7 +27091,6 @@ Haut-Rhin,68,Muespach
 Haut-Rhin,68,Muespach-le-Haut
 Haut-Rhin,68,Muhlbach-sur-Munster
 Haut-Rhin,68,Mulhouse
-Haut-Rhin,68,Mulhouse
 Haut-Rhin,68,Munchhouse
 Haut-Rhin,68,Munster
 Haut-Rhin,68,Muntzenheim
@@ -27547,7 +27232,6 @@ Haut-Rhin,68,Willer
 Haut-Rhin,68,Willer-sur-Thur
 Haut-Rhin,68,Winkel
 Haut-Rhin,68,Wintzenheim
-Haut-Rhin,68,Wintzenheim
 Haut-Rhin,68,Wittelsheim
 Haut-Rhin,68,Wittenheim
 Haut-Rhin,68,Wittersdorf
@@ -27622,7 +27306,6 @@ Rhône,69,Collonges-au-Mont-d'Or
 Rhône,69,Condrieu
 Rhône,69,Corcelles-en-Beaujolais
 Rhône,69,Cours
-Rhône,69,Cours
 Rhône,69,Courzieu
 Rhône,69,Couzon-au-Mont-d'Or
 Rhône,69,Craponne
@@ -27677,14 +27360,6 @@ Rhône,69,Longes
 Rhône,69,Longessaigne
 Rhône,69,Lozanne
 Rhône,69,Lucenay
-Rhône,69,Lyon
-Rhône,69,Lyon
-Rhône,69,Lyon
-Rhône,69,Lyon
-Rhône,69,Lyon
-Rhône,69,Lyon
-Rhône,69,Lyon
-Rhône,69,Lyon
 Rhône,69,Lyon
 Rhône,69,Marchampt
 Rhône,69,Marcilly-d'Azergues
@@ -27846,7 +27521,6 @@ Rhône,69,Simandres
 Rhône,69,Solaize
 Rhône,69,Ternay
 Rhône,69,Toussieu
-Rhône,69,Colombier-Saugnieu
 Rhône,69,Colombier-Saugnieu
 Haute-Saône,70,Abelcourt
 Haute-Saône,70,Aboncourt-Gesincourt
@@ -29085,7 +28759,6 @@ Sarthe,72,Flée
 Sarthe,72,La Fontaine-Saint-Martin
 Sarthe,72,Fontenay-sur-Vègre
 Sarthe,72,Villeneuve-en-Perseigne
-Sarthe,72,Villeneuve-en-Perseigne
 Sarthe,72,Fresnay-sur-Sarthe
 Sarthe,72,Fyé
 Sarthe,72,Gesnes-le-Gandelin
@@ -29126,7 +28799,6 @@ Sarthe,72,Maigné
 Sarthe,72,Maisoncelles
 Sarthe,72,Malicorne-sur-Sarthe
 Sarthe,72,Mamers
-Sarthe,72,Le Mans
 Sarthe,72,Le Mans
 Sarthe,72,Mansigné
 Sarthe,72,Marçon
@@ -29202,7 +28874,6 @@ Sarthe,72,Rouillon
 Sarthe,72,Rouperroux-le-Coquet
 Sarthe,72,Ruaudin
 Sarthe,72,Ruillé-en-Champagne
-Sarthe,72,Loir en Vallée
 Sarthe,72,Loir en Vallée
 Sarthe,72,Sablé-sur-Sarthe
 Sarthe,72,Saint-Aignan
@@ -29398,7 +29069,6 @@ Savoie,73,Chindrieux
 Savoie,73,Cléry
 Savoie,73,Cognin
 Savoie,73,Cohennoz
-Savoie,73,Cohennoz
 Savoie,73,Coise-Saint-Jean-Pied-Gauthier
 Savoie,73,La Compôte
 Savoie,73,Conjux
@@ -29515,7 +29185,6 @@ Savoie,73,Saint-Avre
 Savoie,73,Saint-Baldoph
 Savoie,73,Saint-Béron
 Savoie,73,Courchevel
-Savoie,73,Courchevel
 Savoie,73,Saint-Cassin
 Savoie,73,Saint-Christophe
 Savoie,73,Saint-Colomban-des-Villards
@@ -29542,7 +29211,6 @@ Savoie,73,Saint-Marcel
 Savoie,73,Sainte-Marie-d'Alvey
 Savoie,73,Sainte-Marie-de-Cuines
 Savoie,73,Saint-Martin-d'Arc
-Savoie,73,Les Belleville
 Savoie,73,Les Belleville
 Savoie,73,Saint-Martin-de-la-Porte
 Savoie,73,Saint-Martin-sur-la-Chambre
@@ -29573,7 +29241,6 @@ Savoie,73,Séez
 Savoie,73,Serrières-en-Chautagne
 Savoie,73,Sonnaz
 Savoie,73,La Table
-Savoie,73,Val-Cenis
 Savoie,73,Val-Cenis
 Savoie,73,Thénésol
 Savoie,73,Thoiry
@@ -29618,10 +29285,6 @@ Haute-Savoie,74,Allonzier-la-Caille
 Haute-Savoie,74,Amancy
 Haute-Savoie,74,Ambilly
 Haute-Savoie,74,Andilly
-Haute-Savoie,74,Annecy
-Haute-Savoie,74,Annecy
-Haute-Savoie,74,Annecy
-Haute-Savoie,74,Annecy
 Haute-Savoie,74,Annecy
 Haute-Savoie,74,Annemasse
 Haute-Savoie,74,Anthy-sur-Léman
@@ -29715,7 +29378,6 @@ Haute-Savoie,74,Éloise
 Haute-Savoie,74,Entremont
 Haute-Savoie,74,Entrevernes
 Haute-Savoie,74,Epagny Metz-Tessy
-Haute-Savoie,74,Epagny Metz-Tessy
 Haute-Savoie,74,Essert-Romand
 Haute-Savoie,74,Etaux
 Haute-Savoie,74,Étercy
@@ -29801,7 +29463,6 @@ Haute-Savoie,74,Novel
 Haute-Savoie,74,Onnion
 Haute-Savoie,74,Orcier
 Haute-Savoie,74,Passy
-Haute-Savoie,74,Passy
 Haute-Savoie,74,Peillonnex
 Haute-Savoie,74,Perrignier
 Haute-Savoie,74,Pers-Jussy
@@ -29858,13 +29519,11 @@ Haute-Savoie,74,Sillingy
 Haute-Savoie,74,Sixt-Fer-à-Cheval
 Haute-Savoie,74,Val-de-Fier
 Haute-Savoie,74,Talloires-Montmin
-Haute-Savoie,74,Talloires-Montmin
 Haute-Savoie,74,Taninges
 Haute-Savoie,74,Thyez
 Haute-Savoie,74,Thollon-les-Mémises
 Haute-Savoie,74,Thônes
 Haute-Savoie,74,Thonon-les-Bains
-Haute-Savoie,74,Fillière
 Haute-Savoie,74,Fillière
 Haute-Savoie,74,Thusy
 Haute-Savoie,74,La Tour
@@ -29898,26 +29557,6 @@ Haute-Savoie,74,Vougy
 Haute-Savoie,74,Vovray-en-Bornes
 Haute-Savoie,74,Vulbens
 Haute-Savoie,74,Yvoire
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
-Paris,75,Paris
 Paris,75,Paris
 Seine-Maritime,76,Allouville-Bellefosse
 Seine-Maritime,76,Alvimare
@@ -30118,7 +29757,6 @@ Seine-Maritime,76,Daubeuf-Serville
 Seine-Maritime,76,Dénestanville
 Seine-Maritime,76,Déville-lès-Rouen
 Seine-Maritime,76,Dieppe
-Seine-Maritime,76,Dieppe
 Seine-Maritime,76,Doudeauville
 Seine-Maritime,76,Doudeville
 Seine-Maritime,76,Douvrend
@@ -30244,8 +29882,6 @@ Seine-Maritime,76,Hautot-Saint-Sulpice
 Seine-Maritime,76,Hautot-sur-Mer
 Seine-Maritime,76,Hautot-sur-Seine
 Seine-Maritime,76,Le Havre
-Seine-Maritime,76,Le Havre
-Seine-Maritime,76,Le Havre
 Seine-Maritime,76,La Haye
 Seine-Maritime,76,Héberville
 Seine-Maritime,76,Hénouville
@@ -30368,7 +30004,6 @@ Seine-Maritime,76,Notre-Dame-de-Bliquetuit
 Seine-Maritime,76,Notre-Dame-de-Bondeville
 Seine-Maritime,76,Franqueville-Saint-Pierre
 Seine-Maritime,76,Port-Jérôme-sur-Seine
-Seine-Maritime,76,Port-Jérôme-sur-Seine
 Seine-Maritime,76,Notre-Dame-du-Bec
 Seine-Maritime,76,Notre-Dame-du-Parc
 Seine-Maritime,76,Nullemont
@@ -30429,7 +30064,6 @@ Seine-Maritime,76,Roncherolles-en-Bray
 Seine-Maritime,76,Roncherolles-sur-le-Vivier
 Seine-Maritime,76,Ronchois
 Seine-Maritime,76,Rosay
-Seine-Maritime,76,Rouen
 Seine-Maritime,76,Rouen
 Seine-Maritime,76,Roumare
 Seine-Maritime,76,Routes
@@ -30501,13 +30135,10 @@ Seine-Maritime,76,Sainte-Marie-des-Champs
 Seine-Maritime,76,Saint-Martin-aux-Arbres
 Seine-Maritime,76,Saint-Martin-au-Bosc
 Seine-Maritime,76,Saint-Martin-aux-Buneaux
-Seine-Maritime,76,Saint-Martin-aux-Buneaux
 Seine-Maritime,76,Saint-Martin-de-Boscherville
 Seine-Maritime,76,Saint-Martin-du-Bec
 Seine-Maritime,76,Saint-Martin-du-Manoir
 Seine-Maritime,76,Saint-Martin-du-Vivier
-Seine-Maritime,76,Petit-Caux
-Seine-Maritime,76,Petit-Caux
 Seine-Maritime,76,Petit-Caux
 Seine-Maritime,76,Saint-Martin-le-Gaillard
 Seine-Maritime,76,Saint-Martin-l'Hortier
@@ -31421,7 +31052,6 @@ Deux-Sèvres,79,Arçais
 Deux-Sèvres,79,Ardilleux
 Deux-Sèvres,79,Ardin
 Deux-Sèvres,79,Argentonnay
-Deux-Sèvres,79,Argentonnay
 Deux-Sèvres,79,Argenton-l'Église
 Deux-Sèvres,79,Asnières-en-Poitou
 Deux-Sèvres,79,Assais-les-Jumeaux
@@ -31459,7 +31089,6 @@ Deux-Sèvres,79,Le Busseau
 Deux-Sèvres,79,Caunay
 Deux-Sèvres,79,Celles-sur-Belle
 Deux-Sèvres,79,Cerizay
-Deux-Sèvres,79,Val en Vignes
 Deux-Sèvres,79,Val en Vignes
 Deux-Sèvres,79,Chail
 Deux-Sèvres,79,Champdeniers-Saint-Denis
@@ -31523,7 +31152,6 @@ Deux-Sèvres,79,Genneton
 Deux-Sèvres,79,Germond-Rouvre
 Deux-Sèvres,79,Glénay
 Deux-Sèvres,79,Gourgé
-Deux-Sèvres,79,Alloinay
 Deux-Sèvres,79,Alloinay
 Deux-Sèvres,79,Granzay-Gript
 Deux-Sèvres,79,Les Groseillers
@@ -31720,8 +31348,6 @@ Somme,80,Allaines
 Somme,80,Allenay
 Somme,80,Allery
 Somme,80,Allonville
-Somme,80,Amiens
-Somme,80,Amiens
 Somme,80,Amiens
 Somme,80,Andainville
 Somme,80,Andechy
@@ -32694,7 +32320,6 @@ Tarn,81,Puybegon
 Tarn,81,Puycalvel
 Tarn,81,Puycelsi
 Tarn,81,Puygouzon
-Tarn,81,Puygouzon
 Tarn,81,Puylaurens
 Tarn,81,Rabastens
 Tarn,81,Rayssac
@@ -33058,7 +32683,6 @@ Var,83,Flayosc
 Var,83,Forcalqueiret
 Var,83,Fox-Amphoux
 Var,83,Fréjus
-Var,83,Fréjus
 Var,83,La Garde
 Var,83,La Garde-Freinet
 Var,83,Garéoult
@@ -33105,7 +32729,6 @@ Var,83,Rians
 Var,83,Riboux
 Var,83,Rocbaron
 Var,83,Roquebrune-sur-Argens
-Var,83,Roquebrune-sur-Argens
 Var,83,La Roquebrussanne
 Var,83,La Roque-Esclapon
 Var,83,Rougiers
@@ -33116,7 +32739,6 @@ Var,83,Saint-Martin-de-Pallières
 Var,83,Sainte-Maxime
 Var,83,Saint-Maximin-la-Sainte-Baume
 Var,83,Saint-Paul-en-Forêt
-Var,83,Saint-Raphaël
 Var,83,Saint-Raphaël
 Var,83,Saint-Tropez
 Var,83,Saint-Zacharie
@@ -33136,8 +32758,6 @@ Var,83,Tanneron
 Var,83,Taradeau
 Var,83,Tavernes
 Var,83,Le Thoronet
-Var,83,Toulon
-Var,83,Toulon
 Var,83,Toulon
 Var,83,Tourrettes
 Var,83,Tourtour
@@ -33162,7 +32782,6 @@ Vaucluse,84,Apt
 Vaucluse,84,Aubignan
 Vaucluse,84,Aurel
 Vaucluse,84,Auribeau
-Vaucluse,84,Avignon
 Vaucluse,84,Avignon
 Vaucluse,84,Le Barroux
 Vaucluse,84,La Bastide-des-Jourdans
@@ -33594,7 +33213,6 @@ Vienne,86,Avanton
 Vienne,86,Ayron
 Vienne,86,Basses
 Vienne,86,Beaumont Saint-Cyr
-Vienne,86,Beaumont Saint-Cyr
 Vienne,86,Bellefonds
 Vienne,86,Benassay
 Vienne,86,Berrie
@@ -33678,14 +33296,12 @@ Vienne,86,Gizay
 Vienne,86,Glénouze
 Vienne,86,Gouex
 Vienne,86,La Grimaudière
-Vienne,86,La Grimaudière
 Vienne,86,Guesnes
 Vienne,86,Haims
 Vienne,86,Ingrandes
 Vienne,86,L'Isle-Jourdain
 Vienne,86,Iteuil
 Vienne,86,Jardres
-Vienne,86,Jaunay-Marigny
 Vienne,86,Jaunay-Marigny
 Vienne,86,Jazeneuil
 Vienne,86,Jouhet
@@ -33835,7 +33451,6 @@ Vienne,86,Vaux
 Vienne,86,Vaux-sur-Vienne
 Vienne,86,Vellèches
 Vienne,86,Saint Martin la Pallu
-Vienne,86,Saint Martin la Pallu
 Vienne,86,Vernon
 Vienne,86,Verrières
 Vienne,86,Verrue
@@ -33935,8 +33550,6 @@ Haute-Vienne,87,Jourgnac
 Haute-Vienne,87,Ladignac-le-Long
 Haute-Vienne,87,Laurière
 Haute-Vienne,87,Lavignac
-Haute-Vienne,87,Limoges
-Haute-Vienne,87,Limoges
 Haute-Vienne,87,Limoges
 Haute-Vienne,87,Linards
 Haute-Vienne,87,Lussac-les-Églises
@@ -34564,7 +34177,6 @@ Vosges,88,Xonrupt-Longemer
 Vosges,88,Zincourt
 Yonne,89,Aigremont
 Yonne,89,Montholon
-Yonne,89,Montholon
 Yonne,89,Aisy-sur-Armançon
 Yonne,89,Ancy-le-Franc
 Yonne,89,Ancy-le-Libre
@@ -34585,7 +34197,6 @@ Yonne,89,Asnières-sous-Bois
 Yonne,89,Asquins
 Yonne,89,Athie
 Yonne,89,Augy
-Yonne,89,Auxerre
 Yonne,89,Auxerre
 Yonne,89,Avallon
 Yonne,89,Bagneaux
@@ -34642,7 +34253,6 @@ Yonne,89,La Chapelle-Vaupelteigne
 Yonne,89,Charbuy
 Yonne,89,Charentenay
 Yonne,89,Charmoy
-Yonne,89,Charny Orée de Puisaye
 Yonne,89,Charny Orée de Puisaye
 Yonne,89,Chassignelles
 Yonne,89,Chassy
@@ -34735,7 +34345,6 @@ Yonne,89,Givry
 Yonne,89,Gland
 Yonne,89,Grimault
 Yonne,89,Gron
-Yonne,89,Valravillon
 Yonne,89,Valravillon
 Yonne,89,Guillon
 Yonne,89,Gurgy
@@ -34927,7 +34536,6 @@ Yonne,89,Tanlay
 Yonne,89,Tannerre-en-Puisaye
 Yonne,89,Tharoiseau
 Yonne,89,Tharot
-Yonne,89,Les Vallées de la Vanne
 Yonne,89,Les Vallées de la Vanne
 Yonne,89,Thizy
 Yonne,89,Thorey
@@ -35230,7 +34838,6 @@ Essonne,91,Orsay
 Essonne,91,Orveau
 Essonne,91,Palaiseau
 Essonne,91,Paray-Vieille-Poste
-Essonne,91,Paray-Vieille-Poste
 Essonne,91,Pecqueuse
 Essonne,91,Le Plessis-Pâté
 Essonne,91,Plessis-Saint-Benoist
@@ -35316,7 +34923,6 @@ Hauts-de-Seine,92,Levallois-Perret
 Hauts-de-Seine,92,Malakoff
 Hauts-de-Seine,92,Marnes-la-Coquette
 Hauts-de-Seine,92,Meudon
-Hauts-de-Seine,92,Meudon
 Hauts-de-Seine,92,Montrouge
 Hauts-de-Seine,92,Nanterre
 Hauts-de-Seine,92,Neuilly-sur-Seine
@@ -35363,7 +34969,6 @@ Seine-Saint-Denis,93,Le Raincy
 Seine-Saint-Denis,93,Romainville
 Seine-Saint-Denis,93,Rosny-sous-Bois
 Seine-Saint-Denis,93,Saint-Denis
-Seine-Saint-Denis,93,Saint-Denis
 Seine-Saint-Denis,93,Saint-Ouen
 Seine-Saint-Denis,93,Sevran
 Seine-Saint-Denis,93,Stains
@@ -35407,7 +35012,6 @@ Val-de-Marne,94,La Queue-en-Brie
 Val-de-Marne,94,Rungis
 Val-de-Marne,94,Saint-Mandé
 Val-de-Marne,94,Saint-Maur-des-Fossés
-Val-de-Marne,94,Saint-Maur-des-Fossés
 Val-de-Marne,94,Saint-Maurice
 Val-de-Marne,94,Santeny
 Val-de-Marne,94,Sucy-en-Brie
@@ -35422,7 +35026,6 @@ Val-de-Marne,94,Vincennes
 Val-de-Marne,94,Vitry-sur-Seine
 Val-d'Oise,95,Ableiges
 Val-d'Oise,95,Aincourt
-Val-d'Oise,95,Ambleville
 Val-d'Oise,95,Ambleville
 Val-d'Oise,95,Amenucourt
 Val-d'Oise,95,Andilly
@@ -35457,7 +35060,6 @@ Val-d'Oise,95,Brignancourt
 Val-d'Oise,95,Bruyères-sur-Oise
 Val-d'Oise,95,Buhy
 Val-d'Oise,95,Butry-sur-Oise
-Val-d'Oise,95,Cergy
 Val-d'Oise,95,Cergy
 Val-d'Oise,95,Champagne-sur-Oise
 Val-d'Oise,95,La Chapelle-en-Vexin
@@ -35556,12 +35158,10 @@ Val-d'Oise,95,Parmain
 Val-d'Oise,95,Le Perchay
 Val-d'Oise,95,Persan
 Val-d'Oise,95,Pierrelaye
-Val-d'Oise,95,Pierrelaye
 Val-d'Oise,95,Piscop
 Val-d'Oise,95,Le Plessis-Bouchard
 Val-d'Oise,95,Le Plessis-Gassot
 Val-d'Oise,95,Le Plessis-Luzarches
-Val-d'Oise,95,Pontoise
 Val-d'Oise,95,Pontoise
 Val-d'Oise,95,Presles
 Val-d'Oise,95,Puiseux-en-France
@@ -35609,7 +35209,6 @@ Val-d'Oise,95,Villiers-le-Bel
 Val-d'Oise,95,Villiers-le-Sec
 Val-d'Oise,95,Wy-dit-Joli-Village
 Guadeloupe,971,Les Abymes
-Guadeloupe,971,Les Abymes
 Guadeloupe,971,Anse-Bertrand
 Guadeloupe,971,Baie-Mahault
 Guadeloupe,971,Baillif
@@ -35650,7 +35249,6 @@ Martinique,972,Le Diamant
 Martinique,972,Ducos
 Martinique,972,Fonds-Saint-Denis
 Martinique,972,Fort-de-France
-Martinique,972,Fort-de-France
 Martinique,972,Le François
 Martinique,972,Grand'Rivière
 Martinique,972,Gros-Morne
@@ -35677,17 +35275,14 @@ Martinique,972,Le Vauclin
 Martinique,972,Le Morne-Vert
 Martinique,972,Bellefontaine
 Guyane,973,Régina
-Guyane,973,Régina
 Guyane,973,Cayenne
 Guyane,973,Iracoubo
 Guyane,973,Kourou
 Guyane,973,Macouria
 Guyane,973,Mana
-Guyane,973,Mana
 Guyane,973,Matoury
 Guyane,973,Saint-Georges
 Guyane,973,Remire-Montjoly
-Guyane,973,Roura
 Guyane,973,Roura
 Guyane,973,Saint-Laurent-du-Maroni
 Guyane,973,Sinnamary
@@ -35711,30 +35306,17 @@ La Réunion,974,Le Port
 La Réunion,974,La Possession
 La Réunion,974,Saint-André
 La Réunion,974,Saint-Benoît
-La Réunion,974,Saint-Benoît
-La Réunion,974,Saint-Denis
-La Réunion,974,Saint-Denis
 La Réunion,974,Saint-Denis
 La Réunion,974,Saint-Joseph
 La Réunion,974,Saint-Leu
-La Réunion,974,Saint-Leu
-La Réunion,974,Saint-Leu
-La Réunion,974,Saint-Louis
 La Réunion,974,Saint-Louis
 La Réunion,974,Saint-Paul
-La Réunion,974,Saint-Paul
-La Réunion,974,Saint-Paul
-La Réunion,974,Saint-Paul
-La Réunion,974,Saint-Paul
-La Réunion,974,Saint-Paul
-La Réunion,974,Saint-Pierre
 La Réunion,974,Saint-Pierre
 La Réunion,974,Saint-Philippe
 La Réunion,974,Sainte-Marie
 La Réunion,974,Sainte-Rose
 La Réunion,974,Sainte-Suzanne
 La Réunion,974,Salazie
-La Réunion,974,Le Tampon
 La Réunion,974,Le Tampon
 La Réunion,974,Les Trois-Bassins
 La Réunion,974,Cilaos
@@ -35748,9 +35330,6 @@ Mayotte,976,Dembeni
 Mayotte,976,Dzaoudzi
 Mayotte,976,Kani-Kéli
 Mayotte,976,Koungou
-Mayotte,976,Mamoudzou
-Mayotte,976,Mamoudzou
-Mayotte,976,Mamoudzou
 Mayotte,976,Mamoudzou
 Mayotte,976,Mtsamboro
 Mayotte,976,M'Tsangamouji
