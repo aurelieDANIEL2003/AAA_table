@@ -29,7 +29,7 @@ df_loc1["department_code_lower"] = df_loc1["department_code"].astype(str).str.st
 departements_uniques = sorted(set(df_loc1["nom_departement"].unique()).union(set(df_loc1["department_code"].astype(str).unique())))
 
 # Appliquer le fond d'écran
-fond("fondR.jpg") 
+fond("mer1R.jpg") 
 
 # Menu latéral
 with st.sidebar:
@@ -43,12 +43,14 @@ with st.sidebar:
 
 # **Page d'accueil**
 if selection == "Accueil":
+    fond("fondR.jpg") 
     st.title('AAA table! 🍽️')
     st.image('titre.png', width=500)
     st.write("Recommandations personnalisées de Restaurants Made by Aurélie, Anissa et Anaëlle. 👨‍🍳👨‍🍳👨‍🍳")
 
 # **Mode 1 : Recherche par département**
 if selection == "Recherche par département":
+    fond("mer1R.jpg")
     selected_department_original = st.selectbox("Sélectionnez un département :", departements_uniques)
 
     if selected_department_original in df_loc1["department_code"].astype(str).values:
@@ -100,6 +102,7 @@ if selection == "Recherche par département":
 
 # **Mode 2 : Recherche par ville**
 elif selection == "Recherche par ville":
+    fond("mer1R.jpg")
     selected_city = st.selectbox("Sélectionnez une ville :", sorted(df_loc1["nom_ville"].unique().tolist()))
 
     available_departments = df_loc1[df_loc1["nom_ville"] == selected_city][["nom_departement", "department_code"]].drop_duplicates()
