@@ -4,34 +4,32 @@ import folium
 from streamlit_folium import st_folium
 from streamlit_option_menu import option_menu
 import requests
-
 from bs4 import BeautifulSoup
-
-url= f"https://www.google.com/search?q="
-
-
+import streamlit as st
+import base64
 
 from utils2 import lien_google
 from utils3 import category
 from utils4 import api
 from utils5 import transfo_liste
 from utils6 import carte
-from utils8 import fond
+from utils8 import fond  # Importation de la fonction fond()
 
-# pour eviter d'ete bloquée lors de la recherche d'information par le navigateur
-navigator = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1)'
-html = requests.get(url, headers={'User-Agent': navigator})
+# Définition du User-Agent pour éviter d'être bloqué par les navigateurs
+#navigator = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1)'
 
-
-# Charger les données
+# Charger les données des départements et villes
 df_loc1 = pd.read_csv('df_loc.csv')
 
-# Convertir en string et mettre en minuscule pour éviter les erreurs de recherche
+# Nettoyage et mise en forme des noms de département
 df_loc1["nom_departement_lower"] = df_loc1["nom_departement"].astype(str).str.lower().str.strip()
 df_loc1["department_code_lower"] = df_loc1["department_code"].astype(str).str.strip()
 
-# Liste unique des départements (noms originaux et codes)
+# Liste unique des départements (noms + codes)
 departements_uniques = sorted(set(df_loc1["nom_departement"].unique()).union(set(df_loc1["department_code"].astype(str).unique())))
+
+# Appliquer le fond d'écran
+fond("fondR.jpg") 
 
 # Menu latéral
 with st.sidebar:
@@ -137,31 +135,7 @@ elif selection == "Recherche par ville":
                         if st.toggle("Afficher la carte", value=True):
                             st_folium(carte(df_filtered, selected_city), width=725)
 
-                        for _, row in df_filtered.iterrows():
-                           html = requests.get(lien_google(row['name'], row['location.city']), headers={'User-Agent': navigator})
-                           soup = BeautifulSoup(html.text, 'html.parser')
-
-                           # Extraire la note du restaurant
-                           note_tag = soup.find('span', class_="Aq14fc")  # Classe correspondant à la note
-                           note = note_tag.text if note_tag else "Non disponible"
-
-                           # Extraire le nombre d'avis
-                           avis_tag = soup.find('a', href=True, string=lambda x: "avis" in x.lower() if x else False)
-                           nb_avis = avis_tag.text if avis_tag else "Non disponible"
-                           st.write(f"- **{row['name']}**")
-                           st.image(row["image_url"] if row["image_url"] else "poster.png", width=150)
-                           st.write(f"⭐ Note : {note} / 5")
-                           st.write(f"🗳️ Nombre d'avis : {nb_avis}")
-                           #st.write(f"⭐ Note : {row['rating']} / 5")
-                           #st.write(f"🗳️ Nombre d'avis : {row['review_count']}")
-                           st.write(f"📞 Téléphone : {row['display_phone'] or 'Non disponible'}")
-                           st.write(f"🔍 [Voir sur Google]({lien_google(row['name'], row['location.city'])})")
-                           st.write("---")
         except Exception as e:
             st.error(f"Erreur lors de la récupération des restaurants : {str(e)}")
     else:
         st.warning("⚠️ Aucune correspondance trouvée pour cette ville.")
-    
-    fond("background.jpg") 
-    st.title("Application avec Fond d'Écran")
-st.write("Le fond d'écran est une image locale.")
