@@ -51,7 +51,15 @@ with st.sidebar:
 # **Page d'accueil**
 if selection == "Accueil":
     st.title('AAA table! 🍽️')
-    st.image('titre.png', width=500)
+    file_ = open("AAAaccueiltest.gif", "rb")
+    contents = file_.read()
+    data_url = base64.b64encode(contents).decode("utf-8")
+    file_.close()
+
+    st.markdown(
+        f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
+        unsafe_allow_html=True,
+    )
     st.write("Recommandations personnalisées de Restaurants Made by Aurélie, Anissa et Anaëlle. 👨‍🍳👨‍🍳👨‍🍳")
 
 
@@ -99,8 +107,7 @@ if selection == "Recherche par département":
                         st.write(f"- **{row['name']}**")
                         st.image(row["image_url"] if row["image_url"] else "poster.png", width=150)
                         st.write(f"📍 Adresse : {', '.join(row['location.display_address'])}")
-                        st.write(f"⭐ Note : {row['rating']} / 5")
-                        st.write(f"🗳️ Nombre d'avis : {row['review_count']}")
+                        st.write(f"⭐ Note : {row['rating']} / 5 ({row['review_count']} avis)")
                         st.write(f"📞 Téléphone : {row['display_phone'] or 'Non disponible'}")
                         st.write(f"🔍 [Voir sur Google]({lien_google(row['name'], row['location.city'])})")
                         st.write("---")
@@ -144,6 +151,14 @@ elif selection == "Recherche par ville":
                         st.write("🍴 **Restaurants correspondant à votre sélection :**")
                         if st.toggle("Afficher la carte", value=True):
                             st_folium(carte(df_filtered, selected_city), width=725)
+                    for _, row in df_filtered.iterrows():
+                        st.write(f"- **{row['name']}**")
+                        st.image(row["image_url"] if row["image_url"] else "poster.png", width=150)
+                        st.write(f"📍 Adresse : {', '.join(row['location.display_address'])}")
+                        st.write(f"⭐ Note : {row['rating']} / 5 ({row['review_count']} avis)")
+                        st.write(f"📞 Téléphone : {row['display_phone'] or 'Non disponible'}")
+                        st.write(f"🔍 [Voir sur Google]({lien_google(row['name'], row['location.city'])})")
+                        st.write("---")
 
         except Exception as e:
             st.error(f"Erreur lors de la récupération des restaurants : {str(e)}")
