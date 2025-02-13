@@ -37,9 +37,41 @@ df_loc1["department_code_lower"] = df_loc1["department_code"].astype(str).str.st
 # Liste unique des départements (noms + codes)
 departements_uniques = sorted(set(df_loc1["nom_departement"].unique()).union(set(df_loc1["department_code"].astype(str).unique())))
 
+# # Menu latéral
+# # ✅ Menu latéral
+# with st.sidebar:
+#     selection = option_menu(
+#         menu_title=None,
+#         options=["Accueil", "Recherche par département", "Recherche par ville"],
+#         icons=["house", "map", "shop"],
+#         menu_icon="cast",
+#         default_index=0
+#     )
+
+#     # ✅ Nom de l’image corrigé
+#     side_bg = "Rue66.jpg"  # Nom du fichier
+#     side_bg_path = os.path.abspath(side_bg)
+
+#     # ✅ Vérification de l’image
+#     os.path.exists(side_bg_path)
+#     st.write(f"✅ Image trouvée : {side_bg_path}")
+#     fond(side_bg_path)
+
+
+#     # ✅ Vérification de l’audio
+#     audio_file_path = "Musique_aaatable.mp3"
+#     os.path.exists(audio_file_path)
+#     autoplay_audio(audio_file_path)
+#     #else:
+#     #   st.error(f"❌ Audio introuvable : {audio_file_path}")
+
+#     # ✅ Debugging
+#     st.write(f"🔍 Chemin absolu : {side_bg_path}")
+#     #st.write(f"📂 Fichier trouvé ? {'✅ Oui' if os.path.exists(side_bg_path) else '❌ Non'}")
 # Menu latéral
-# ✅ Menu latéral
 with st.sidebar:
+    fond("Rue6.jpg")
+    autoplay_audio(audio_file_path)
     selection = option_menu(
         menu_title=None,
         options=["Accueil", "Recherche par département", "Recherche par ville"],
@@ -47,33 +79,27 @@ with st.sidebar:
         menu_icon="cast",
         default_index=0
     )
+    
+    # **Page d'accueil**
+if selection == "Accueil":
+    # ✅ Utilisation de l'image correcte
+    image_path = "Rue6.jpg"  # Assurez-vous que ce fichier est bien présent dans le dossier du script
 
-    # ✅ Nom de l’image corrigé
-    side_bg = "Rue66.jpg"  # Nom du fichier
-    side_bg_path = os.path.abspath(side_bg)
+    # ✅ Vérification si l’image existe
+    if os.path.exists(image_path):
+        st.image(image_path, use_column_width=True)  # Affichage optimisé de l'image
+    else:
+        st.error("❌ Image introuvable. Vérifiez le chemin du fichier.")
 
-    # ✅ Vérification de l’image
-    os.path.exists(side_bg_path)
-    st.write(f"✅ Image trouvée : {side_bg_path}")
-    fond(side_bg_path)
-
-
-    # ✅ Vérification de l’audio
-    audio_file_path = "Musique_aaatable.mp3"
-    os.path.exists(audio_file_path)
-    autoplay_audio(audio_file_path)
-    #else:
-    #   st.error(f"❌ Audio introuvable : {audio_file_path}")
-
-    # ✅ Debugging
-    st.write(f"🔍 Chemin absolu : {side_bg_path}")
-    #st.write(f"📂 Fichier trouvé ? {'✅ Oui' if os.path.exists(side_bg_path) else '❌ Non'}")
+    # ✅ Texte de présentation
+    st.write("Recommandations personnalisées de Restaurants Made by Aurélie, Anissa et Anaëlle. 👨‍🍳👨‍🍳👨‍🍳")
 
 
 
 
 
-# ✅ Mode 1 : Recherche par département
+
+
 if selection == "Recherche par département":
     selected_department_original = st.selectbox("Sélectionnez un département :", departements_uniques)
 
