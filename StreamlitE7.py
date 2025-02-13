@@ -43,7 +43,7 @@ with st.sidebar:
 
 # **Page d'accueil**
 if selection == "Accueil":
-    fond("fondR.jpg") 
+    fond("resto1.png") 
     st.title('AAA table! 🍽️')
     st.image('titre.png', width=500)
     st.write("Recommandations personnalisées de Restaurants Made by Aurélie, Anissa et Anaëlle. 👨‍🍳👨‍🍳👨‍🍳")

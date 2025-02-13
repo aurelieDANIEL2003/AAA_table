@@ -1,23 +1,18 @@
 import base64
 import streamlit as st
 
-def fond(image_path):
-    """Convertit une image locale en base64 et applique un fond d'écran en CSS."""
-    try:
-        with open(image_path, "rb") as img_file:
-            encoded_string = base64.b64encode(img_file.read()).decode()
+def fond(side_bg):
 
-        css_code = f"""
-        <style>
-        .stApp {{
-            background-image: url("data:image/png;base64,{encoded_string}");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-        }}
-        </style>
-        """
-        st.markdown(css_code, unsafe_allow_html=True)
-    
-    except FileNotFoundError:
-        st.error(f"❌ L'image '{image_path}' est introuvable. Vérifiez le chemin.")
+   side_bg_ext = 'png'
+
+   st.markdown(
+      f"""
+      <style>
+      [data-testid="stSidebar"] > div:first-child {{
+          background: url(data:image/{side_bg_ext};base64,{base64.b64encode(open(side_bg, "rb").read()).decode()});
+      }}
+      </style>
+      """,
+      unsafe_allow_html=True,
+      )
+

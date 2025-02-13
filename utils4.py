@@ -5,8 +5,7 @@ import pandas as pd
 def api(ville):
 
     # Clé API
-    API_KEY = "FnAs6986-medBbzafaCtjB4dG-FAFNulPGg9wH5EJFdp6XjEoY4Bvq8pqYfY4x_HmtezfrONesvmvlRkf9NFRumxA4vhTiPyAw9GS5JtMEA1xKlJ_W70uydnXgeSZ3Yx"
-
+    API_KEY = "m2Q6PLrDbFonmYwJT-IqBq6DmYX_MhZ_DV6Gnls4JTnj0qUtuNKnaEt48q0lr9mrZM-husmMgztJc4TKF9TbChpv7nfCKU5GYKH7AxT3rtWwSJBVBtR8RfZmihaSZ3Yx"
     # URL de base
     url = "https://api.yelp.com/v3/businesses/search"
 
