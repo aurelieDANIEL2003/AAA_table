@@ -7,20 +7,23 @@ import requests
 from bs4 import BeautifulSoup
 import streamlit.components.v1 as components
 import base64
+import os
+
+
 
 from utils2 import lien_google
 from utils3 import category
 from utils4 import api
 from utils5 import transfo_liste
 from utils6 import carte
-from utils8 import fond  # Importation de la fonction fond()
+from utils8bis import fond  # Importation de la fonction fond()
 from utils10 import autoplay_audio
 
 # Définition du User-Agent pour éviter d'être bloqué par les navigateurs
 #navigator = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1)'
 
 # Le chemin vers le fichier audio téléchargé
-audio_file_path = "Robin Schulz - Sugar (Official Instrumental).mp3"
+audio_file_path = "Musique_aaatable.mp3"
 
 # Charger les données des départements et villes
 df_loc1 = pd.read_csv('df_loc.csv')
@@ -32,12 +35,9 @@ df_loc1["department_code_lower"] = df_loc1["department_code"].astype(str).str.st
 # Liste unique des départements (noms + codes)
 departements_uniques = sorted(set(df_loc1["nom_departement"].unique()).union(set(df_loc1["department_code"].astype(str).unique())))
 
-
-
 # Menu latéral
+# ✅ Menu latéral
 with st.sidebar:
-    fond("Rue6.jpg")
-    autoplay_audio(audio_file_path)
     selection = option_menu(
         menu_title=None,
         options=["Accueil", "Recherche par département", "Recherche par ville"],
@@ -45,22 +45,28 @@ with st.sidebar:
         menu_icon="cast",
         default_index=0
     )
-    
 
+    # ✅ Nom de l’image corrigé
+    side_bg = "Rue66.jpg"  # Utilisez bien le nom du fichier trouvé
+    side_bg_path = os.path.abspath(side_bg)
 
-# **Page d'accueil**
-if selection == "Accueil":
-    file = open("AAAaccueiltest.gif", "rb")
-    contents = file.read()
-    data_url = base64.b64encode(contents).decode("utf-8")
-    file.close()
+    # ✅ Vérification si l’image existe
+    if os.path.exists(side_bg_path):
+        st.write(f"✅ Image trouvée : {side_bg_path}")
+        fond(side_bg_path)  # Appel de la fonction avec le bon fichier
+    else:
+        st.error(f"❌ Image introuvable : {side_bg_path}")
 
-    st.markdown(
-        f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
-        unsafe_allow_html=True,
-    )
-    st.write("Recommandations personnalisées de Restaurants Made by Aurélie, Anissa et Anaëlle. 👨‍🍳👨‍🍳👨‍🍳")
+    # ✅ Vérification de l’audio
+    audio_file_path = "Musique_aaatable.mp3"
+    if os.path.exists(audio_file_path):
+        autoplay_audio(audio_file_path)
+    else:
+        st.error(f"❌ Audio introuvable : {audio_file_path}")
 
+    # ✅ Affichage des vérifications en mode debug
+    st.write(f"🔍 Chemin absolu : {side_bg_path}")
+    st.write(f"📂 Le fichier existe ? {'✅ Oui' if os.path.exists(side_bg_path) else '❌ Non'}")
 
 # **Mode 1 : Recherche par département**
 if selection == "Recherche par département":
