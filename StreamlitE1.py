@@ -36,7 +36,7 @@ departements_uniques = sorted(set(df_loc1["nom_departement"].unique()).union(set
 
 # Menu latéral
 with st.sidebar:
-    fond("rueR.png")
+    fond("Rue6.jpg")
     autoplay_audio(audio_file_path)
     selection = option_menu(
         menu_title=None,
@@ -99,8 +99,7 @@ if selection == "Recherche par département":
                         st.write(f"- **{row['name']}**")
                         st.image(row["image_url"] if row["image_url"] else "poster.png", width=150)
                         st.write(f"📍 Adresse : {', '.join(row['location.display_address'])}")
-                        st.write(f"⭐ Note : {row['rating']} / 5")
-                        st.write(f"🗳️ Nombre d'avis : {row['review_count']}")
+                        st.write(f"⭐ Note : {row['rating']} / 5 ({row['review_count']} avis)")
                         st.write(f"📞 Téléphone : {row['display_phone'] or 'Non disponible'}")
                         st.write(f"🔍 [Voir sur Google]({lien_google(row['name'], row['location.city'])})")
                         st.write("---")
@@ -144,8 +143,18 @@ elif selection == "Recherche par ville":
                         st.write("🍴 **Restaurants correspondant à votre sélection :**")
                         if st.toggle("Afficher la carte", value=True):
                             st_folium(carte(df_filtered, selected_city), width=725)
-
+           
+            # **Recherche de restaurants**
+             
+                        for _, row in df_filtered.iterrows():
+                            st.write(f"- **{row['name']}**")
+                            st.image(row["image_url"] if row["image_url"] else "poster.png", width=150)
+                            st.write(f"📍 Adresse : {', '.join(row['location.display_address'])}")
+                            st.write(f"⭐ Note : {row['rating']} / 5 ({row['review_count']} avis)")
+                            st.write(f"📞 Téléphone : {row['display_phone'] or 'Non disponible'}")
+                            st.write(f"🔍 [Voir sur Google]({lien_google(row['name'], row['location.city'])})")
+                            st.write("---")
         except Exception as e:
-            st.error(f"Erreur lors de la récupération des restaurants : {str(e)}")
+               st.error(f"Erreur lors de la récupération des restaurants : {str(e)}")
     else:
         st.warning("⚠️ Aucune correspondance trouvée pour cette ville.")
