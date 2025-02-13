@@ -3,7 +3,7 @@ import streamlit as st
 
 def fond(side_bg):
 
-   side_bg_ext = 'png'
+   side_bg_ext = 'jpg'
 
    st.markdown(
       f"""
