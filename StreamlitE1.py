@@ -20,7 +20,7 @@ from utils10 import autoplay_audio
 #navigator = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1)'
 
 # Le chemin vers le fichier audio téléchargé
-audio_file_path = "Robin Schulz - Sugar (Official Instrumental).mp3"
+audio_file_path = "Musique_aaatable.mp3"
 
 # Charger les données des départements et villes
 df_loc1 = pd.read_csv('df_loc.csv')
@@ -37,7 +37,7 @@ departements_uniques = sorted(set(df_loc1["nom_departement"].unique()).union(set
 # Menu latéral
 with st.sidebar:
     fond("Rue6.jpg")
-    autoplay_audio(audio_file_path)
+    autoplay_audio("Musique_aaatable.mp3")
     selection = option_menu(
         menu_title=None,
         options=["Accueil", "Recherche par département", "Recherche par ville"],
@@ -50,8 +50,15 @@ with st.sidebar:
 
 # **Page d'accueil**
 if selection == "Accueil":
-    st.title('AAA table! 🍽️')
-    st.image('titre.png', width=500)
+    file = open("AAAaccueiltest.gif", "rb")
+    contents = file.read()
+    data_url = base64.b64encode(contents).decode("utf-8")
+    file.close()
+
+    st.markdown(
+        f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
+        unsafe_allow_html=True,
+    )
     st.write("Recommandations personnalisées de Restaurants Made by Aurélie, Anissa et Anaëlle. 👨‍🍳👨‍🍳👨‍🍳")
 
 
