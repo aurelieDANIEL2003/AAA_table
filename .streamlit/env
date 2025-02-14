@@ -1,0 +1,18 @@
+import os
+from dotenv import load_dotenv
+
+# Charger les variables d'environnement depuis le fichier .env
+load_dotenv()
+
+# Récupérer la clé API à partir de l'environnement
+API_KEY = os.getenv("YELP_API_KEY")
+
+# URL de base
+url = "https://api.yelp.com/v3/businesses/search"
+
+# Vérification si la clé API est correctement chargée
+if API_KEY is None:
+    raise ValueError("La clé API Yelp n'a pas été définie. Assurez-vous que le fichier .env contient la variable YELP_API_KEY.")
+
+
+#git branch -m projet_food     renommer branche

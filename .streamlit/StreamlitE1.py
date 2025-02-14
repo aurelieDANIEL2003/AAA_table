@@ -17,24 +17,27 @@ from utils8 import fond  # Importation de la fonction fond()
 from utils10 import autoplay_audio
 
 
-#CSS pour appliquer un dégradé et remettre l'image de fond dans la sidebar
+
+# CSS pour appliquer un dégradé bleu + effet étoiles blanches
 st.markdown(
     """
     <style>
-    /* 🔹 Appliquer un dégradé en arrière-plan sur toute la page /
+    /* 🔹 Appliquer un dégradé bleu + fond étoilé blanc */
     html, body, [data-testid="stAppViewContainer"] {
-        background: linear-gradient(to right, #000000, #333333, #666666, #999999) !important;
+        background: linear-gradient(to right, #0F2B3F, #2C4960, #4A667F, #999999),
+                    url("https://www.transparenttextures.com/patterns/stardust.png") repeat !important;
         background-size: cover;
         background-attachment: fixed;
+        background-blend-mode: screen;
     }
 
-    / 🔹 Supprimer la barre noire en haut /
+    /* 🔹 Supprimer la barre noire en haut */
     header {
         background: transparent !important;
     }
 
-    / 🔹 Rendre le texte lisible dans la sidebar /
-    [data-testid="stSidebar"] {
+    /* 🔹 Rendre le texte lisible dans la sidebar */
+    [data-testid="stSidebar"] * {
         color: white !important;
     }
     </style>
@@ -42,14 +45,13 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Définition du User-Agent pour éviter d'être bloqué par les navigateurs
-#navigator = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1)'
+
 
 # Le chemin vers le fichier audio téléchargé
-audio_file_path = "Robin Schulz - Sugar (Official Instrumental).mp3"
+audio_file_path = ".streamlit/Musique_aaatable.mp3"
 
 # Charger les données des départements et villes
-df_loc1 = pd.read_csv('df_loc.csv')
+df_loc1 = pd.read_csv('.streamlit/df_loc.csv')
 
 # Nettoyage et mise en forme des noms de département
 df_loc1["nom_departement_lower"] = df_loc1["nom_departement"].astype(str).str.lower().str.strip()
@@ -62,8 +64,10 @@ departements_uniques = sorted(set(df_loc1["nom_departement"].unique()).union(set
 
 # Menu latéral
 with st.sidebar:
-    fond("Rue6.jpg")
-    autoplay_audio(audio_file_path)
+    fond(".streamlit/Rue6.jpg")
+    musique = st.button("musique")
+    if musique:
+        autoplay_audio(audio_file_path)
     selection = option_menu(
         menu_title=None,
         options=["Accueil", "Recherche par département", "Recherche par ville"],
@@ -76,7 +80,7 @@ with st.sidebar:
 
 # **Page d'accueil**
 if selection == "Accueil":
-    file = open("AAAaccueiltest.gif", "rb")
+    file = open(".streamlit/AAAaccueiltest.gif", "rb")
     contents = file.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file.close()
@@ -130,7 +134,7 @@ if selection == "Recherche par département":
 
                     for _, row in df_filtered.iterrows():
                         st.write(f"- **{row['name']}**")
-                        st.image(row["image_url"] if row["image_url"] else "poster.png", width=150)
+                        st.image(row["image_url"] if row["image_url"] else ".streamlit/poster.png", width=150)
                         st.write(f"📍 Adresse : {', '.join(row['location.display_address'])}")
                         st.write(f"⭐ Note : {row['rating']} / 5 ({row['review_count']} avis)")
                         st.write(f"📞 Téléphone : {row['display_phone'] or 'Non disponible'}")
@@ -181,7 +185,7 @@ elif selection == "Recherche par ville":
              
                         for _, row in df_filtered.iterrows():
                             st.write(f"- **{row['name']}**")
-                            st.image(row["image_url"] if row["image_url"] else "poster.png", width=150)
+                            st.image(row["image_url"] if row["image_url"] else ".streamlit/poster.png", width=150)
                             st.write(f"📍 Adresse : {', '.join(row['location.display_address'])}")
                             st.write(f"⭐ Note : {row['rating']} / 5 ({row['review_count']} avis)")
                             st.write(f"📞 Téléphone : {row['display_phone'] or 'Non disponible'}")
