@@ -37,7 +37,7 @@ def carte (df_filtered, selected_city):
         folium.Marker(
             [row['Latitude'], row['Longitude']],
             popup=folium.Popup(popup_content, max_width=300),
-            icon=folium.Icon(icon='cutlery', color='#0F2B3F')
+            icon=folium.Icon(icon='cutlery', color='orange')
         ).add_to(m)
 
     return m
