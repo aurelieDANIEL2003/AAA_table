@@ -16,6 +16,32 @@ from utils6 import carte
 from utils8 import fond  # Importation de la fonction fond()
 from utils10 import autoplay_audio
 
+
+#CSS pour appliquer un dégradé et remettre l'image de fond dans la sidebar
+st.markdown(
+    """
+    <style>
+    /* 🔹 Appliquer un dégradé en arrière-plan sur toute la page /
+    html, body, [data-testid="stAppViewContainer"] {
+        background: linear-gradient(to right, #000000, #333333, #666666, #999999) !important;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    / 🔹 Supprimer la barre noire en haut /
+    header {
+        background: transparent !important;
+    }
+
+    / 🔹 Rendre le texte lisible dans la sidebar /
+    [data-testid="stSidebar"] {
+        color: white !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # Définition du User-Agent pour éviter d'être bloqué par les navigateurs
 #navigator = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1)'
 
