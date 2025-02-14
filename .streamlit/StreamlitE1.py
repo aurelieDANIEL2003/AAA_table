@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 import streamlit.components.v1 as components
 import base64
-
+import os
 from utils2 import lien_google
 from utils3 import category
 from utils4 import api
@@ -65,6 +65,8 @@ departements_uniques = sorted(set(df_loc1["nom_departement"].unique()).union(set
 # Menu latéral
 with st.sidebar:
     fond(".streamlit/Rue6.jpg")
+    #fond(".streamlit//StreamlitE1.py")
+    #fond(os.path.abspath(".streamlit/Rue6.jpg"))
     musique = st.button("musique")
     if musique:
         autoplay_audio(audio_file_path)
