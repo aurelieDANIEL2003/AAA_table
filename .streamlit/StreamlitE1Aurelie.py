@@ -48,7 +48,7 @@ st.markdown(
 
 
 # Le chemin vers le fichier audio téléchargé
-audio_file_path = ".streamlit/Musique_aaatable.mp3"
+audio_file_path = ".streamlit/medias/Musique_aaatable.mp3"
 
 # Charger les données des départements et villes
 df_loc1 = pd.read_csv('.streamlit/df_loc.csv')
@@ -62,12 +62,24 @@ departements_uniques = sorted(set(df_loc1["nom_departement"].unique()).union(set
 
 
 
+# Vérifier si l'état de la musique est déjà défini
+if "musique_active" not in st.session_state:
+    st.session_state.musique_active = False  # Par défaut, la musique est désactivée
+
 # Menu latéral
 with st.sidebar:
-    fond(".streamlit/medias/Rue6.jpg")
-    musique = st.button("musique")
-    if musique:
+    fond(".streamlit/medias/Rue7.jpg")
+
+    # Définition du bouton de musique avec un label dynamique
+    musique_label = "🔊 Arrêter la musique" if st.session_state.musique_active else "🎵 Jouer la musique"
+    
+    if st.button(musique_label):
+        st.session_state.musique_active = not st.session_state.musique_active  # Bascule entre lecture et arrêt
+
+    # Si la musique est active, on la joue en continu
+    if st.session_state.musique_active:
         autoplay_audio(audio_file_path)
+
     selection = option_menu(
         menu_title=None,
         options=["Accueil", "Recherche par département", "Recherche par ville"],
@@ -80,7 +92,7 @@ with st.sidebar:
 
 # **Page d'accueil**
 if selection == "Accueil":
-    file = open(".streamlit/medias/accueil_orangev2.gif", "rb")
+    file = open(".streamlit/medias/accueil_orange.gif", "rb")
     contents = file.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file.close()
@@ -134,7 +146,7 @@ if selection == "Recherche par département":
 
                     for _, row in df_filtered.iterrows():
                         st.write(f"- **{row['name']}**")
-                        st.image(row["image_url"] if row["image_url"] else ".streamlit/medias/poster.png", width=150)
+                        st.image(row["image_url"] if row["image_url"] else ".streamlit/medias/poster_no.png", width=150)
                         st.write(f"📍 Adresse : {', '.join(row['location.display_address'])}")
                         st.write(f"⭐ Note : {row['rating']} / 5 ({row['review_count']} avis)")
                         st.write(f"📞 Téléphone : {row['display_phone'] or 'Non disponible'}")
@@ -185,7 +197,7 @@ elif selection == "Recherche par ville":
              
                         for _, row in df_filtered.iterrows():
                             st.write(f"- **{row['name']}**")
-                            st.image(row["image_url"] if row["image_url"] else ".streamlit/medias/poster.png", width=150)
+                            st.image(row["image_url"] if row["image_url"] else ".streamlit/medias/poster_no.png", width=150)
                             st.write(f"📍 Adresse : {', '.join(row['location.display_address'])}")
                             st.write(f"⭐ Note : {row['rating']} / 5 ({row['review_count']} avis)")
                             st.write(f"📞 Téléphone : {row['display_phone'] or 'Non disponible'}")
